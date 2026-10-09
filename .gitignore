@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Model checkpoints and large intermediate files
+models/
+checkpoints/
+data/exports/
+*.pt
+*.ckpt
+
+# Not for publication: keep local only
+Syriac_paradigm.pdf

@@ -1,0 +1,69 @@
+# CLAUDE.md
+
+## Project goal
+
+Build a morphological parser for Classical Syriac (ETCBC encoding) that outperforms:
+
+- **ETCBC/ssi_morphology** (https://github.com/ETCBC/ssi_morphology): transformer seq2seq over 7-word windows (Naaijer et al. 2023, ALP workshop).
+- **chenzhan4321/etcbc_models_comparison** (https://github.com/chenzhan4321/etcbc_models_comparison): "structure-first" per-character marker classification (330-label inventory) + masked diffusion LM; CER 3.38% on the S2 test set.
+
+Approach: **hybrid generate → filter → rank**:
+1. Candidates from (a) training-data lookup, (b) a rule-based generator built from `Syriac_paradigm.pdf` + lexicon, (c) neural n-best.
+2. Hard filters: surface realisation check, word grammar, lexicon membership.
+3. Contextual neural ranker (verse-level context), with calibrated confidence for annotator triage.
+
+## Layout
+
+- `Syriac_paradigm.pdf`: Sikkel (2023), *The ETCBC Paradigm for the Encoding of Syriac*. The authoritative spec for the encoding, paradigms, and special cases. Red text in it marks unresolved questions; don't treat that text as settled policy.
+- `data/raw/`: corpus files copied from ssi_morphology (provenance in `data/README.md`). `data/splits/`: verse-id lists per split (committed).
+- `src/ssi/`: `corpus.py` (loading), `encoding.py` (parse, realise, segmentation), `splits.py`, `metrics.py`, `lookup.py` (baseline).
+- `scripts/make_splits.py`, `scripts/evaluate.py --system <name>`: results go to `results/<split>/<system>.json`; `results/summary.md` is regenerated, never hand-edited.
+- New systems: implement `fit(train) -> self` and `predict(verses) -> {vid: [analysis, ...]}`, then register them in `SYSTEMS` in `scripts/evaluate.py`.
+- Tests: `python -m pytest`. Scripts need `PYTHONPATH=src` or `pip install -e .`.
+- To consult the upstream code, clone it outside this repo; on Windows use `git clone -c core.longpaths=true`, because ssi_morphology has very long paths under `src/runs/`.
+
+## Data
+
+Tab-separated files `book<TAB>chapter<TAB>verse<TAB>text`, one verse per line; `*-in` holds surface text and `*-out` holds the morphological encoding. The two files are aligned word by word (same number of space-separated words).
+
+- `s2`, `s3`, …, `s12` are **cumulative versions** of the same corpus. `s12` (18,146 verses, ~255k words) is the latest and contains all S2 verses; 1,530 of 5,588 S2 verses were re-analysed after S2.
+- **Use `s12` as gold.** Report results on S2 only for comparison with published numbers, and flag them as such.
+- `t-in_con` / `t-in_voc` / `t-out`: Hebrew Bible (BHSA), usable for auxiliary training.
+- Input text may contain `^`, `#`, `"` (diacritics such as seyame). They are not part of the consonantal skeleton, so strip them for the realisation check, but keep them as model input: they are informative.
+- Nine references occur twice in `s12` (a verse split over two lines). Verse ids get a `#2` suffix for the second line.
+
+## Encoding cheat sheet (see PDF §1)
+
+Morpheme order within an analytical word: `pfm pfx vbs LEXEME vbe nme emf vpm`.
+
+| Marker | Type | Example |
+|---|---|---|
+| `!…!` | preformative (pfm) | `!N!CXN[` |
+| `@…@` | passive prefix (pfx) | `@>T@QBR[` |
+| `]…]` | verbal stem morpheme (vbs) | `]>]MLK=[` |
+| `[` | verbal ending (vbe) | `CM<[TWN` |
+| `/` | nominal ending (nme) | `GBR/JN` |
+| `~` | emphatic marker (emf) | `MLK/~>` |
+| `:x` | vowel pattern mark (`d` = D-stem, `p` = passive) | `PQD[:d` |
+| `-` | analytical word boundary (proclitics, pronominal suffixes) | `W-MLK/~>` |
+| `(X` | paradigmatic letter X **not realised** | `ML(>/J` |
+| `&X` | letter X realised but **not paradigmatic** | `KT&WB[` |
+| `=` | homograph index on lexemes/morphemes (rarer = more `=`) | `HWN=` |
+
+**Realisation invariant:** deleting the character after each `(`, keeping the character after each `&`, and stripping all markers (`! @ ] [ / ~ - =` and `:[a-z]+`) reproduces the surface word. It holds for 100% of `s12` tokens. Every predicted analysis must pass this check.
+
+ssi_morphology's `mc_reduce` / `mc_expand` drop and restore the leading marker of the doubled prefix markers and the `:` of vowel pattern marks. Keep that in mind when comparing outputs.
+
+## Evaluation conventions
+
+- Primary metric: **exact word accuracy** on the full encoding. Also report lexeme accuracy, segmentation accuracy, and F1 per morpheme type.
+- Always break results down into **seen / unseen / ambiguous** surface forms.
+- Splits (`data/splits/`): `random` (80/10/10 by verse) plus `heldout-{Sir,BLC,Eprx,ApBar,ESNJ,Ez}`. Never split at window level: overlapping windows leak. Tune on `dev`; touch `test` only for reported numbers.
+- Baseline to beat (`lookup`, see `results/summary.md`): 86.2% word accuracy on `random`, 68–83% on held-out books. Unseen words are 11–23% of tokens and almost all wrong.
+- For comparison with Chen et al., also report character-level CER on the restored encoding.
+
+## Conventions
+
+- Python. Keep data loading, candidate generation, filtering, and ranking as separate modules so each can be evaluated on its own.
+- Fix random seeds; record the data version (`s12` etc.) and split in every results file.
+- Platform is Windows (PowerShell primary, Git Bash available).
