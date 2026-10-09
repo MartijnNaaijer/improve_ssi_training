@@ -20,7 +20,11 @@ Approach: **hybrid generate → filter → rank**:
 - `scripts/make_splits.py`, `scripts/evaluate.py --system <name>`: results go to `results/<split>/<system>.json`; `results/summary.md` is regenerated, never hand-edited.
 - New systems: implement `fit(train) -> self` and `predict(verses) -> {vid: [analysis, ...]}`, then register them in `SYSTEMS` in `scripts/evaluate.py`.
 - Tests: `python -m pytest`. Scripts need `PYTHONPATH=src` or `pip install -e .`.
-- To consult the upstream code, clone it outside this repo; on Windows use `git clone -c core.longpaths=true`, because ssi_morphology has very long paths under `src/runs/`.
+- Upstream systems: clones in `third_party/` (git-ignored; pinned commits, recreate steps and faithfulness notes in `third_party/README.md`). Adapters in `src/ssi/upstream/`: `ssi_seq2seq.py` (imports upstream modules), and `chen.py` + `chen_labels.py` (runs upstream `train.py` as a subprocess on a data dir we write).
+  - Train and predict: `.venv/Scripts/python.exe scripts/run_upstream.py --system {ssi-seq2seq,chen-transformer,chen-mdlm} --split <name>`. This writes `results/<split>/<system>.pred.tsv`, with models and run dirs under `models/` (git-ignored).
+  - Score: `scripts/evaluate.py --system <name> --from-predictions`.
+  - Systems that work on 7-word windows predict each test word once, from non-overlapping windows over the book's full surface text (`ssi.windows`). Context words outside the test set are input only.
+  - Run upstream code with `PYTHONUTF8=1` when output is redirected: it prints emoji, which crashes the Windows cp1252 console encoding.
 
 ## Data
 

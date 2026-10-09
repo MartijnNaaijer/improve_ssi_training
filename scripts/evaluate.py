@@ -1,7 +1,10 @@
 """Train and evaluate a system on one or more splits, and write the results.
 
     python scripts/evaluate.py --system lookup [--splits random heldout-Sir ...]
+    python scripts/evaluate.py --system ssi-seq2seq --from-predictions [--splits ...]
 
+With --from-predictions, scores results/<split>/<system>.pred.tsv (written by
+scripts/run_upstream.py) instead of training the system here.
 Writes results/<split>/<system>.json and regenerates results/summary.md.
 """
 import argparse
@@ -11,20 +14,26 @@ from pathlib import Path
 from ssi.corpus import REPO_ROOT, load_corpus
 from ssi.lookup import LookupBaseline
 from ssi.metrics import CATEGORIES, evaluate
+from ssi.predictions import read_predictions
 from ssi.splits import SPLITS_DIR, Split
 
 RESULTS_DIR = REPO_ROOT / 'results'
 SYSTEMS = {'lookup': LookupBaseline}
 
 
-def run(system_name: str, split: Split, part: str) -> dict:
+def run(system_name: str, split: Split, part: str, from_predictions: bool = False) -> dict:
     verses = load_corpus(split.version)
     train, dev, test = split.partition(verses)
     eval_set = dev if part == 'dev' else test
-    system = SYSTEMS[system_name]().fit(train)
-    result = evaluate(eval_set, system.predict(eval_set), train)
+    meta = {}
+    if from_predictions:
+        suffix = '-dev' if part == 'dev' else ''
+        predictions, meta = read_predictions(RESULTS_DIR / split.name / f'{system_name}{suffix}.pred.tsv')
+    else:
+        predictions = SYSTEMS[system_name]().fit(train).predict(eval_set)
+    result = evaluate(eval_set, predictions, train)
     return {'system': system_name, 'split': split.name, 'version': split.version,
-            'seed': split.seed, 'part': part, 'metrics': result}
+            'seed': split.seed, 'part': part, 'run': meta, 'metrics': result}
 
 
 def write_summary():
@@ -52,14 +61,18 @@ def write_summary():
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('--system', choices=sorted(SYSTEMS), required=True)
+    ap.add_argument('--system', required=True,
+                    help=f'one of {sorted(SYSTEMS)}, or any name with --from-predictions')
+    ap.add_argument('--from-predictions', action='store_true')
     ap.add_argument('--splits', nargs='*', help='split names (default: all in data/splits)')
     ap.add_argument('--part', choices=['dev', 'test'], default='test')
     args = ap.parse_args()
 
+    if not args.from_predictions and args.system not in SYSTEMS:
+        ap.error(f'unknown system {args.system!r}; use --from-predictions for saved predictions')
     names = args.splits or sorted(p.stem for p in SPLITS_DIR.glob('*.json'))
     for name in names:
-        out = run(args.system, Split.load(name), args.part)
+        out = run(args.system, Split.load(name), args.part, args.from_predictions)
         path = RESULTS_DIR / name / f'{args.system}{"-dev" if args.part == "dev" else ""}.json'
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(out, indent=1), encoding='utf8')

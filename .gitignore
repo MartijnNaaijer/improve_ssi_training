@@ -16,3 +16,6 @@ data/exports/
 
 # Not for publication: keep local only
 Syriac_paradigm.pdf
+
+# Upstream code (cloned by scripts, pinned in third_party/README)
+third_party/*/
