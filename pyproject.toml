@@ -11,6 +11,9 @@ dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest"]
+# Install torch from the CUDA index first (see CLAUDE.md), otherwise pip
+# picks the CPU-only build from PyPI.
+ml = ["torch>=2.6", "numpy"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
