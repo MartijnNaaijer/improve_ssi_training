@@ -64,3 +64,10 @@ Extra packages their code imports (installed in `.venv`):
     README's `python train.py --model_type transformer` uses different defaults.
     The MDLM preset is the README headline command. The archived runs used an
     earlier version of `train.py`.
+  - **BiLSTM-CRF preset:** from the hyperparameters in
+    `outputs/models_1_revision/bilstm_crf/s4_on_s2_seed49/lstm_results_*.json`,
+    which match the current `train.py`. It needs `pip install pytorch-crf`.
+  - **Windows crash on exit:** the lstm/CRF run crashes natively (exit code
+    0xC0000409) when Python shuts down, after every output has been written.
+    The adapter accepts a non-zero exit code only when the run wrote a new
+    predictions file whose line count matches the test windows.

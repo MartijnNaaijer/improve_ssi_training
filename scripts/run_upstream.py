@@ -3,8 +3,8 @@
     python scripts/run_upstream.py --system ssi-seq2seq --split random [--epochs 30] [--part test]
     python scripts/run_upstream.py --system chen-transformer --split random [--epochs N]
 
-Systems: ssi-seq2seq (ETCBC/ssi_morphology), chen-transformer and chen-mdlm
-(chenzhan4321/etcbc_models_comparison, archived paper configurations).
+Systems: ssi-seq2seq (ETCBC/ssi_morphology); chen-transformer, chen-bilstm-crf and
+chen-mdlm (chenzhan4321/etcbc_models_comparison, archived paper configurations).
 
 The model goes to models/<system>/<split>/ (git-ignored). Predictions go to
 results/<split>/<system>.pred.tsv; score them with
@@ -20,7 +20,7 @@ from ssi.splits import Split
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('--system', choices=['ssi-seq2seq', 'chen-transformer', 'chen-mdlm'], required=True)
+    ap.add_argument('--system', choices=['ssi-seq2seq', 'chen-transformer', 'chen-bilstm-crf', 'chen-mdlm'], required=True)
     ap.add_argument('--split', required=True)
     ap.add_argument('--part', choices=['dev', 'test'], default='test')
     ap.add_argument('--epochs', type=int, help='default: 30 for ssi-seq2seq, the preset for chen-*')

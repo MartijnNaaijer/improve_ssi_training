@@ -35,6 +35,11 @@ PRESETS = {
                          '--num_heads', '16', '--dropout', '0.25', '--learning_rate', '3e-4',
                          '--batch_size', '128', '--num_epochs', '100', '--weight_decay', '0.03',
                          '--max_length', '64', '--patience', '50'],
+    # outputs/models_1_revision/bilstm_crf/s4_on_s2_seed49 (hyperparameters in its results JSON)
+    'chen-bilstm-crf': ['--model_type', 'lstm', '--use_crf', '--d_model', '256', '--num_layers', '3',
+                        '--num_heads', '4', '--dropout', '0.3', '--learning_rate', '1e-3',
+                        '--batch_size', '128', '--num_epochs', '100', '--weight_decay', '0.02',
+                        '--max_length', '64', '--patience', '30'],
     # README headline run: mdlm d768 l10 h6, 3 diffusion steps
     'chen-mdlm': ['--model_type', 'mdlm', '--d_model', '768', '--num_layers', '10',
                   '--num_heads', '6', '--dropout', '0.23', '--learning_rate', '5e-5',
@@ -101,11 +106,18 @@ def train_and_predict(preset: str, run_dir: Path, corpus: list[Verse], train: li
     print('[chen] running:', ' '.join(cmd), flush=True)
     # Upstream prints emoji; force UTF-8 so redirected output works on Windows.
     env = os.environ | {'PYTHONUTF8': '1', 'PYTHONIOENCODING': 'utf-8'}
-    subprocess.run(cmd, cwd=run_dir, check=True, env=env)
+    before = set(run_dir.glob('outputs/*_train_*/results/*_predictions_*.out'))
+    proc = subprocess.run(cmd, cwd=run_dir, env=env)
 
-    pred_files = sorted(run_dir.glob('outputs/*_train_*/results/*_predictions_*.out'))
+    pred_files = sorted(set(run_dir.glob('outputs/*_train_*/results/*_predictions_*.out')) - before)
     if not pred_files:
-        raise FileNotFoundError(f'no predictions file under {run_dir / "outputs"}')
+        raise RuntimeError(f'upstream train.py exited with {proc.returncode} and wrote no predictions')
+    if proc.returncode != 0:
+        # The lstm/CRF run crashes natively (0xC0000409) at interpreter shutdown
+        # on Windows, after all outputs are written. A complete predictions file
+        # is accepted; read_upstream_predictions checks the line count.
+        print(f'[chen] warning: train.py exited with {proc.returncode} after writing '
+              f'{pred_files[-1].name}; using it', flush=True)
     return read_upstream_predictions(pred_files[-1], inventory, windows, targets)
 
 
