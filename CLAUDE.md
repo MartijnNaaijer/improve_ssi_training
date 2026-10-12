@@ -21,6 +21,14 @@ Approach: **hybrid generate → filter → rank**:
   - `templates.py`: splits an analysis into proclitics + frame (affixes around a lexeme pattern) + enclitics + lexeme, and inverts lexeme patterns.
   - `generator.py`: `CandidateGenerator`. `featurise(surface)` returns every analysis that realises the word, with features; `candidates(surface)` ranks them with `weights`. It also holds the PDF rules: geminates via the `(%` pattern token (§2.3) and T-stem metathesis (§2.6).
   - `rerank.py`: learns the feature weights on pseudo-unseen words from cross-fitted folds of train. `GeneratorSystem` (systems `generator` and `generator-plain`) uses lookup for words seen in training and the generator for all others.
+- Contextual ranker (Phase 2):
+  - `candidates.py`: up to 24 candidates per word: all training analyses of the surface form, then generator candidates ranked by the Phase 1 weights. Each carries the generator features, lookup features, and the Phase 1 log posterior. The ranker's training verses are cross-fitted in 5 folds, so their candidates come from the other folds.
+  - `ranker.py`: `ContextRanker`. A char BiGRU encodes each word, a BiLSTM runs over the verse, a char BiGRU encodes each candidate, and an MLP scores each candidate against its context. It trains with a softmax over each word's candidates and keeps the best dev checkpoint.
+  - Workflow, per split:
+    1. `PYTHONPATH=src python scripts/prepare_candidates.py --split <name>` (CPU, 16 processes; writes `models/ranker/<split>/candidates.pkl`).
+    2. `.venv/Scripts/python.exe scripts/run_ranker.py --split <name>` (GPU, about 1 h).
+    3. `scripts/evaluate.py --system ranker --from-predictions --splits <name>`, adding `--part dev` for the dev predictions.
+  - `scripts/queue_ranker.sh` chains these steps for the held-out splits. It checks run_ranker's exit code, which can be non-zero even after a successful run, so check `results/` and score by hand if needed.
 - `scripts/make_splits.py`, `scripts/evaluate.py --system <name>`: results go to `results/<split>/<system>.json`; `results/summary.md` is regenerated, never hand-edited.
 - New systems: implement `fit(train) -> self` and `predict(verses) -> {vid: [analysis, ...]}`, then register them in `SYSTEMS` in `scripts/evaluate.py`.
 - Tests: `python -m pytest`. Scripts need `PYTHONPATH=src` or `pip install -e .`.

@@ -1,0 +1,538 @@
+#{"system": "ranker", "split": "heldout-ESNJ", "version": "s12", "name": "ranker", "epochs": 12, "d": 256, "lr": 0.001, "dropout": 0.2, "batch_size": 32, "seed": 42}
+ESNJ 1:0	M>MR/(J~> D-MR(>/-J >PRJM/ VWBN/~> QDMJ/~> D-<L NJNW>/ W-JWNN/
+ESNJ 1:1	H> B-NJNW>/ JWNN/ ]>]KRZ[ J(HWDJ/(J~> BJN/T= <&WR(WL/(J~> L-KRK=/~> <L HW(J&>[ <Z&JZ[/~>:p W-B-QL/(J~> DX&JL[/(J~>:p DLX[-H=
+ESNJ 1:1001	L> XZJ[ B-B(JT/(J~> TMN GWN/~> D->(NP/(J~> KD NHJR/ >P-L> PWM/~> KD GXK[/ D-KM&JR[/JN:p >P D-TB&JR[/JN:p
+ESNJ 1:1005	DM<(>/(J~> XDT/T=~> KLC</ ]>]MVR=[W HW(J[W B-TJBW/T~> ZDQ=/T=~> D-KL/ CWXLP/JN KL/-JWM/ TMN @>(T&C@(C&TMC=[:d
+ESNJ 1:1009	YLW/T=~> D-KL/ PWRCN/JN KL/-JWM/ @>T@XDT=[:d TKCP(>/T~> D-KL/ <WDRN/JN TMN KL/-JWM/ @>T@XZJ[T==
+ESNJ 1:101	W-B-<JN/J HJ== B<W/T~> HD> DJL-N VLL/~> HJ= W-B-<JN/J HW= MWKK/~> DWMJ/~> HW HN> D-MWKK/~>
+ESNJ 1:1013	W-M<JN/~> D-KL/ BWJ>/JN B-RXM=/(J~> TMN @>T@PTX[T==:d NKPW/T~> D-L> <&WKR=/~> GBR/(J~> W-NC/(J~> @>T@<VP[W:d
+ESNJ 1:1017	DKJW/T~> D-L> DWWD/~> B-YWM/~> TMN @>T@NVR[T==:d BSJMW/T~> BJN/J-HWN XLJ[W B-H= LCN/J-HWN
+ESNJ 1:1021	B->WJW/T~> W-B-CWJW/T~> >JK HDM/(J~> @>T@MZG[W @>T@RKN[T== W->P VJBW/T~> W-<L&J-HWN RXM=/(J~> RS(S[T==
+ESNJ 1:1025	BJ(N/T VLJ/~> L-VLJ/~> XWB=/~> BJ(N/T GBR/~> L-XBR/-H QWCT/~> BJ(N/T RG&JZ[/(J~>:p TR<W/T~> W-BJ(N/T PL&JG[/(J~>:p >WJW/T~>
+ESNJ 1:1029	BJ(N/T NC/J-HWN CLJW/T~> CTQ=/~> D-ML(J&>[/:p <WDRN/(J~> BJ(N/T SB/J-HWN TR<W/T~> MLK==/~> D-ML(J&>[/:p JWTRN/~>
+ESNJ 1:1033	L-<LJM/J-HWN NKPW/T~> L-BTWL/T=-HWN ZHJW/T~> BJ(N/T >M(>&H=/T=~> L-X>R(>/T=~> XD/> >WJW/T~> S(W&JM[/>:p HW(J[T==
+ESNJ 1:1037	XD/ HW(J&>[ XZW/~> D-CJVW/T~> XD/ HW(J&>[ LBWC/~> D-MWKK/~> L(>-(>JT(J/ HW(J&>[ TMN <R(>/T=~> VNN=/~> B-R&WG(WZ/~> @>T@BVL[
+ESNJ 1:1041	XD/> HW(J[T== TWB XPJJW/T~> L-<BD=/J-HWN W-L-MLK/J-HWN XD/ HW(J&>[ LXM/~> D-MWKK/~> L-<T&JR[/(J~>:p W-L-MSKN/(J~>
+ESNJ 1:1045	XD/ HW= CQJ=/~> D-CWJW/T~> L-MRJ>/ W-L-<BD==/J-HWN XD/ HW(J&>[ SQ/~> TXWT/J-HWN D->G&JR=[/(J~>:p >P D-G>J=/(J~>
+ESNJ 1:1049	B-XD/ NJR/~> KL/-H KRK=/~> RHV[/ HW(J&>[ B-TJBW/T~> XD/ PWLXN/~> PLX=/ HW(J&>[ D-XD/ PWRQN/~> !N!(NSB[ HW(J&>[
+ESNJ 1:105	DLJL/(J~> >NWN GJR D-CBQ[W XWB(>/T=~> B-HN> YWM/~> NJNWJ/(J~> JHB[W ZDQ(>/T=~> XNN !N!CL(J&>=[ MN >NQ(>/T=~>
+ESNJ 1:1053	>WLJ/T~> B-QL/JN QL/JN TMN KL/-JWM/ @>T@>MR[T W-XNG(>/T~> B-XC/JN XC/JN TMN KL/-JWM/ @>(T&C@(C&TKX[T==
+ESNJ 1:1057	W-G<(>/T~> B-K>B/JN K>B/JN MN YJD/ KL/-HWN @>(T&C@(C&TM<[T== B-TWH(>/T~> D->SKJM/ >SKJM/ @>T@DWD[:d KL/-H= KRK=/~>
+ESNJ 1:1061	B-TWH(>/T~> D-KL/ SWRD/JN KL/-H KRK=/~> R<L=[/ HW(J&>[ >JK YPR/~> L-<L=/ MN KWB/~> MDJN(>/T~> B-QNV=/~> JTB[/> HW(J[T==
+ESNJ 1:1065	KRK=/~> Z(W&><[/ >P N(W&>D[/ >JK QNJ=/~> BJN/T= RWX/(J~> >N NGH[T== L> RN(J[/JN HW(J[W D-JWM/~> <L&J-HWN <RB[/ HW(J&>[
+ESNJ 1:1069	W->N XCK=[T== L> SBR[W:d HW(J[W D-YPR/~> <L&J-HWN DNX[/ HW(J&>[ <L PWM/ MWT=/~> Q(W&>M[/ HW(J&>[ KL/-H <M=/~> KD R<L=[/
+ESNJ 1:1073	B-TR</~> D-CJWL/ NQC[/ HW(J&>[ KL/-H KRK=/~> MN SK/-H JWNN/ MN> JWM/T=~> W-NJNWJ/(J~> MN=-(HW XWB=/J-HWN
+ESNJ 1:1077	XCB[ JWNN/ LJL(J&W/T=~> NJNW>/ XCB[T== BJC/T=-H= <ML[T== CT/> CBW</JN B-BKJ=/~> W-CHR/~> W-G<(>/T~>
+ESNJ 1:1081	B-MVL(>/T~> GN(J&>[ HW(J&>[ JWNN/ W-NJNWJ/(J~> B-KRK==/~> BK(J[/JN JWNN/ D-XZ(J&>[ DM<(>/J-HWN QNV[/ ]>]SGJ[ MN YWM/J-HWN
+ESNJ 1:1085	L-H VLL/~> D-CRWR/~> W-L-HWN XWM/~> YX&JX[/~>:p MVL&T-H DJL-H @>T@QPL[T <L&J-HWN ]>]GN(N[T= JMJN/~>
+ESNJ 1:1089	XZ(J&>[ NPC/T=-HWN D->C&JD[/N:p >JK M(J/J~> QDM/ <LJ=/~> XZ(J&>[ JLWD/(J~> D-CD(J[/JN HW(J[W <L QVM/~> KD Y(W&JM=[/JN
+ESNJ 1:109	NJNWJ/(J~> <BD=/(J~> !!XRR[W:d !!X&WN(N===[W >NTWN L-BN/J X>R(J/(J~> JWNN/ GJR KD @>(T&C@(C&TDR[ L-HW= KRK=/~> D-ML(J&>[/:p XWB=/(J~>
+ESNJ 1:1093	XZ(J&>[ JLWD/(J~> KD G<(J[/JN <GL=/(J~> W->MR=/(J~> KD P<[/JN XZ(J&>[/ L->M&H/T=~> D->C&JD[/JN:p RXM[/J-HJN <L JLD=/J-HJN
+ESNJ 1:1097	<WB/(J~> D-<WL/(J~> @>(T&Y@(Y&VB<[W:d MN DM<(>/(J~> D-JLD[/T~> XZ(J&>[ SB/(J~> KD BK(J[/JN HW(J[W D-SB/(J~> D-<M-H ZL&JL[/JN:p
+ESNJ 1:1101	XZ(J&>[ L-NJNW>/ KD @>T@>BL=[T== W-L-YHJWN/ KD @>(T&C@(C&TRX[T==:d XZ(J&>[ L->TWR/ W-]>]SGJ[ BSR/-H= L-HJ== >WRCLM/ D-XTJR/(J~>
+ESNJ 1:1105	XZ(J&>[/ VM>/T=~> D-@>T@NKP[ W-BN=/T= <M=/-H D-@>T@VNP[:d XZ(J&>[/ HW(J&>[ B-NJNW>/ L-KT&JC[/(J~>:p D-@>(T&C@(C&TJN=[W W-JLP[W QWCT/~>
+ESNJ 1:1109	W-XZ(J&>[ B-YHJWN/ L-NBJ/(J~> DGL=/(J~> D-ML(J[/JN:p CWQR/~> XZ(J&>[ L-PTKR/(J~> D-B-GLJ>/ @>T@TBR[W BJN/T= <M&M=/(J~>
+ESNJ 1:1113	W-]>]D(W&JQ[ W-XZ(J&>[ TWN/(J&W-HJ D-<M=/~> D-ML(J[/JN:p XNPW/T~> CQ&JL[/:p HW(J&>[ L-H L-HW= <BRJ/~> NSJN/~> MN BJ(N/T <M&M=/(J~>
+ESNJ 1:1117	D-KWMR/~> L-MWC>/ QBL[:d HW(J&>[ W->P L->LJ>/ >RML(>/T~> DWJD/ KD RDP[-H C>WL/ BJN/T= <M&M=/(J~> @>T@JQR[:d
+ESNJ 1:1121	QNV[/ HW(J&>[ DLM> !N!@(>T@DGL[:d HW= KRWZ/~> D-@>(T&C@(C&TDR[:d D-JD<[/ HW(J&>[ D-KRWZW/T-H !M!@(>(T&C@(C&TRJ[/> B-TJBW/T~>
+ESNJ 1:1125	XZ(J&>[/ L-BN/T= <M&M=/(J~> D-KPR[/ B-DXL(>/T=~> D->B&H/J-HJN W-L-BN=/T= <M-H BK(J&>[/ HW(J&>[ D-L-TMWZ/~> B-KJ HWJ[(J=
+ESNJ 1:1129	XZ(J&>[ D-B-NJNW>/ @>T@BVL[W QYM==/~> W-NXC===/(J~> W-MLWC/(J~> W-XZ(J&>[ B-JHWD(>/ KD PH(J[/JN XRC=/(J~> <M KLDJ/(J~>
+ESNJ 1:113	ZJN=[T:d-H HW(J[T== K>NW/T~> B-QL/(J~> DX&JL[/(J~>:p CDR[T:d-H GZR=/~> L-K>B/(J~> JHB[T L-H <M SMMN/(J~> XR&JP[/(J~>:p
+ESNJ 1:1133	XZ(J&>[/ HW(J&>[ KWMR/(J~> D-B-&>JD/J-HWN <L(>&W=/T=~> D->TWR/ <QR[W W-XZ(J&>[ B-YHJWN/ KD KL/-(>NC/ <L(>=/T-H !M!](>]TQN[/:p <L TR</-H
+ESNJ 1:1137	L-NJNW>/ JWNN/ XZ(J&>[/ HW(J&>[ D->JK <D(>/T~> KNC[T==:d KL/-H= NJNW>/ <WB/-H= @>T@DKJ[:d YWM/~> B-GW/-H= @>(T&Z@(Z&DHJ[:d
+ESNJ 1:1141	HJKL/ QWDC/~> D-B-YHJWN/ M<R(>/T GNB==/(J~> <BD=/(J&W-HJ L-MLK/~> D-NJNW>/ XZ(J&>[/ HW(J&>[ D-L->LH/~> SGD[/ HW(J&>[
+ESNJ 1:1145	W-L-JWRB<M/ XZ(J&>[/ HW(J&>[ D-QDM/ <GL=/(J~> SGD[/ HW(J&>[ NJNWJ/(J~> CD(J[W <WL=/J-HWN B-G<(>/T~> QDM/ >LH/~>
+ESNJ 1:1149	<BRJ/(J~> BN/J-HWN DBX[W:d W-BN=/T=-HWN L-C>D/(J~> NKS=[W NJNWJ/(J~> >P DM<(>/J-HWN B-YWM/~> NQJ=[W:d L->LH/~>
+ESNJ 1:1153	W-<BRJ/(J~> L-GL&JP=/J-HWN NQJ=[W:d TWB XMRN/J-HWN MN NJNWJ/(J~> MX(J&>[/ HW(J&>[ R(W&JX=[/:p XZW/~> D->BJLW/T~>
+ESNJ 1:1157	W-B-GW/ YHJWN/ P(W&>X[/ HW(J&>[ BSM/(J~> W-<VR=/~> D-PTKR/(J~> <M=/~> SBR=/-H PSQ[/ HW(J&>[ SBR=/~> L-<M&M=/(J~> SG(J&>[/ HW(J&>[
+ESNJ 1:1161	L-JHWDJ/(J~> PWRP</~> W-NJNW(>/J~> MWKK/~> B-GW/ JHWD(>/ <WL=/~> GLJ[/> W-B-NJNW>/ >BL==/~> RB/~>
+ESNJ 1:1165	XJ/(J~> BK(J[/JN <L M(W&JT[/(J~>:p W-NJNWJ/(J~> BK(J[W <L XJ/(J~> KL/-(>NC/ L-BR/-H BK(J&>[/ HW(J&>[ W-<L BR/ GNS/-H !M!](>]JLL[/ HW(J&>[
+ESNJ 1:1169	CWPR/~> D-NC/(J~> @>T@XBL[:d MN BKJ=/~> W-MN MWKK/~> KL/-(>NC/ XBR/-H NCQ[/ HW(J&>[ W-<L XDJ=/-H TWB BK(J&>[/ HW(J&>[
+ESNJ 1:117	>SJ=/~> D-XJL/~> @>(T&C@(C&TDR[:d L-MDJN(>/T~> MLJ[T= K>B/(J~> PTX[ XWJ[:d HW(J&>[ SMMN/(J&W-HJ DX&JL[/JN:p HW(J[W W->P <Z&JZ[/JN:p
+ESNJ 1:1173	RB/ >BL==/~> D-HW(J&>[ TMN DX&JL[/:p XC/~> D-HW(J&>[ TMN D-B-XJ/J-HWN @>(T&Z@(Z&DMN[W:d D-TX&JT >R</~> !N!@(>T@XBC[WN
+ESNJ 1:1177	KM> D-JWM/T=~> KR(J[/JN HW(J[W DM<(>/J-HWN !M!@(>T@TR<==[/N HWJ[(J= >JK >NC/~> D-MKJL ]>](J&WPJ[W W-L(>-(>JT(J/ >NWN TWB B-BRJ(>/T~>
+ESNJ 1:1181	MV(J&>[ JWM/~> D-H> !M!@(>(T&S@(S&TXP[/>:d QRB[ JWM/~> D-H> !M!@(>T@HGM[/> W-HW(J[T== L-H= KL/-H= MDJN(>/T~> >BL==/~> W-BKJ=/~> W-G<(>/T~>
+ESNJ 1:1185	<PR/-H= D->R</~> @>(T&Y@(Y&VB<[:d D-GBL=[W-HJ HW(J[W MN DM<(>/J-HWN ]>]Q(W&JM[W >B&H/(J~> L-BN/J-HWN W-JWRTN/J-HWN QDM/J-HWN
+ESNJ 1:1189	D-!N!BK(J[WN >NWN ]>]KXD[ L-JRWT/(J~> W-L-JWRTN/(J~> L-MKJR/(J~> W-L-MK&JR[/T=~>:p SDR=[W ]>]Q(W&JM[W KD BK(J[/JN HW(J[W
+ESNJ 1:1193	B-MN-(HW NPC/~> @>(T&C@](C&T](>XR[T== B-HN> XZW/~> MR&JR[/~>:p ]>]Q(W&JM[W XTN/(J~> W-KL(>&L/T=~> CGC[W QL/J-HWN W-DM<(>/J-HWN
+ESNJ 1:1197	!!]>]Q(W&JM[W CBR/(J~> W-CBR/T=~> MV(J[T== G<(>/T~> L-CM(J/J~> X(WR[W B-CWPR/(J~> D-VL(J/J~> W-B-QWM(>/T=~> D-BN/J-HWN
+ESNJ 1:1201	YWR==[T== >R</~> B-<JN/J-HWN RN(J[/JN HW(J[W D-@>T@TLX[T==:d L-H >JK >LP/~> !M!@(>(T&S@(S&TBR[/>:d HW(J[T== D->ZL[/> W->TJ[/> TXWT/J-HWN
+ESNJ 1:1205	Q(WM[W >P SB/(J~> W-SB/T=~> W-QBWR/J-HWN Y(J&>D/J-HWN G<(J[/JN W-BK(J[/JN <L HD> D-MN=-(HW N<MY[/ W-!N=!<P(J&>[:d
+ESNJ 1:1209	BK(J[/JN HW(J[W <L MWT=/J-HWN D-L(>-(>JT(J/ D-QBR[/ W-!M!BK(J&>[/ BK(J[/JN HW(J[W <L QBR=/J-HWN D-L(>-(>JT(J/ D-XPR[/ W-!M!<P(J&>[/:d
+ESNJ 1:121	VJBW/T~> B-HD> TNWJ/ CDR[T:d-H HW(J[T== L-NBJ/~> L> HW(J&>[ D-KRK=/~> !N!HP&WK[ HW(J&>[ >(N-L> D-KRK=/~> !N!<Y&WB=[ HW(J&>[
+ESNJ 1:1213	BK(J[/JN HW(J[W <L NXT=/J-HWN D-L(>-(>JT(J/ D-MKS/~> PWRSJ/~> KL/-(>NC/ MWT=/-H Y(W&>R==[/ QDM/ <JN/(J&W-HJ MRJR>JT
+ESNJ 1:1217	W-M> D-@>T@DKR[W W-<HD[W ]>]JLL[W D-L->JD> XR(>/T~> @>(T&Z@(Z&DMN[W:d KL/-(>NC/ TMH=[ M> D-RN(J&>[/:p D-L->JN> MWT=/~> @>T@<TD[:d
+ESNJ 1:1221	KL/-(>NC/ LB/-H SDQ[/ HW(J&>[ D-CM<[ D->R</~> !M!@(>(T&Y@(Y&VRJ[/> HPK[/ HW(J&>[ GWN/~> D->(NP/J-HWN D-CM<[W D->R</~> !M!@(>T@HPK[/>
+ESNJ 1:1225	Q(WM[W >P MLK/(J~> W-MLK(>/T=~> W-TG/J-HWN <L SQ/J-HWN X(WR[W D-L-MXR L(>-(>JT(J/ >NWN <P(P[W W-SGJ[W YWRN/J-HWN
+ESNJ 1:1229	KL/-(>NC/ <PR/~> GRY[/ HW(J&>[ W-L->LH/~> QR(J&>[/ HW(J&>[ KL/->NC/ G<(J&>[/ B-YLW/T~> PWM/-H QVM/~> ML(J&>[/:p HW(J&>[
+ESNJ 1:1233	L(>-(>JT(J/ >WLJ/T~> D-L> TMN @>T@>LJ[T==:d >P @>T@BKJ[T==:d CWR/(J~> SQ/(J~> !M!KS(J[/JN:d HW(J[W P(W&JL=[/JN B-QVM/~> MR&JR[/~>:p
+ESNJ 1:1237	>P B->JMM/~> XCWK/~> QV&JR[/:p HW(J&>[ TMN MN SQ/(J~> >P >>R/ @>T@DLX[T==:d HW(J[T== W-CMJ/> @>(T&C@(C&TGC[T== HW(J[T==
+ESNJ 1:1241	<NN/(J~> <P(P[ <M <RPL/~> W-<BJ=[ W-<CN[ <MVN/~> PQ<=/~> L-PQ<=/~> NQC[/ HW(J&>[ R<M>/ L-XBR/-H >R</ HW(J&>[
+ESNJ 1:1245	BRQ=/~> L-BRQ=/~> TKB[/ HW(J&>[ SWRD/~> W-G(WNX/ LB/~> B->R</~> KL/-(>NC/ X(W&>R[/ HW(J&>[ KD SBR[/ D-@>T@HPK[T L-H=
+ESNJ 1:1249	BKJ[W KL/-HWN L-XDD> >JK >NC/~> D-]>](J&WPJ[W MN CLJ/ KL/-(>NC/ L->X&W/-HJ BK(J&>[/ HW(J&>[ W-<L XB&JB[/:p-H !M!](>]JLL[/ HW(J&>[
+ESNJ 1:125	L> MLK=[/ >NWN KRWZ/~> L-BN/J KRK=/~> D-!N!TWB=[WN D-!N!XW(J&>[:d D->JN> D->L&JY[/:p HW !M!XYP[/:d <L <WDRN/-H
+ESNJ 1:1253	KL/-(>NC/ XBR/-H QR(J&>[/ HW(J&>[ D-!N!XZJ[-&WHJ W-!N!SB<[ PRYWP/-H W-!T=!CLM[ ML(>/T-H <M DJL-H W-!N!(NXT[WN L-H= ]>]KXD[ L-CJWL/
+ESNJ 1:1257	B-<DN/~> D-CLM[W:d JWM/(J~> Q(WM[W ]>]KXD[ B-DRG/ MWT=/~> KD >X&JD[/JN:p L-XDD> W-BK(J[/JN W->L(J[/JN L-XDD>
+ESNJ 1:1261	MV(J&>[ JWM/~> D-PSQ[/ SBR=/~> B-H R&WG(WZ/~> !M!@(>(T&C@(C&TLM[/:d HW(J&>[ MV(J&>[ L(JLJ/~> HW= D->JT(J&W/-HJ HW(J&>[ BTR CT/> CBW</JN
+ESNJ 1:1265	RN(J[/JN HW(J[W KD BK(J[/JN HW(J[W D-B-&>JD/~> C</T~> !M!@(>T@HGM[/> B->JN> KJ= MN <DN/(J&W-HJ D-HN> L(JLJ/~> !M!@(>T@HGM[/>
+ESNJ 1:1269	MN RMC/~> KJ= !M!@(>(T&S@(S&TXP[/>:d >W MN CPR=/~> !M!@(>T@HPK[/> B-&>JD/~> MVR(>/T~> >T(J&>[/ QL/~> D-GWNX/-H= MR&JR[/~>:p
+ESNJ 1:1273	SBR[W:d D-B-RMC/~> !M!@(>T@HPK[/> MV(J&>[ RMC/~> W-HJ= QJM/~> SBR[W:d D-B-L(JLJ/~> !M!@(>T@BL<[/JN HW(J&>[ L(JLJ/~> W-NV&JR[/JN:p >NWN
+ESNJ 1:1277	!!SBR[W:d D-B-XCK/~> !M!@(>(T&S@(S&TXP[/JN:d !!<BR[ XCK/~> W-L> @>T@XBL[W:d !!SBR[W:d D-B-CPR=/~> !M!@(>T@HPK[/> MV(J&>[ CPR=/~> W-SGJ(>/ SBR=/~>
+ESNJ 1:1281	B-<DN/~> D-SBR[W D-]>](J&WPJ[W HW(J&>[ L-HWN MN CLJ/ PWRQN/~> L-XBR/-H KL/-(>NC/ XD(J&>[/ HW(J&>[ W-L-XB&JB[/:p-H S&WX(X[/ HW(J&>[
+ESNJ 1:1285	>RB</JN JWM/JN MN ZW<=/~> L> CLJ=[T== >R</~> L-!M!N(WD[/ JWNN/ Q(W&>M[/ MN RWXQ/~> W-DXL[/ DLM> !N!@(>T@DGL[:d
+ESNJ 1:1289	CLJ/ ZW<=/~> >P HW= !N!](>](J&WD(J&>[ B-<DN/~> D-PSQ[/ SBR=/~> SBR(>/T~> D-RXM=/(J~> @>T@JHB[T== D-XZ(J[W >T/~> D-XNN=/~>
+ESNJ 1:129	>XD[-H L-TR</~> B->(NP/J-HWN D-!N!BDQ[ D-KM> NQC[W HW(J[W GZR=/ DJN=/~> D-]>]KRZ[ JWNN/ >MRJW/ <M-H W-CR(J&>[W-HJ
+ESNJ 1:1293	B-HD> >T/~> @>(T&S@(S&TBR[W:d D-CLJ=[T== >R</~> MN ZW<=/~> BRQ=/(J~> W-R<M=/(J~> @>(T&C@(C&TTQ[W:d >DN/~> W-<JN/~> @>T@PYX=[T==:d
+ESNJ 1:1297	VB/~> D-XZ(J&>[ DM<(>/J-HWN @>T@RXM[:d <L XJ/J-HWN >P-(>N L> M(W&JT[W @>(T&C@(C&TNQ[W:d D-L-MWT=/~> B-XJ/(J~> V<M/(J&W-HJ
+ESNJ 1:13	CGC[ JM/~> KD <RQ[/ HW(J&>[ Z(W<[ JBC=/~> KD !M!](>]KRZ[/ HW(J&>[ CLJ/ HW(J&>[ JM/~> B-YLW/T~> >P JBC[/> B-TJBW/T~>
+ESNJ 1:1301	B-HLJN CT/> CBW</JN N(W&JX[/:p HW(J&>[ L-M(W&JT[/(J~>:p MN D-L-HWN XJ/(J~> HW(J[W D-B-XJ/J-HWN M(W&JT[/JN HW(J[W KD L> QB&JR[/JN:p
+ESNJ 1:1305	>X/~> B->X&W/-HJ PG<[/ HW(J&>[ W-L> JD<[/ HW(J&>[ DMW/T=-H GBR/~> B-XBR/-H >R</ HW(J&>[ W-L> PRC[/ HW(J&>[ YWR(>/T=-H
+ESNJ 1:1309	>P-L> >DN/~> @>T@MYJ[T D-!T!PR&WC[ QL/~> MN QL/~> >JKN> D->P L> <JN/~> PRC[T== YLM/~> MN YLM/~>
+ESNJ 1:1313	>JK VLL/(J~> XCWK/(J~> DM(J[/JN HW(J[W MN CWNQ/~> >JK >WD/(J~> @>T@XRK[W HW(J[W MN HW= YWM/~> <Z&JZ[/~>:p
+ESNJ 1:1317	C(WX[W PGR/J-HWN MN CHR/~> W-P(WC[ MCK/~> W-CRDWD/~> <DN/~> D-SBR[ JWNN/ D-H> MKJL @>T@HPK[T== L-H=
+ESNJ 1:1321	B-H B-JWM/~> W-B-<DN/~> @>T@PRQ[T MN >BDN/~> <NN/(J~> W-<RPL/(J~> MN CLJ/ @>T@BDR[:d W-<BR[ W-GMR==/
+ESNJ 1:1325	HW(J&>[ CLJ/~> W-SGJ(>/ SBR=/~> W-@>T@NXM[ KRK=/~> M(W&JT[/~>:p LBC[ JWNN/ XC/~> RB/~> W-NJNW(>/J~> GWN/~> P>J[/>
+ESNJ 1:1329	SBR(>/T~> L-KL/-HWN @>T@JHB[T== D-XZ(J[W >>R/ D-@>T@PYX=[T==:d Q<D[W B&WR(WK/J-HWN L-YLW/T~> PCV[W &>JD/J-HWN L-CM(J/J~>
+ESNJ 1:133	D-!N!XW(J&>[:d D-KM> MYJ[/> TJBW/T~> L-!M!](>]R<J[/W W-D-KM> <Y(J&>[/:p TJB/~> D-B-X&WYP=/~> RXM=/(J~> !N!(NSB[
+ESNJ 1:1333	JHB[W TWDJ/T~> B-KL/ PWM/JN W-TCB&WX(>/T~> B-KL/ LCN/JN L-HW= D-B-RWGZ/-H PNJ[:d L-HWN XJ/J-HWN B-TJBW/T~>
+ESNJ 1:1337	L-MR>/ R<J[W B-CM(J/J~> W-L-JWNN/ <BD=/-H B->R</~> XDJ[ <M-N >W BR/ MTJ/ D-XJ(J[/J(N-(XNN XJ/(J~> XDT/(J~>
+ESNJ 1:1341	B-&>JD/-K HW ]>]CKX[N >NWN L-HLJN VWB/(J~> D-PG<[W B-N L> DGL[T=:d >P L> HKN(> D-MN XWB=/(J~> L-XJ/(J~> HPK[T=-N
+ESNJ 1:1345	B-&>JD/-K HW GJR ]>]CKX[N-&JHJ L-QLJD/~> D-TJBW/T~> D-MN BJT/ GZ/-H D->LH/~> SBR=/~> VB/~> JHB[T= L-N
+ESNJ 1:1349	MN> !N!MVJ[-K <BRJ/~> >LW K&WL/-N @>T@XBL[N MN> !T!(J&>TR[ KRWZ/~> >LW K&WL/-N @>T@QVL[N
+ESNJ 1:1353	MN !T=!@(>T@<DR[:d BR/ MTJ/ >LW B-CJWL/ @>(T&C@(C&TTQ[N:d MN= DJN !T!@(>(T&S@(S&TGP[ HC/~> D-B-TJBW/T-N @>T@NYX[T=:d
+ESNJ 1:1357	MN= KRJ[/>:p L-K D->SJ[T=:d-N D-KNC=/~> KL/-H !>!](>](J&WDJ[ L-K MN> KM&JR[/:p >NT <L HD> D-@>T@TGR=[T-H= L-MDJN(>/T-N
+ESNJ 1:1361	MN> >B&JL=[/:p >NT NY&JX[/~>:p D-B-TJB/(J~> @>T@NYX[T:d !T!HW(J&>[ L-K HD> D-HWJ[T= SMWK/~> W-L> SXWP/~>
+ESNJ 1:1365	!T!SPQ[ HD> L-XDW(>/T-K D-L-<(W&JR[/(J~>:p B-RWM=/~> XDJ[T= B->R</~> L-!M!XD(J&>[/ WL(J&>[/ L-K D->LH/~> XDJ[ B-CM(J/J~>
+ESNJ 1:1369	B-HD> !N=!(J&>RB[ R<JN/-K D-KL/ >NC/ !M!](>](J&WD(J&>[/ L->LH/-K B-HD> BJ>[:d TR<J/T-K D-KRK=/~> W-MLK/-H SGD[/ L-K
+ESNJ 1:137	KWRHN/~> HW(J&>[ D-XVJ==/T~> D-YBJN/~> W-L> D-QVJR/~> QL/~> DX&JL[/~>:p !M!DXL[/ HW(J&>[ B->SKM/~> >JK D-B-SJP/~>
+ESNJ 1:1373	!!XWR[ B-CBR/(J~> D-@>T@PYJ[W:d W-YL>/ TWB <L XJ/J-HWN !!XWR[ B-<WL=/(J~> D-@>T@NVR[W W-!!S(W&JM[ &>JD/-K <L RJC/J-HWN
+ESNJ 1:1377	!!BRK[:d KRK=/~> D-@>T@NVR[ D-!N!](>]SG(J&>[ B-GW/-H DWKRN/-K BRK[:d JWNN/ L-MDJN(>/T-N D-MKJL B-CM/-K !M!@(>T@QRJ[/>
+ESNJ 1:1381	CT/> CBW</JN !!]>]KXD[ Y(WM=[ PWM/-K MN M>K&WL(>/T~> !!CRJ[ YWM/-K W-!>!<BR[ >BL==/-K XDJ[ <M-N BR/ <BRJ/(J~>
+ESNJ 1:1385	<D<(>D/~> HW RB/~> HN> D-B-KL/ DR/JN DWKRN/-H DR/~> L-XBR/-H !M!@(>(T&C@(C&T<(J&>[/:d <L >BL=[N W-<L PWRQN/-N
+ESNJ 1:1389	HLJN W-D->JK HLJN MLL[W:d W-D-SGJ>/N MN HLJN L-BR=/ MN KRK=/~> JTB[/ HW(J&>[ NPQ[ Y(J&>D/(J&W-HJ KL/-H KRK=/~>
+ESNJ 1:1393	W-CM<[/JN HW(J[W D-!M!C>L[/ HW(J&>[ HW JWNN/ >P !M!@(>(T&C@(C&T>L[/ RWX/~> D-Q&WD(WC/~> D-B-PWM/-H DRC[T== B-H LWQBL
+ESNJ 1:1397	TR/JN= PRYWP/JN L-<ZT/ B-H D->LH/~> >P D-NBJ/~> CM<[/ HW(J&>[ KL/-H KRK=/~> L-NBJ/~> KD >MR[ HW(J&>[
+ESNJ 1:1401	XLP/ CRWR/~> W-QNWM/-H W-XLP/ MR(>/-H W-MDJN(>/T-H W-CM<[/JN HW(J[W L-H KD DRC[/ <M MR(>/-H MVL KRK=/-H
+ESNJ 1:1405	MN-H HW !M!@(>(T&C@(C&TM<[/N HWJ[(J= BN=/T= QL/(J~> D-TR/JN= GB/JN >W L-SNGR/~> <BRJ/~> DLK/~> W-L-K> CMC=[:d HW(J&>[
+ESNJ 1:1409	D-KNC=/JN KNC=/JN @>T@V(W&JB=[W:d L-!M!CM<[/ QL/-H D-NBJ/~> W-CM<[/JN HW(J[W KD >MR[/ HW(J&>[ B-LCN/-HWN QDM/ >LH/~>
+ESNJ 1:141	D-MRX=/~> MN SWRD/~> !N!@(>T@>S(J&>[ MN SKLW/T~> >SJ=/~> D->ZL[/ D-!N!>S(J&>[ SJP/~> XWJ[:d L-KR&JH[/~>:p
+ESNJ 1:1413	D-KRJT/ L-H W-C>L[ MWT=/~> <L XWBL=/-H D-CRWR/~> HPK[T== L-H= RWX/~> D-Q&WD(WC/~> D-B-PWM/-H !T=!QRB[:d <M-H
+ESNJ 1:1417	LCN/-H !>!QRB[:d <M-H XLP/ PRYWP/~> D->LH/~> !!CM<[W MN-H KD >MR[/ HW(J&>[ >LH/~> MVL KRK=/~>
+ESNJ 1:1421	>N >NT JWNN/ KRJ[T== L-K <L HW= QR>/~> XLC/~> D-L> L>J[T= B-H W-L> RBJ[T=:d-&JHJ DBR[ L(JLJ/~> HBB/ W-XM(J&>[
+ESNJ 1:1425	B-HW= CRWR/~> D-@>T@XBL[:d !N!@(>T@PXM[:d KRK=/~> D-XJ(J&>[ CRWR/~> !N!HW(J&>[ L-K RB/~> W-!>!JLP[:d MN-H BWJN/~>
+ESNJ 1:1429	B-CRWR/~> C(W&JV[/(J~>:p !!NS(J&>[:d MN=-(HW V<M/-H D-XNN=/~> L-K XWSN/~> <L QR>/~> L-J XWSN/~> <L KRK=/~>
+ESNJ 1:1433	MVL&T-K !T!HW(J&>[ MXZJ=/T~> L-HD> MDJN(>/T T(W&JB=[/(J~> MVL(>/(J~> B->R</~> QB<[/ >NT W-MDJN(>/T=~> <QR[/ >NT
+ESNJ 1:1437	CRWR/~> C(W&JV[/> NVR[/ >NT W-KRK===/~> RB/~> SXP[/ >NT >JK> HJ= K>NW/T-K JWNN/ D-KRK=/~> L-QR>/~> L> PXM[T=:d
+ESNJ 1:1441	LWT MVL&T-K VJBW/T-K W-LWT MDJN(>/T~> QCJW/T-K QR>/~> D-JH&JB[/:p M>K&WL(>/T~> RB/ HW L-K MN >KWL/(J~>
+ESNJ 1:1445	CRWR/~> D-JH&JB[/:p L-XBL==/~> !M!JTR[/:d L-K MN T(W&JB=[/(J~> VRP=/(J~> D-QR>/~> !M!](>](J&WRB[/ >NT MN BN/J >NC/~> MLL[/(J~>
+ESNJ 1:1449	W-PRX(>/(J~> W-PQX=/(J~> D-CRWR/~> MN CBR/(J~> W-MN JLWD/(J~> CM<[ KRK=/~> W-B-XD/ QL/~> JHB[ TCB&WX(>/T~> L->LH/~>
+ESNJ 1:145	MDJN(>/T~> XZ(>/T-H W-@>T@RHB[T== D->JK VBX=/~> Q(W&>M[/ HW(J&>[ KR&JH[/(J~>:p RM(J[/J~>:p MN D-XL/~> Q(WM[W W-RHV[W B-TJBW/T~>
+ESNJ 1:1453	D-XLP/J-HWN D(W&>N[/ HW(J&>[ W-<L >(NP/J-HWN !M!QRB[/:d HW(J&>[ SNGR/~> <BD=/-H L-NBJ/~> D-B<L/ DJN=/~> >JT(J&W/-HJ HW(J&>[
+ESNJ 1:1457	L-B<LDJN/-H BJT/ DJN=/~> !M!ZK(J&>[/ HW(J&>[ KD L> YB(J&>[ >LH/~> DGL[:d ML(>/(J&W-HJ D-BN/J KRK=/~> !N!@(>T@PRQ[WN
+ESNJ 1:1461	W-JWNN/ HW(J&>[ TBW</~> L->LH/~> D-L> !N!@(>T@DGL[:d L> !M!@(>T@](>&T]<(W&JQ[/JN ZDJQ/(J~> B-TJBW/T~> D-<WL/(J~>
+ESNJ 1:1465	>P L> L-JWNN/ KRJ[T== HW(J[T== B-TJBW/T~> D-XVJ=/(J~> <LL(>/T=~> RKB[/ D->JKN !N!CM<[ KRK=/~> PWRQN/-H
+ESNJ 1:1469	SNJ[/> HW(J[T== D-!N!CN(J&>[ HW(J&>[ MN Y(J&>D/J-HWN CJ<>JT D-L> JD<[/JN HW(J[W T(W&JB=[/(J~> D->JKN(> HLK[:d YBW/T=~>
+ESNJ 1:1473	W->JKN(> RGZ[T== K>NW/T~> W->JKN(> XN(N===[T== VJBW/T~> HWJ[(J= <LL(>/T=~> B-MY<(>/T~> D->JKN !T=!(J&>LP[ CBRW/T~>
+ESNJ 1:1477	!!]>]KRZ[ JWNN/ D-!N!XW(J&>[:d D-KM> RGZ[T== K>NW/T~> CRWR/~> D->BD[/ Q<(J&>[/ HW(J&>[ D-KM> X(WS[T== VJBW/T~>
+ESNJ 1:1481	HW= <M=/~> D-<L GNB/ JWNN/ JHB[ TCB&WX(>/T~> B-Q<(>/T~> <L M> D-CM<[W B->DN/J-HWN W-<L KL/ D-XZJ[(J= <JN/J-HWN
+ESNJ 1:1485	B->DN/(J~> CM<[W-HJ L-DRC=/~> B-<JN/(J~> XZ(J&>[W-HJ L-CRWR/~> B-QR>/~> D-J<(J&>[ MN CLJ/~> !!XZ(J[W >T/~> D-L> B-KJN/~>
+ESNJ 1:1489	B-PSQ=/-H ]>]SGJ[W &>JLP[W XNN=/~> D-SGJ(>/ MN KJL/~> NJNWJ/(J~> B-XWB=/~> XVP[W-HJ L-KRWZ/~> BR/ <BRJ/(J~>
+ESNJ 1:149	QL/-H D-JWNN/ >JK SJP/~> K>B/(J~> D-NWGR/~> GZR[/ HW(J&>[ >SJ[/~> HW(J&>[ D->SJ[:d CBV/-H VB/ MN SM/~> D->XRN/(J~>
+ESNJ 1:1493	<L &>JD/J-HWN @>(T&Z@(Z&DJX[:d W->JK MLK/~> <L B->JQR/~> B-KRK==/~> JTB[ W-SGD[W L-N KNC=/JN KNC=/JN T(W&JB=[/(J~>
+ESNJ 1:1497	]>](>&JTJ[W L-H QWRBN/J-HWN W-QRB[W:d L-H M<SR/J-HWN CQL[W !!QRB[W:d L-H NDR/J-HWN D-NDR=[W HW(J[W B->WLYN/J-HWN
+ESNJ 1:1501	CBR/(J~> QRB[W ZJR/J-HWN W-<LJM/(J~> HMNJK/J-HWN JHB[W RJCN/(J~> XWD/J-HWN QMR/J-HWN <M T(JK/J-HWN
+ESNJ 1:1505	PTX[ MLK/~> GZ/-H RB/~> W-QRB[:d L-H VWB/~> RB/~> MN KL/ PWM/JN @>(T&C@(C&TBX[:d >LH/~> >JK XNN=/~>
+ESNJ 1:1509	W-MN KL/ PWM/JN @>T@BRK[:d >P JWNN/ >JK KRWZ/~> <L(>/T MRKB(>/T~> CQL[T== QWRBN/(J~> W-NDR/(J~> D->T(J[W
+ESNJ 1:1513	D-B->JQR/~> !N!S(LQ[ L-H= L-HJ== >R</~> D->T(J&>[ MN-H= @>(T&Z@(Z&DJX[:d JWNN/ W-SLQ[ >JK MLK/~> <L QRWK/~>
+ESNJ 1:1517	>JK MLK/~> W->JK BR/ MLK/~> !M!@(>(T&Z@(Z&DJX[/ HW(J&>[ BR/ MTJ/ NWN=/~> B-JM/~> V<N/-H HW(J&>[ W-B-GW/ JBC=/~> QRWK/~>
+ESNJ 1:1521	TX&JT >R</~> @>T@MKK[:d HW(J&>[ W-L-<L=/ MN-H= @>T@RMRM[:d PY(>/T~> B-JM/~> ]>]KS(S[T==-H MDJN(>/T~> B-JBC=/~> QLS[T==-H
+ESNJ 1:1525	NWN=/(J~> QDM/(J&W-HJ >T(J[/JN HW(J[W B-GW/ JM/~> KD RD(J&>[/ HW(J&>[ W-B-GW/ JBC=/~> PRC=/(J~> @>T@LWJ==[W KD SLQ[/ HW(J&>[
+ESNJ 1:1529	YR(J&>[/ JM/~> KD NXT[/ HW(J&>[ >P JBC=/~> KD SLQ[/ HW(J&>[ ]>]RGC[W B-H NWN=/J JM/~> W-BN/J >NC/~> D-B-JBC=/~>
+ESNJ 1:153	>SJ=/~> CDL[:d W-!M!>S(J&>[/:d JWNN/ !M!](>]KRZ[/ W-!M!>S(J&>[/:d B-K>(>/T~> <ZJZ>JT S<R[/ HW(J&>[ XKJM>JT
+ESNJ 1:1533	HW(J&>[ MXCWL/~> B-THWM/~> W-B-KRK=/~> RWB/~> RB/~> B->WRX/~> RG(>&J/T~> NXT[/ HW(J&>[ W-B-JBJC/T~> SLQ[/ HW(J&>[
+ESNJ 1:1537	DXL[ MN-H >P XJW(>/T=~> DX&JL[/T=~>:p D-B-GW/ JM/~> MDJN(>/T=~> XS&JN=[/T=~>:p JHB[ >TR/~> KD SLQ[/ HW(J&>[
+ESNJ 1:1541	NWN=/~> D-BL<==/-H XS&JN=[/~>:p W-MLK/~> D-CM<[-H TQ&JP[/~>:p NWN=/~> CBJL/~> V(W&JB=[:d L-H W-MLK/~> >WRX/~> CPJ=[:d L-H
+ESNJ 1:1545	L-NWN=/-H NWN=/(J~> @>T@LWJ==[W >P L-RKWB/-H PRC=/(J~> MLK/~> D-NJNW>/ >JZGD/(J~> QDM/(J&W-HJ ]S]RHB[ CDR[:d HW(J&>[
+ESNJ 1:1549	D-!N!V(W&JB=[WN:d L-H L-NBJ/~> >WN=/(J~> D-B-HWN !N!CR(J&>[ >LH/~> XWJ[:d >WRX/~> L-NWN=/~> D->JKN !N!>ZL[ HW(J&>[
+ESNJ 1:1553	MLK/~> DJN XWJ[:d >WRX/~> L-NBJ/~> D->JKN !N!S(LQ[ B->JQR/~> W-B-QWRBN/(J~> SLQ[/ HW(J&>[ KD !M!@(>(T&Z@(Z&DJX[/
+ESNJ 1:1557	W-KL/-(>NC/ L->WR</-H NPQ[/ HW(J&>[ W-B-DXL=/~> L-H SGD[/ HW(J&>[ MLK/(J~> MN-H @>(T&S@(S&TRD[W D-HW= KRWZ/~> <Z&JZ[/~>:p
+ESNJ 1:1561	B->JQR/~> RB/~> !>!R<(J[-&WHJ MN D-XL/~> D-KRWZW/T-H KL/ KRK=/~> D-XZ(J[-&JHJ !>!](>](J&WPJ[ DLM> <&>L(L[/ HPK[/ L-H
+ESNJ 1:1565	B-MDJN(>/T=~> @>T@JQR[(J=:d D-HW(J[T== NJNW>/ TXWJ/T~> HW(J[T== MXZJ=/T~> L-BRJ(>/T~> D-@>T@XZJ[T== B-H= K>NW/T~>
+ESNJ 1:1569	KD JWNN/ MVJ[:d L->R</-H W-L-TXWM/~> D-BN/J <M-H CR(J&>[ >NWN L-BN/J LWJ=/-H D-B-CLM=/~> !N!PWC[WN MN-H
+ESNJ 1:157	HN> HW S<WR/~> D-]>]DXL[ SW<RN/-H L-KR&JH[/J:p-HWN KR&JH[/~>:p <RS/-H CBQ[/ HW(J&>[ D-CBV/~> D-R&WG(WZ/~> XZ(J&>[/ HW(J&>[
+ESNJ 1:1573	D-NKP[/ HW(J&>[ DLM> !N!XZ(J[WN XNPW/T~> D-BN/J <M=/-H W-DLM> !N!<L(L[WN T(W&JB=[/(J~> !N!@(>(T&S@(S&TRX[WN BJ(N/T <WL/(J~>
+ESNJ 1:1577	W-D-L> !N!<L(L[WN MN <M&M=/(J~> !N!(J&>LP[WN <WL=/~> MN <M=/~> QNV[/ HW(J&>[ DLM> !N!ST&WR[ K>B/~> D-XTM=[ W-@>T@>SJ[:d
+ESNJ 1:1581	XWR=/~> SN(>&J=/~> D-CX&JM[/(J~>:p !M!SGP[/:d HW L-BN/J-(>NC/~> KM> NK(J&>[/ XWR=/-H D->JN> D-MN D-RG(G[/> RB/~> NPL[/
+ESNJ 1:1585	W->N >JT(J/ D-SR&JX[/:p >P MKJK/ KD VB/ MKJK/ NKJN/~> HW KM> KJ= MR&JR[/:p NKJN/-H D->JN> D-<WL/ >P MRX[/
+ESNJ 1:1589	MRX=/~> GJR B-QVJR/~> XMJR/-H VMR[/ B->XRN/(J~> D-<JD/-H W-!N!(NQP[-H !M!QN(J&>[/ L->XRN/(J~> XYJPW/T~>
+ESNJ 1:1593	DXL[/ HW(J&>[ JWNN/ MN <M=/~> SRWX/~> D-L-KL/ SRX==/ D-DLM> <&>L(L[/JN !M!@(>(T&S@(S&TRX[/JN TQN=/(J~> D-HW(J[W MN <M&M=/(J~>
+ESNJ 1:1597	D-!N!CR(J&>[ >NWN GLJ>JT D-L> <LL(>/T=~> NKP[/ HW(J&>[ W-D-!N!](>]HM(J&>[ HW(J&>[ CJ<>JT D-!N!>T(J[WN <M-H QNV[/ HW(J&>[
+ESNJ 1:1601	D-L> !N!<&WL(L[ ZR</-H D-KN<N/ !N!BZX[:d B-BN/J >BRHM/ QBL[:d JWNN/ VJBW/T~> D-LWJ/T~> D->T(J[T== <M-H
+ESNJ 1:1605	NCQ[ >NWN XBJB>JT BRK[:d >NWN ZHJ>JT !>!](>]PJS[ >NWN XKJM>JT MLK=[ >NWN BSJM>JT
+ESNJ 1:1609	D-!N!@(>T@VPJS[WN L-MLK/~> D-JHB[ W-!N!@(>(T&C@(C&TM<[WN L-ML(>/T PWM/-H ]>]SGJ[ PJS=/~> W-L> @>T@NKP[ W-B<W/T~> W-L> @>T@KXD[:d
+ESNJ 1:161	XL&JM[/(J~>:p HW(J[W GJR D-KR&JH[/JN:p B-KWRHN/~> D-&>RG&JG[/T=~>:p B-RG(>/T-H KL/ >NC/ K>(J&>[/ HW(J&>[ >SJ[/~> L-NPC/-H HW(J&>[/ HW(J&>[
+ESNJ 1:1613	MLK=[ >NWN W-L(>-(>JT(J/ D-P(W&>C[/ NCQ[/ W-CR(J&>[/ W-L(>-(>JT(J/ D-!M!QW(J&>[/:d <M-K L->TR/-K >TJ[N XNN D-!N=!QN(J&>[ MN-H <WDRN/(J~>
+ESNJ 1:1617	W-!N!(J&>LP[ MN-H DWBR/(J~> <M VWKS/(J~> W->SKM/(J~> !N!(J&>LP[ B->R</-K K>NW/T~> D-<M=/~> NKP=/~> <MR[/ B-H=
+ESNJ 1:1621	!N!(J&>LP[ MN-H= DKJW/T~> D-VWHM/~> DKJ[/~>:p DJR/ B-H= !N!(J&>LP[ MN-H= NYXN/(J~> MN NY&JX[/(J~>:p D-B-GW/-H=
+ESNJ 1:1625	!N!<&WL(L[ !N!XZ(J&>[ L-ZHJ=/(J~> !N!<&WL(L[ !N!XZ(J&>[ L-GB(J[/J~>:p !N!<&WL(L[ !N!XZ(J&>[ HJ== >R</~> D-CRJ[/>:p B-H= HJMNW/T~>
+ESNJ 1:1629	!N!<&WL(L[ !N!XZ(J&>[ HW= >TR/~> D-L> <L(L[T== L-H XNPW/T~> !N!<&WL(L[ !N!XZ(J&>[ W-!N!CBX[:d D-L(>-(>JT(J/ TMN QYWMW/T~>
+ESNJ 1:1633	!N!<&WL(L[ !N!XZ(J&>[ CB(J[/J-HWN D-BV&JL[/N:p MN BJC/T=~> !N!>ZL[ !N!XZ(J&>[ L-GZ&JR[/(J~>:p D-GZR[W LB/~> <M PGR/~>
+ESNJ 1:1637	!N=!>ZL[ !N!XZ(J&>[ VWBN/(J~> D-<WL=/~> <M-HWN L> <MR[/ <M=/~> D-!M!](>]KS(S[/ L->XRN/(J~> L(>-(>JT(J/ LWT-H Y>W/T~>
+ESNJ 1:1641	<M=/~> D-QVRG[/ L-SNJ[/(J~> KM> RX&JQ[/:p MN SNJ[/T=~>:p L->XRN/(J~> HW(J[W MXZJ=/T~> KM> KJ= HNWN CP&JR[/N:p
+ESNJ 1:1645	L-NWKRJ/(J~> (J&>LP[W:d YWM/~> W-MYJ[/> D-HNWN >SWV/JN L->XRN/(J~> QWCT/~> (J&>LP[W:d W-MYJ[/> D-HNWN CQR[/JN
+ESNJ 1:1649	>N L-N B-SRWN/ B-XVH/JN MN=-(HW KJ= D-L-HWN BSR=[/ L> !T!GL&WZ[ >W <BRJ/~> L-LWJTN/ MN <WDRN/(J~>
+ESNJ 1:165	CRW/T~> D-MLK/(J~> BVL[T== W->XCM(W&JT/~> D-RJCN/(J~> >N <WL===/(J~> Y(WM=[W MN XLB/~> MN=-(HW D-PQD[/ BWSM/~>
+ESNJ 1:1653	B-KWN HW HW(J[/J(N-(XNN T(W&JB=[/(J~> !N!HW(J&>[ B-KWN >P ZDJQ/(J~> XLP/ >GR/~> D-L>J[(J= RGL/JN !!(JHB[ L-N D-!N=!<&WL(L[ YJD/ <M-K
+ESNJ 1:1657	!N=!(NSB[ !N=!](>](J&WBL[ MN >R</-K VWPS/(J~> VB/(J~> L-MDJN(>/T-N !N=!<&WL(L[ !N=!(NSB[ MN TMN XWR=/(J~> VB/(J~> L-BN=/T=-N
+ESNJ 1:1661	!N!<&WL(L[ !N!XZ(J&>[ L-<LJM/(J~> NJC/~> D-ML(J&>[/:p TQNW/T~> !N!<&WL(L[ !N!(NSB[ L-VL(J/J~> DWMJ/~> D-ML(J&>[/:p JWTRN/(J~>
+ESNJ 1:1665	!N!<&WL(L[ !N!XZ(J&>[ MLK/J-HWN D-B-HWN MLK/-N !N!@(>T@DM(J&>[:d !N!XZ(J&>[ TWB DJN=/J-HWN W-!N=!](>](J&WBL[ L->TR/-N TXWJ/T~>
+ESNJ 1:1669	W-MN=-(HW !M!](>]CKX[/ D-NSJ[:d-K MDM/ D->MR[W T(W&JB=[/(J~> KD VB/ HLJN >MR[W !!HW(J[W W-D-SGJ>/N MN HLJN
+ESNJ 1:1673	JWNN/ CM<[/ HW(J&>[ W-CL(J&>=[/:p W-RJC/-H B->R</~> !M!](>]RKN[/ HW(J&>[ D-NKP[ L-H B-BN/J <M=/-H D-<WL=/JN W-D-<NT=/JN
+ESNJ 1:1677	BJC/> HW(J[T== L-H L-BR=/ MTJ/ HD> MN HJ== D-CRWR/~> D-B-RJC/-H= CMC/~> YX(X[T== >P NPC/-H MWT=/~> C>L[T==
+ESNJ 1:1681	D-L-JM/~> NXT[ KD <RQ[/ L->JK> !N!<R&WQ[ KD SLQ[/ B>C[W L-H HNWN= MN HNWN= D-B-JM/~> CQL[W W-CD(J&>[W-HJ
+ESNJ 1:1685	D->JK> !N!VC(J&>[:d HW(J&>[ JWNN/ MWM/J-HWN D-BN/J <M=/-H GMR==/ YN<(>/T=-H D-B-JM/~> W-<LL(>/T=-H D-B-GW/ JBC=/~>
+ESNJ 1:1689	>JK D-]>]PJS[ D-GL>JT L-MLX=/(J~> KD <RQ[/ HW(J&>[ HKN(> KDB[/ HW(J&>[ W-]>]PJS[ L-NJNWJ/(J~> KD PRC[/ HW(J&>[
+ESNJ 1:169	L-B<JR/~> XSL[W MN M(J/J~> MN=-(HW D-XMR=/~> CT(J&>[/ HW(J&>[ >N MLK/~> SQ/~> LBC[/ HW(J&>[ MN=-(HW D-NXT=/(J~> !M!](>]<VP[/:p HW(J&>[
+ESNJ 1:1693	JWNN/ >XD[ <LL(>/T=~> W-]>]SGJ[ RKB[ YN<(>/T=~> <>D/~> HW LM RB/~> B->R</-N W-L> MY(J&>[/:p <&>L(L[/ NWKRJ/~>
+ESNJ 1:1697	<D<(>D/~> HW= D-BN/J <M=/~> W-L(>-(>JT(J/ LWT-H MN <M&M=/(J~> <>D/~> HW RB/~> D-GZ&JR[/(J~>:p W-<&WR(WL/~> TMN L> DRK[
+ESNJ 1:17	HW YLJ=/ B-NWN=/~> RB/~> W-NJNWJ/(J~> B-KRK==/~> RB/~> YLW/T~> L-JWNN/ PRQ[T= HW(J[T== W-L-NJNW(>/J~> B<W/T~>
+ESNJ 1:1701	W-KD >JTJ/-KWN T(W&JB=[/(J~> D-GZ&JR[/(J~>:p L> >JTJ/-KWN !M!@(>(T&S@(S&T(W&JB[/:d L-H <D<(>D/~> HW= DKJ[/~>:p MN <WRLW/T~>
+ESNJ 1:1705	!!(>ZL[W DJN HC/~> B-NJX/~> W-!!PN(J[W L->TR/~> B-CLM=/~> >T(J[/JN >NTWN BTR ZBN/~> M> D-@>(T&C@(C&TMC=[:d <D<(>D/~>
+ESNJ 1:1709	MLK/-N QBL[W:d B-PJS=/~> W-D-L> XRJN/ B<W/T-N QBL[W:d MN-H TMJM/(J~> PJS=/~> D-QRB[/ QWDM/J-HWN
+ESNJ 1:1713	P(WC[W MN-H W-SGD[W HW(J[W L-H W-QBL[W:d MN-H BWRK(>/T=~> KRJ[T== L-H L-KL/-H KNC=/~> W-<VP[ MN-H KD BK(J&>[/
+ESNJ 1:1717	<L GDC=/~> W-<L SWQBL/~> D-<D<(>D/~> D->MR[ JWNN/ L> DXL[/ HW(J&>[ HW JWNN/ MN HJ== D-]>]SGJ[ DGL[:d HW(J&>[
+ESNJ 1:1721	>JK M> D-QNV[/ HW(J&>[ DLM> L> !M!@(>T@](>&V]PJS[/JN D-!N!PWC[WN KD JWNN/ !>!B<D[ W->ZL[/ W-HNWN <DKJL B-TXWM/~>
+ESNJ 1:1725	VWR/~> RM/~> XZ(J[/JN HW(J[W Y(J&>D/J-HWN >JK> D-CR(J[/JN W-@>T@XCB[W:d W-CQL[W MLK/~> L-!M!S(LQ[/ L-H QLJL>JT
+ESNJ 1:1729	W-KM> D-MY(J[/JN !N!XZ(J[WN-H= L-HJ== >R</~> D-@>T@J>B[W:d L-H= SBK[W W-SLQ[W W-MV(J[W:d RJC/-H D-!N!XZ(J[WN >R</~> D-MWLKN/~>
+ESNJ 1:173	>N VM>/T=~> @>T@QDC[:d MN=-(HW PN(J&>[ <L ZW&WG/~> >N ZL&JL[/(J~>:p @>(T&S@(S&TRD[W MN=-(HW B-GWXK/~> @>T@XCX[:d
+ESNJ 1:1733	D->P-(>N L-GW/-H= L> <L(L[W HW(J[W MN XZW/-H= L> !N!@(>T@GLZ[WN SLQ[W W-]>]R(W&JM[W <JN/J-HWN W-XZ(J&>[W-H= L->R</~> KL/-H=
+ESNJ 1:1737	@>(T&S@(S&TRD[W >P !!@>T@DLX[W:d W->XD[W >NWN YWRN/(J~> D-<L(>&W=/T=~> <L VWR/(J~> W-PRK=/(J~> <L RM(>/T=~>
+ESNJ 1:1741	BJ(N/T CTL(>/T=~> XNPW/T~> W-BJ(N/T >JLN/(J~> VM>W/T~> GL&JP[/J:p-HWN <L TR</J-HWN D-<&>L(L[/ W-D-!N!](>](NPQ[ ]>]XNP[
+ESNJ 1:1745	PTKR/J-HWN D-L> MNJN/~> KWMR/J-HWN D-L> XWCBN/~> B-M<JN/J-HWN DWK/J~> W-<L MBW</(J~> SWXJ/(J~>
+ESNJ 1:1749	ZWTR/J-HWN <L >GR/(J~> W-B-GW/ GN(>/(J~> GD/J-HWN QYWM/(J~> BJN/T= CWQ/(J~> W-BJN/T= CQQ/(J~> ZKWR/(J~>
+ESNJ 1:1753	SLQ[W W-!!XZ(J[W <L >GR==/(J~> <L(>&W=/T=~> D-L> !M!@(>T@MN(J[/JN XD/ L-GL&JP[/~>:p SGD[/ HW(J&>[ >XR(JN/~> L-C>D/~> !M!NQ(J&>=[/:d HW(J&>[
+ESNJ 1:1757	<GL=/(J~> D-<BD[ JWRB<M/ B-TXWM/J-HWN S(W&JM[/JN HW(J[W B-BRCB</ XD/ MTQN/ HW(J&>[ W-B-DN/ ]>]TQN[ L->XR(JN/~>
+ESNJ 1:1761	<VR=/~> TMN SLQ[/ HW(J&>[ W->P NWQJ/~> W-SWT/~> QDM/ HNWN= <GL=/(J~> M(W&JT[/(J~>:p <GL=/(J~> XJ/(J~> @>T@NKS=[W
+ESNJ 1:1765	QDM/ GL&JP[/:p-H W-PTKR/-H KL/-(>NC/ RJC/-H NQC[/ HW(J&>[ TMN HW(J[T== >P J<NW/T~> W-XBR/T=-H= <LWBW/T~>
+ESNJ 1:1769	TMN HW(J[T== >SWVW/T~> <M (>X(>/T-H= RWJW/T~> TMN HW(J[T== >P YXNW/T~> W-BR(>/T NJR/-H GJRW/T~>
+ESNJ 1:177	>N D-PY&JX=[/JN:p BK(J[/JN HW(J[W L-MN=-(HW C<J=/~> BSM=[/ HW(J&>[ >N GNB==/(J~> @>(T&Z@(Z&DDQ[W:d MN=-(HW D-XBR/-H <LB[/ HW(J&>[
+ESNJ 1:1773	TMN HW(J[T== DGLW/T~> W-BR(>/T VWHM/-H= GNBW/T~> TMN HW(J[T== >CWPW/T~> W-BR(>/T >RZ=/-H= XRCW/T~>
+ESNJ 1:1777	TMN HW(J[T== KLDJW/T~> W-BR(>/T NQP[-H= QYWMW/T~> TMN HW(J&>[ <WL=/~> GLJ[/> W-BR/ ZWG/-H RWC</~> KSJ=/~>
+ESNJ 1:1781	XZ(J[W TMN XWB=/(J~> D-SDWM/ <WL=/~> W-<(NT=/~> D-<MWR/~> GBR/~> W-BR/-H >JK D-KT&JB[/:p <&>L(L[/JN HW(J[W YJD/ ZNJ(>/T~>
+ESNJ 1:1785	>M(>/> W-KL(>/T-H= >P BR(>/T-H= >JK PX/(J~> Q(WM[ BJ(N/T CWQ/(J~> KL/-H MWT=/~> TMN HW(J&>[ >P BR/ MLK/-H SVN/~>
+ESNJ 1:1789	RJCN/J-HWN <WL/JN W-DJN=/J-HWN <N(J[TJN J<NW/T-HWN B-HWN >JK NWR/~> W-<LWBW/T-HWN G(JHN>/
+ESNJ 1:1793	MSKN/J-HWN YMR(>/T~> W-<T&JR[/J:p-HWN BL<==/T~> >JK >DWG/~> JZWP/~> W-MR>/ XWB=/~> SVN/~>
+ESNJ 1:1797	TR/J=-HWN CW(J[/JN L-XDD> D-L-XD/ CWNQ/ !N!@(>(T&C@(C&TLM[WN JLWD/J-HWN JM(J[/JN HW(J[W B-CM&H/(J~> D->LH/J-HWN
+ESNJ 1:1801	MN(>=/T~> D-<WL=/~> BJ(N/T <M&M=/(J~> W-TC</JN W-TC</ Y(J&>D/J-HWN W-MN=-(HW !M!](>]CKX[/ MRD[ L-H L-ZRB/~> RB/~> D-XWB=/J-HWN
+ESNJ 1:1805	D-SGJ[W MNJN/ MWM/J-HWN D-GD(J/J~> BN/J SML/~> NJNWJ/(J~> DJN @>(T&S@(S&TRD[W <L <WL=/~> D-XZ(J[W TMN
+ESNJ 1:1809	GBR/~> L-XBR/-H >MR[/ HW(J&>[ DLM> XLM=/~> XZ(J[/JN XNN HD> HJ= >R</~> D-MWLKN/~> >W L-SDWM/ HW XZ(J[/J(N-(XNN
+ESNJ 1:181	>N KRK=/~> Z(W<[ MN SK/-H MN=-(HW D-BJT/-H NVR[/ HW(J&>[ CD(J&>[ DHB/~> W-L> >NC/ GNB=[/ PT&JX[/:p GZ/~> W-L(>-(>JT(J/ D-!M!XLY[/:d
+ESNJ 1:1813	HN(>-(HW ZR</-H D->BRHM/ >W DLM> DJW/(J~> PG<[W B-N BN/J >NC/~> KJ= XZ(J[/JN >N-XNN >W RWX/(J~> >JK VLL/(J~>
+ESNJ 1:1817	L-K> KJ= CNJ[:d W->T(J&>[ L-H <WL=/~> D-<RQ[ MN >TR/-N PTKR/(J~> D-TMN TBR[N&N HRK> KJ= TWB @>T@TQN[W:d
+ESNJ 1:1821	<L(>&W=/T=~> TWB D-SXP[N&N GP/(J~> !!QNJ[ W-!!PRX[ W-!!>TJ[ TMWZ/~> D-BVL[ B->R</-N HRK> >JKN(> !M!@(>T@BK(J&>[/
+ESNJ 1:1825	KWKB/T~> D-KPR[/(J-(XNN B-H= HRK> >JKN(> !M!@(>(T&S@(S&TGD[/>:d QYM==/~> D-@>(T&C@(C&TPL[ B->TR/-N CWQ/~> L-H RB/~> HRK>
+ESNJ 1:1829	MN KL/ KW(>/JN !M!](>]D(W&JQ[/> XNPW/T~> D-NPQ[T== MN-N <L TR</J-HWN H> Y(W&JR==[/JN MLWC/(J~> D-<V(J[/JN >NWN
+ESNJ 1:1833	BJT/ <JN/J-HWN H> CRJ>/ SRWBW/T~> D-]>]SLJ[N&N W-PXZW/T~> D-MN-N <RQ[T== CKN[T== L-H <L <JN/J-HWN
+ESNJ 1:1837	B-GW/ BB(>/T=-HWN !M!@(>T@XZJ[/> W-B-NXJR/J-HWN !M!@(>T@DRK[/> CMC/~> D-LHL !M!@(>(T&Y@(Y&V<R[/:d >JKN(> HRK> !M!@(>T@JQR[/:d
+ESNJ 1:1841	<GL=/(J~> D-LHL @>T@QLQL[W >JKN(> HRK> !M!@(>(T&S@(S&TGD[/JN W->N HLJN D->TR/-N !N!>MR[ D-<RQ[ W-L-K> @>(T&C@(C&TNJ[:d
+ESNJ 1:1845	SGJ>/N >NJN XDT/T=~> W-D-L> SK(J&>[/ SNJ[/T=~>:p BJC/T=~> GJR >JT(J/ HRK> D-B->TR/-N L> >JTJ/-HJN
+ESNJ 1:1849	HRK> XVH/(J~> !M!@(>(T&S@(S&T<R[/JN D-B->TR/-N L> @>(T&C@(C&TMC=[W:d D-PTKR/~> D->RB</ >M(>/JN VWPS/-H MK> @>(T&C@(C&TRB[
+ESNJ 1:185	XSL[W CV(J[/J~>:p <JN/J-HWN D-B-NC/(J~> L> !N!@(>T@BQ(J[WN >S(J[-NJ NC/(J~> CWPR/J-HJN D-XZJ=/(J~> L> !N!@(>T@TQL[WN
+ESNJ 1:1853	L-XWJ=/~> D-NXC/~> B->TR/-N L> >NC/ NQJ=[:d W-SGD[ L-H B-GW/ <M=/~> HN> CRJ[/~>:p LWV(>/T XWJ=/~> QDMJ/~>
+ESNJ 1:1857	>JK XWJ=/~> XJ=/~> L(W&JV[/JN:p D-L-XWJ=/~> M(W&JT[/~>:p NQJ=[W:d CBR/(J~> L-C>D/(J~> L> DBX[N:d HRK> XZ(J[/J(N-(XNN D-@>T@NKS=[W
+ESNJ 1:1861	XJW(>/T=-N !M!@(>T@DBX[/N:d HWJ[(J= HRK> BN=/T=-HWN !M!@(>T@DBX[/N:d <M=/~> D-HLJN PRWQ/(J&W-HJ HKN(> BJC/JN !!D&WBR[W-HJ
+ESNJ 1:1865	<M=/~> D-DK(J[/JN:p NMWS/(J&W-HJ SGJ(>/ YXN/JN SW<RN/(J&W-HJ <M=/~> D-HLJN >B&H/(J&W-HJ HKN(> L(W&JV[/>:p TRBJ/T-H
+ESNJ 1:1869	<M=/~> D-HN> >LH/-H HW(J&>[ L-H NB<=/~> D-GL&JP[/(J~>:p <M=/~> D-XD/ HW GBWL/-H PTKR/(J~> <BD==/ W-!M!ZBN=[/:d
+ESNJ 1:1873	B-CM&H/(J~> XTJR/JN B-LXWD/ D-BN/J K>N/(J~> @>T@&KN(KJ[W:d SPQ[/> L-HWN >JK M> D-SBR[W D-BN/J J<QWB/ @>(T&C@(C&TMH[W:d
+ESNJ 1:1877	B-CM&H/(J~> K>N/(J~> D-LBC[W SBR[/JN SKL/(J~> D-@>(T&Z@(Z&DDQ[W:d CM/-HWN G(W&>X[/ B-BRJ(>/T~> W-<BD==/J-HWN B-XVJ==/T~>
+ESNJ 1:1881	D-BN/J~> >NWN ZDJQ/(J~> SBR[/JN MVL >BRHM/ XWTR/~> KL/-H D-CM&H/(J~> HW D-CM/ >JSR&>JL/ <L&J-HWN
+ESNJ 1:1885	CWBHR/-HWN KL/-H HN(>-(HW D-GZ&JR[/JN:p W-SDWMJ/JN L(>-(HW MN DWBR/(J~> DM(J[/JN D-HW(J[/JN BN/J~> L->BRHM/
+ESNJ 1:1889	RB/ HW L-HWN CM/-H D->BRHM/ MN DWBR/-H D->BRHM/ W-RB(J&>[ L-HWN GZWR(>/T~> SGJ(>/ VB/ MN-H D-HJMNW/T-H
+ESNJ 1:189	!M!](>]PS(S[/N HWJ[(J= GJR B-HD> D-XWSRN/~> D-GW/~> >JT(J&W/-HJ D->N >XRN/(J~> !M!@(>T@TQL[/JN >P HNJN L> !M!@(>T@PRQ[/N
+ESNJ 1:1893	CB(>/T~> D-JHB[ >LH/~> RB/~> L-HWN MN >LH/~> >P L-H L->LH/~> RC(J[/JN >N-HW D-CR(J&>[/ NMWS/(J&W-HJ
+ESNJ 1:1897	HNWN S(W&JM[/JN NMWS/~> >P L-H L-S(W&>M[/ NMWS/~> HW(J[W HNWN D-L> NMWS/~> W->LH/~> TX&JT NMWS/~>
+ESNJ 1:1901	RB/ HW L-HWN GJR NMWS/~> MN D-S(W&>M[/ NMWS/~> L> HW(J&>[ L-!M!(NVR[/ NMWS/-H >(N-L> L-!M!RC(J&>[/ L-JHWB/-H
+ESNJ 1:1905	Z<R[ L-H MWC>/ W-NBJ/(J~> B-<JN/J-HWN MN NWQJ/~> B-DBX=/(J~> HW KL/-H CWBHR/~> >P RMW/T-HWN B-SWT/~>
+ESNJ 1:1909	SPQ[/> HD> L-XTJR/(J~> D-B-TNN/~> @>(T&C@](C&T]BHR[W SPQ[/> HD> L-<WJR/(J~> D-B-DM/~> W-PR(>/T~> @>T@PLPL[W:d
+ESNJ 1:1913	SWT/~> !!RXM[:d >JK D-RN(J[W MN QWCT/~> CPJ/~> D-(J&>LP[:d HLJN MLL[W:d B-DRC=/~> T(W&JB=[/(J~> <L <BRJ/(J~>
+ESNJ 1:1917	W-KM> D-@>T@J>B[W:d ]>]SGJ[W D-!N!S(LQ[WN !N!XZ(J[WN-H= L->R</~> HKN(> SB<[W-H= W-SN(J&>[W-H= W-@>(T&S@(S&TRD[W:d W-<RQ[W MN-H=
+ESNJ 1:1921	W->XD[W >NWN YWRN/(J~> <L XWB=/(J~> D-XZ(J[W TMN <WL=/~> D-CLX[W T(W&JB=[/(J~> LB&JC[/JN:p HW(J[W L-H <BRJ/(J~>
+ESNJ 1:1925	XNPW/T~> D-CLX[W <M&M=/(J~> V<N/-H= HW(J&>[ <M=/~> SKL/~> L-XBR/-H KL/-(>NC/ >MR[/ HW(J&>[ !!QWM[ !N=!@(>T@PLV[:d MN HRK>
+ESNJ 1:1929	DLM> !N!BL<[ B-XVH/(J&W-HJ D-HN> <M=/~> MR&JR[/~>:p B-NJNW>/ TWKLN/~> RB/~> HRK> DJN QNV=/~> RB/~>
+ESNJ 1:193	L> <KR[/ HWJ[(J= P>J[/T=~>:p TJBW/T~> D-BN/J KRK=/~> !M!](>]PS(S[/N HWJ[(J= D-XLP/J-HJN !M!@(>T@>BL=[/JN HW(J[W T(W&JB=[/(J~>
+ESNJ 1:1933	>KBR/ HD> !M!@(>T@<QR[/> XLP/ NJNW>/ D-L> @>T@HPK[T== HN(>-(HW <M=/~> D-L-QWCT/JN <M=/~> ML&JG[/~>:p W-<Q&JR[/~>:p
+ESNJ 1:1937	L(>-(HW HN> <M=/~> CPJR/ B-SNJW/T-N HW !>!@(>(T&Y@(Y&VBT[:d W->N XNN !N!CPR[ QLJL/ SNJW/T~> D-HLJN RB/> HJ=
+ESNJ 1:1941	>N <M&M=/(J~> !N!YB(J[WN QLJL/ DWKRN/-H D-<M=/~> BVL[:d TMH=[/JN XNN >(N-L> B-&>JD/J-N HLJN KRK=/(J~> !M!@(>(T&C@(C&TLM[/JN:d
+ESNJ 1:1945	D-!N!S(LQ[ !N!XR&WB[ W-!N!B&WZ(Z[ W-D-NCB>/ W-NXT[/ L->TWR/ HN> NBJ/~> VWBN/~> B->TR/-N !N!SG(J&>[ DWKRN/-H
+ESNJ 1:1949	D-HW(J&>[ L-N <L(>/T XJ/(J~> D-HN> KL/-H !N!@(>T@JTR[:d CBQ[-H L-<M=/~> MRX=/~> W->T(J&>[ KL/-H !N!@(>T@JTR[:d
+ESNJ 1:1953	KD HLJN >MR[W TMN PN(J[W W-NXT[W KD DX&JL[/JN:p CQL[W MN TMN VWBN/(J~> W-HPK[W KD XD(J[/JN
+ESNJ 1:1957	W->MR[W KL/-HWN B-PWRCN/~> KD XD(J[/JN HW(J[W B-CRR/~> L-H TCB&WX(>/T~> L->LH/~> D-L-<M=/~> B-<M&M=/(J~> K>R[:d
+ESNJ 1:1961	D-QDM=[:d W-JHB[ RHBWN/~> L-PWRQN/~> RB/~> D-<T&JD[/:p D-B-JD/ BWKR/-H !M!@(>T@<QR[/> TT/~> D-P>R/(J~> L> JHB[T
+ESNJ 1:1965	D-BVL[T-H= L->R</~> KL/-H= MN P>R/(J~> D-TJBW/T~> BR&JK[/:p HW D-<QR=/-H= MN >R</-H D->R</~> D-<M&M=/(J~> !T=!@(>T@BRK[:d
+ESNJ 1:1969	MN NYB(>/T=-N XDT/T=~> P>R/(J~> XDT/(J~> !N!(NTL[ L-H W-B-SWK(>/(J~> QDJC/T=~> !N!(NTL[ L-H >P TCB&WX(>/T~>
+ESNJ 1:197	>P >SJ[W:d >P @>T@>SJ[W XD/ MN XD/ B-TJBW/T~> L(>-(>JT(J/ D-L-XBR/-H !M!XV(J&>[/ HW(J&>[ D-KL/-(>NC/ <WL=/~> RDP[/ HW(J&>[
+ESNJ 1:1973	MN XVJ=/(J~> D-@>(T&Z@(Z&DDQ[W:d B-QL/~> CWBX/~> !N!S(LQ[ L-H MN VM>/(J~> TWB D-@>T@DKJ[W:d P>R/(J~> DK(J[/J~>:p ]>](J&WCV[W L-H
+ESNJ 1:1977	MN R<JN/(J~> D-DL&JX[/JN:p CWBX/~> CPJ/~> QBL[:d HW(J&>[ >P >KTN/(J~> W-RG&JZ[/(J~>:p ]>](J&WDJ[W L-H <L TR<W/T~>
+ESNJ 1:1981	>P YXN/(J~> JHB[W TCB&WX(>/T~> W-]>](J&WDJ[W L-H <L D-@>T@NKP[W ]>](J&WDJ[W L-H >P <LWB/(J~> D-(J&>LP[:d >NWN ZDQ(>/T=~>
+ESNJ 1:1985	]>](J&WDJ[W L-H >P >SWV/(J~> D-JLP[W ]>]SGJ[W D-!N!YWM=[WN ]>](J&WDJ[W >P RWJ=/(J~> D-JLP[W W-&>CTJ[W B-M(WC&WX(>/T~>
+ESNJ 1:1989	]>](J&WDJ[W L-H >P XVWP/(J~> D-HPK[W W-HW(J[W JHWB/(J~> ]>](J&WDJ[W L-H >P GJR=/(J~> D-SPQ[/> L-HWN CWTPW/T~>
+ESNJ 1:1993	]>]SGJ[W !!BRK[W:d ZN/J~> D-@>T@XRR[W:d MN YXNW/T~> !>!](>](J&WDJ[ TMN MRX=/~> D-TXWM/(J~> D-K>N/(J~> NVR[/
+ESNJ 1:1997	QLS[W:d ]>]SGJ[W ZL&JL[/(J~>:p D-QN(J[W V<M/~> W-R<JN/~> ]>](J&WDJ[W L-H >P L(W&JV[/(J~>:p D-JLP[:d PWM/-HWN D-!N!BRK[:d
+ESNJ 1:2001	]>](J&WDJ[ L-H TMN JTM/~> D-HW(J&>[ L-H >JK QJWM/~> SGD[T== L-H >P >RML(>/T~> D-CQL[ V<N/-H= B-XNN=/-H
+ESNJ 1:2005	]>](J&WDJ[ L-H >P XDWR/~> D-ML(J&>[/:p SL/-H BWRK(>/T=~> ]>](J&WDJ[ L-H >P >KR=/~> D-]>](J&WSP[ W-KDN=/ PDN/~>
+ESNJ 1:2009	D-B-<LL(>/T=~> @>T@BRK[:d W-ML(>/> KRS/-H SB<W/T~> ]>](J&WDJ[ L-H >P PLX=/~> W-KRM/~> CWBX/~> JHB[ L-H
+ESNJ 1:201	KL/ >NC/ XBR/-H NGD[/ HW(J&>[ L-YLW/T~> W-L-B<W/T~> HW(J&>[ HW(J&>[ L-H KL/-H KRK=/~> XD/ G&WC(WM/(J~> >JK TJB/~>
+ESNJ 1:2013	]>](J&WDJ[W L-H MR(>/J DR/(J~> D-CR(J&>[/:p CJN/~> B-DR/J-HWN ]>](J&WDJ[W L-H BJ(N/T YWB/J-HWN D-YD(J=[/JN HW(J[W BJT/ W-<D=/J-HWN
+ESNJ 1:2017	]>](J&WDJ[W L-H >P >WMN/(J~> D-PTX[W W-PLX[W W-@>T@TGR=[W:d ]>](J&WDJ[W L-H >P >B&H/(J~> D-SGJ(>/ SBR=/~> L-BN/J-HWN
+ESNJ 1:2021	]>](J&WDJ[W L-H TMN MLK/(J~> D-XZ(J[W KRK=/~> D-@>(T&C@(C&TJN=[ D-CR(J[W W-CD(J[W TG/J-HWN B-RXM=/(J~> NVR[ TG/J-HWN
+ESNJ 1:2025	]>](J&WDJ[W L-H XJLW/T=~> D-@>T@BRK[W:d B->PSWNJ/T=~> ]>](J&WDJ[W L-H >P RJCN/(J~> D-PN(J[W TWB <L CWLVN/~>
+ESNJ 1:2029	]>](J&WDJ[W L-H >P <T&JR[/(J~>:p D-PN(J[W W-XZ(J[W GZ/J-HWN ]>](J&WDJ[W L-H CBR/(J~> D-NPQ[W L-JWLPN/~> >P L-C</T~>
+ESNJ 1:2033	]>](J&WDJ[W L-H >P JLWD/(J~> D-@>(T&Z@(Z&DJX[W:d <L KTP/T=~> ]>](J&WDJ[W L-H >P TGR/(J~> D-JLP[W MN-H= K>NW/T~>
+ESNJ 1:2037	!>!](>](J&WDJ[ L-H K>N/~> D-JLP[/ D-!N!](>](J&WSP[ !N!QN(J&>[ VJBW/T~> ]>](J&WDJ[ L-H >P TBW</~> D-]>](J&WSP[ W-HW(J&>[ CBWQ/~>
+ESNJ 1:2041	SLQ[ L-H CWBX/~> MN CWQ/(J~> D-B-HWN KL/-(>NC/ BK(J&>[/ HW(J&>[ ]>](J&WDJ[W L-H B-GW/ QJVWN/(J~> D-L-S&WX(WP/~> @>(T&Z@(Z&DMN[W:d
+ESNJ 1:2045	>P <L CWR/(J~> @>(T&C@(C&TBX[:d D-SMK[ >NWN XNN=/~> !>!](>](J&WDJ[ TMN BVN=/T=~> D-L> @>T@PRT=[:d BVN=/J-HJN
+ESNJ 1:2049	!!]>](J&WDJ[ L-H >P KL(>&L/T=~> D-<L W-!!XDJ[(J B-GNWN/J-HJN !>!](>](J&WDJ[ L-H JLD[/T~> D-B-<WL=/J-HJN @>T@BRK[:d
+ESNJ 1:205	K&WL/-H L-K&WL/-H NVR[/ HW(J&>[ D-B-QDM/~> L> !N!](>]SKL=[ HW(J&>[ KL/->NC/ XBR/-H !M!(JLP[/:d HW(J&>[ D-B-HDM/-H !N!@(>(T&Z@(Z&DDQ[:d
+ESNJ 1:2053	>P !M!JNQ[/T~>:d BRK[T==-H D-]>]D(W&JQ[ <WL=/-H= MN KNP/-H= MK&JR[/T=~>:p !>!](>](J&WDJ[ L-H TWB D-@>T@PNJ[ L-XLWL/J-HJN
+ESNJ 1:2057	BTWL/T=~> !>!](>](J&WDJ[ D-XSK[ XJ/J-HJN MN >BDN/~> B-SXR(>/T=~> JHB[W TWDJ/T~> D-R<L=[W HW(J[W <MWR/J-HJN
+ESNJ 1:2061	B-BJR(>/T=~> JHB[W ZDQ(>/T=~> D-MLL[W:d HW(J[W MDJR/J-HJN W-D-@>T@KRJ[W:d XJ/J-HWN B-NWGR/~> BRK[:d XJ/J-HWN
+ESNJ 1:2065	!!BRK[W:d ]>]SGJ[W DJN=/(J~> D-L> @>T@D(W&JN[W:d >JK DJN=/J-HWN L-VB=/~> BRK[W TBW</(J~> D-L> @>T@TB<[W >JK D-TB<[W HW(J[W
+ESNJ 1:2069	CQL[/J RBJ[/T=~>:p !!CBX[W:d D-L> @>T@TB<[W XWB(>/T-HWN MR(>/J XWB=/(J~> !!BRK[W:d HW(J[W D-CVR/(J~> D-XWB=/(J~> QDD[W:d
+ESNJ 1:2073	BZWZ/(J~> JHB[W TCB&WX(>/T~> D-L> XYD[W HW(J[W >JK D-ZR<=[W HW(J[W XVWP/~> JHB[/ TWDJ/T~> D->JK XWBL=/-H L> QBL[:d HW(J&>[
+ESNJ 1:2077	MKJN/~> JHB[/ TCB&WX(>/T~> W-MTNKJN/~> TWDJ/T~> TR/J=-HWN CBX[W:d CWJ>JT D-@>T@<DR[W:d HW(J[W B->WJW/T~>
+ESNJ 1:2081	NKWJ/~> D-L> @>(T&S@(S&TGP[ W-MTNKJN/~> D-@>T@NVR[ >M&H/T=-HWN W->P <BD==/J-HWN ]>]SGJ[W W-JHB[W TCB&WX(>/T~>
+ESNJ 1:2085	DN&JX[/:p HW NJR/~> MN MWT=/~> W-CW<BD/~> MN >BDN/~> D-<BDW/T~> D-BJT/~> VB/> HJ= MN X>RW/T~> D-B-QBR=/~>
+ESNJ 1:2089	XDJ[T >M/~> D-@>T@>BL=[T D-PN(J[T=:d W-XZ(J[T== XB&JB[/:p-H >M/~> D-SGJ>/(J~> XDJ[T==:d D-PN(J[W:d Y(J&>D/J-H= SGJ>/(J~>
+ESNJ 1:209	L> >NC/ YLJ=/ HW(J&>[ TMN D-L-NPC/-H !N!X(J(J&>[ B-LXWD/ CW(J[/JN HW(J[W GJR >JK HDM/(J~> D-XD/ <L XD/ YLJ=/ KL/-(>NC/
+ESNJ 1:2093	W->M/~> D-&>JXJD/~> SGD[T== <L JXJD/-H= D-@>T@PYJ[:d ]>](J&WDJ[W TMN XMTN/(J~> D-B-R&WG(WZ/~> XM(>/T~> D<K[T==
+ESNJ 1:2097	L> HW(J&>[ L-N HW DM(J[/JN HW(J[W D-TJBW/T-N DGL=/~> HJ= ML(J&>[ <JN/(J&W-HJ DXL[/ KL/-(>NC/ <D <BR[/ R&WG(WZ/~> W-V<(J&>[/
+ESNJ 1:21	<RQ[ JWNN/ MN >LH/~> W-NJNWJ/(J~> MN B<W/T~> XBC[T== >NWN K>NW/T~> L-TR/J=-HWN >JK XJB/(J~>
+ESNJ 1:2101	<M RJC/ R&WG(WZ/~> T(W&JB=[/(J~> W-B-CWLM/-H MRWD/(J~> !M!](>]MRX[/ >JK HW= D-PSQ[/ L-H W-L> TWB >T(J&>[/ NKJN/~>
+ESNJ 1:2105	>W @>T@](>&V]PJS[ L-H <LJ=/~> D-L> TWB !N!TB<[ SKLW/T~> >JK HW= D-XVH/~> W-XM(>/T~> SN(J&>[/:p HW(J&>[ B-LXWD/ L->LH/~>
+ESNJ 1:2109	W-MN XWB=/(J~> >XRN/(J~> >X/J-(J L> KJ= KWZ=/~> K>NW/T~> T(W&JB=[/> D-QWCT/~> >X/J-(J B-GW/ CJN/~> CPR[/ SGJ(>/
+ESNJ 1:2113	M> D-BL<[ QLJL/ W-<BR[ KL/-JWM/ <HD[/ MRDW/T-H <BD==/~> MRX=/~> KL/-JWM/ V<(J&>[/ NGD=/(J&W-HJ QDMJ/(J~>
+ESNJ 1:2117	NJNWJ/(J~> B-CJN/~> CBX[W:d L-HW= D-RD(J&>[ W-HPK[ RXM[/ ]>](J&WDJ[ L-H KL/-H KRK=/~> D-KL/-H KL/-JWM/ Z(W&><[/ HW(J&>[
+ESNJ 1:2121	KL/-H= MDJN(>/T~> BRK[T:d-H D->JK >LP/~> >ZL[T== W->T(J[T== ]>](J&WDJ[ MR>/ XJW(>/T=~> D-Y(WM=[ XJW(>/T=-H MN M(J/J~>
+ESNJ 1:2125	BR/-K MR>/ QNJN/~> D-@>T@BRK[:d <M QNJN/(J&W-HJ W-D->KL[W LXM/~> D-MWKK/~> HPK[W W-TQN[W:d PTWR/J-HWN
+ESNJ 1:2129	<L <RS/T=-HWN !!BRK[W:d HW(J[W D-@>T@GRGX[W:d HW(J[W <L <PR/~> <L KWRS(J&W/T=-HWN !!CBX[W:d D-NXT[W W-JTB[W <L QVM/~>
+ESNJ 1:213	KL/-H KRK=/~> @>(T&Z@(Z&DMN[:d L-XBL==/~> >JK XD/ G&WC(WM/(J~> L> MY(J[/JN HW(J[W NKP=/(J~> D-B-HWN !N!X(J(J[WN BL<D XVJ=/(J~>
+ESNJ 1:2133	B-NXT=/(J~> D-CWBX/~> CBX[W:d HW(J[W D->BL==/~> W-ML(>/> @>T@<VP[W:d XLP/ SQ/J-HWN XWR=/(J~> @>T@KSJ[W:d W-JHB[W CWBX/~>
+ESNJ 1:2137	BR&JK[/:p HW RXM[/ ZDJQ/(J~> D-]>]SGJ[ B->TWR/ T(W&JB=[/(J~> MN <&WR(WL/(J~> D-XDJ[W:d L->B/~> W-GZ&JR[/(J~>:p D-]>]XC(C[W L-BR/~>
+ESNJ 1:2141	L->B/~> W-BR/~> W-RWX/ Q&WD(WC/~> TCB&WX(>/T~> >MJN W->MJN CLM=/ M>MR/~> D-<L NJNW>/ W-JWNN/ D-S(W&JM[/:p L-VWBN/~> MR(>/-J >PRJM/
+ESNJ 1:217	D->JK HDM/(J~> >S&JR[/JN:p HW(J[W VB/(J~> W-BJC=/(J~> CWJ>JT ZDJQ/J-HWN B<(J[/JN HW(J[W XLP/ XVJ=/(J~> D-!N!@(>T@PRQ[WN
+ESNJ 1:221	W-XVJ=/(J~> TWB B<(J[/JN HW(J[W <L ZDJQ/(J~> D-!N!@(>(T&C@(C&TM<[WN K>N/(J~> D-B-HWN B<(J[/JN HW(J[W <L <WL/(J~> D-!N!@(>T@PY(J[WN:d
+ESNJ 1:225	W-<WL/(J~> TWB B<(J[/JN HW(J[W D-YLW/T K>N/(J~> !T=!@(>T@QBL[:d BKJ=/~> P>J[/> D-JLWD/(J~> L-KL/-H KRK=/~> !M!BK(J&>[/:d HW(J&>[
+ESNJ 1:229	QL/~> D-CBR/(J~> KD SLQ[/ LB/~> W-RXM[/(J~> HPK[/ HW(J&>[ SB/(J~> B-QVM/~> @>T@PLPL[W:d ML&JG[/N:p W-CD(J[/JN SJB/T=~>
+ESNJ 1:233	XWR=/T=~> D->JQR/~> XC/~> W-Y<R=/~> @>T@<VP[:d <LJM/(J~> D-XZ(J[W SB/J-HWN JTJR/ ]>]JLL[W B-G<(>/T~>
+ESNJ 1:237	SB/(J~> BKJ[W L-<LJM/(J~> XWVR/(J~> VB/(J~> D-SJBW/T~> !!]>]JLL[W D-]>]KXD[ !M!@(>T@QRB[/JN:d QBWR/(J~> W-MTQRBN/(J~>
+ESNJ 1:241	RJC/(J~> D-NKP=/(J~> W-NKP=/T=~> QN(J[W QWDX(>/T=~> B-YLW/T~> Q(WM[T== >M/~> B-MY<(>/T~> W-KR&JK[/JN:p L-H= XB&JB[/J:p-H=
+ESNJ 1:245	KD !M!@(>T@TL(J[/JN B-CPWL/J-H= D-!T=!PY(J&>[:d >NWN MN MWT=/~> MN QL/ ZW<=/~> VPS[/ HW(J&>[ JLWD/(J~> B-<WB/-H= D->M/-H
+ESNJ 1:249	W-B-GW/ KNP/~> D-MJNQ(>/T-H <WL=/~> B-R&WG(WZ/~> VC(J&>[/ HW(J&>[ NGH[T== XCK=[T== MNJN/ HW(J[W JWM/T=~> D-GZR[ JWNN/
+ESNJ 1:25	TJBW/T~> QRB[W:d HW(J[W L-H GB/(J~> TR/J=-HWN W-@>T@PYJ[W:d B-JM/~> L-JWNN/ NVR[T== HW(J[T== W-L-NJNWJ/(J~> B-GW/ JBC=/~>
+ESNJ 1:253	KLC</ XCB[W JWM/T=~> >P D-NPQ[W W-D-QJM/JN M> D-NPQ[ JWM/~> ]>]JLL[W D-@>T@BYR[W:d MN XJ/J-HWN
+ESNJ 1:257	<M=/-H D-JWM/~> D-NPQ[/ HW(J&>[ K>MT NPC/~> NPQ[/> HW(J[T== BN/J~> C>L[W:d B-BK(>/T~> B-DM<(>/J-HWN L->B&H/J-HWN
+ESNJ 1:261	D-@>(T&C@(C&T<(J[W:d L-N >B&H/J-N D-KM> JWM/JN Q(W&JM[/JN MN JWM/T=~> D-GZR[ L-N HW= KRWZ/~> <BRJ/~>
+ESNJ 1:265	W->JD> HJ= C</T~> D-RCM[/ B-H= D-B-H= !N!(NX&WT[ XJT/ L-CJWL/ W->JN(>-(HW HW= JWM/~> D-B-H HW !M!@(>T@XBL[/:d KRK=/~> P>J[/>
+ESNJ 1:269	W->JN(>-(HW KJ= JWM/~> >XRJ/~> D-MN BTR-H TWB L> >JTJ/-N W->JN(>-(HW <DN/~> D-B-H HW >XD[/JN L-KL/-N YWRN/(J~>
+ESNJ 1:273	>JN> HW JWM/~> D-B-TBJL/ PRX[ VB=/-H D->BDN/-N W-<BR[/JN XZJ=/(J~> XZ(J[/JN KRK=/~> D-HP&JK[/:p <L MR(>/(J&W-HJ
+ESNJ 1:277	>B&H/(J~> D-CM<[W HLJN MN PWM/~> D-JLWD/J-HWN DM<(>/J-HWN MRJR>JT RTX[ W->CD[ <L CBR/J-HWN
+ESNJ 1:281	W-CXL=[ ]>]KXD[ NPC/T=~> D->MWR/(J~> W-D-CMW</(J~> W-L> ]>]CKX[W HW(J[W >B&H/(J~> B-XNG(>/T=~> L-!M!MLL[/W:d
+ESNJ 1:285	D-SKR=[T==-H HW(J[T== KRJW/T~> L-CBJL/~> CPJ/~> D-ML(>/(J~> W-@>T@KLJ[T== L-H= ML(>/T-HWN B-BK(>/T~> D-XB&JB[/J:p-HWN
+ESNJ 1:289	D-L> DJN !N!SG(J[WN >B&H/(J~> L-!M!CNQ[/W:d L-BN/J-HWN W-MN QDM/ HW= JWM/~> D-PS&JQ[/:p !N!MWT[WN L-HWN MN KRJW/T~>
+ESNJ 1:29	MN-H W-B-H JLP[ JWNN/ D-WL(J&>[/ D-!N!X(J(J[WN T(W&JB=[/(J~> DMW/T~> B-NPC/-H JHB[T L-H VJBW/T~> XLP/ XVJ=/(J~>
+ESNJ 1:293	TKS[W >B&H/(J~> DM<(>/J-HWN !!Z<Y[W W-!!>LY[W RXM[/J-HWN D-!N!BJ>[WN:d XKJM>JT L-CBRW/T~> <L CW>L/-H=
+ESNJ 1:297	DXL[/JN HW(J[W GJR >B&H/(J~> DGL[W:d-N CRR/~> L-BN/J-HWN D-QRB[ L-H JWM/~> W-MV(J&>[ >JK PTGM/-H D-NBJ/~>
+ESNJ 1:301	>JK >BRHM/ BJ>[W:d HW(J[W L-BN/J-HWN B-NBJW/T~> C>L[/ >JSXQ/ <L DBX=/~> D->JK(>-(HW >MR=/~> L-<L(>=/T~>
+ESNJ 1:305	>MR=/~> MLL[/~> C>L[/ <L HW= >MR=/~> CT&JQ[/>:p L> GL(J&>[ >BRHM/ L-BR/-H D->NT HW >MR=/~> L-<L(>=/T~>
+ESNJ 1:309	DLM> !N!PN(J&>[:d B-XNG(>/T~> W-!N!HW(J&>[ MWM/~> B-QWRBN/-H CDL[:d PKR[-H L-JXJD/-H <D !M!@(>(T&C@(C&TMV[/> SKJN/-H
+ESNJ 1:313	>BRHM/ D-XZ(J&>[ L-BR/-H D-QC(J&>[/:p HW MN-H CW>L/~> L> B-CTQ=/~> @>T@XCX[:d HW(J&>[ D-DLM> L-BR/-H !N!KR(J&>[ HW(J&>[
+ESNJ 1:317	>P L> XC/~> PCQ[/ HW(J&>[ DLM> !N!@(>T@](>&T]<(W&JQ[ QWRBN/~> @>T@PRS[ HW(J&>[ >BRHM/ D->JKN !N!](>]PJS[ XB&JB[/:p-H
+ESNJ 1:321	KD <RQ[/ MN GLJ[/T=~>:p >RZ/~> KSJ=/~> @>T@NBJ=[:d W-KD B<(J&>[/ D-L> !N!GL(J&>[ L-H QWCT/~> GLJ[/> XWJ[:d L-H
+ESNJ 1:325	DXL[ HW(J&>[ D-!N!>MR[ L-H D->NT HW @>T@NBJ=[:d L-H D->XR(JN/~> HW SBR[/ HW(J&>[ GJR D-HW-(H&JW @>T@NBJ=[:d D->P L(>-(HW HW-(H&JW
+ESNJ 1:329	LCN/-H GJR D->BRHM/ JD<[/ HW(J&>[ VB/ MN LB/-H PWM/~> D-&>JLP[ MN LB/~> LB/~> MN-H JLP[/ HW(J&>[
+ESNJ 1:33	D->JK D-@>T@DLJ[:d MN JM/~> L-KRK=/~> !N!DL(J&>[ VB&J<[/>:p NJNW>/ JM(>/T~> @>(T&C@(C&TGC[T== B-JWNN/ D-NB<=/ MN JM/~>
+ESNJ 1:333	P(WC[ R<JN/~> JDW</~> D-HW(J&>[ NBJ/~> LCN/~> W-R<JN/~> D-!M!XKM[/:d HW(J&>[ MN LCN/~> @>T@XKM[:d
+ESNJ 1:337	!N!S(LQ[ LM >N> W-VLJ/~> >MR[/ >BRHM/ L-<LJM/(J~> W-!N!HP&WK[ !N!PN(J&>[:d Y(J&>D/J-KWN YB(J&>[ D-!N!DGL[:d W-@>T@NBJ=[:d
+ESNJ 1:341	L> HW(J&>[ DJN DGL=/~> HW(J&>[ D-XLP/ QWCT/~> @>T@KTC[:d HW(J[T== ML(>/T-H B-NBJW/T~> D-@>T@PRS[ L-!M!<DR[/W:d
+ESNJ 1:345	>P NJNWJ/(J~> L-BN/J-HWN KD ]>]YVN<[W D-!N!](>]PJS[WN HD> CQL[W HW(J[W B-BK(>/T~> L-!M!>MR[/ HW(J[W L-XB&JB[/J:p-HWN
+ESNJ 1:349	VB/ HW W-BS&JM=[/:p >LH/~> W-L> !M!XBL[/:d YLM/~> D-<BD[ YJR/(J~> D-Y(W&>R==[/ YLM/~> NVR[/ L-H B-ZHJRW/T~>
+ESNJ 1:353	KM> HKJL NVR[/ VB/~> YLM/-H XJ=/~> W-MLL=/~> L> KRK=/~> BN/J !M!@(>T@XBL[/:d W->P L> MDJN(>/T-N !M!@(>T@HPK[/>
+ESNJ 1:357	B-JD/ LWXM/~> D->BDN/~> QR(J&>[/ L-N L-TJBW/T~> W-B-JD/ R&WG(WZ/~> <Z&JZ[/>:p !M!PN(J&>[/:d L-N YJD/ DKJW/T~>
+ESNJ 1:361	>NTWN BN/J~> XKJM/(J~> KM> ZBN/JN BL<[TWN MN-N D-@>T@NGD[TWN D-]>]SKL=[TWN W-@>T@XKM[TWN:d D-BL<[TWN
+ESNJ 1:365	D-L> HW(J&>[ B-R&WG(WZ/~> @>(T&C@(C&TQL[ HW= CBV/~> L-!M!XBL[/W:d RD(J[/J(N-(XNN MVL D-]>]SKL=[TWN W-XDJ[N MVL D-]>](J&WDJ[TWN
+ESNJ 1:369	>P >NTWN @>(T&C@](C&T](J&WD<[TWN D-B-XWB=/~> @>T@LXM=[N&N >P >NTWN @>T@B(W&JN[TWN:d D-B-RXM=/(J~> @>T@NGD[TWN
+ESNJ 1:37	!!PTX[ JWNN/ PWM/-H K>N/~> NJNW>/ CM<[T W-@>T@KMR[T XD/ KRWZ/~> <BRJ/~> DLX[:d-H L-KRK=/~> MN SK/-H=
+ESNJ 1:373	B-MRDW/T~> HW @>T@<DR[TWN:d W-JRTW/(J~> MN-H= HWJ[TWN HJ= KRJW/T~> D-NGD=/J-KWN HW(J[T== L-H= MLJ[T== XDW(>/T~>
+ESNJ 1:377	>P HW XC/~> D-CBV/J-KWN HW(J&>[ L-H GZ/~> D-BWSM/~> W-@>T@HPK[T== HW(J[T== <Q(>/T-KWN W-HW(J[T== KL/-H= BWSM/~>
+ESNJ 1:381	!!&>JLP[W HKJL XB&JB[/J:p MN NSJN/~> D-NGD=/J-KWN W-@>(T&C@](C&T](J&WD<[W >P MN CBV/~> XKJM/~> D->B&H/J-KWN
+ESNJ 1:385	D-L-<WDRN/-N RD(J&>[ L-N HW= >B/~> D-!M!XKM[/:d L-N CBV/-H B-R&WG(WZ/~> @>(T&C@(C&TQL[ D-!N=!DXL[ >P D-!N!XKM[:d
+ESNJ 1:389	>JK D->NX[N&N GJR >B&H/(J~> L-KWN B-K>(>/T~> RDJ[N XNN D-!N!RDJ[-KWN W-D-!N!QNJ[-KWN D-!N!XCK=[WN W-!N!<DR[:d-KWN
+ESNJ 1:393	>P HW VB/~> W-BSJM/~> B-K>(>/T-H HW RD(J&>[/ L-N W-B-VJBW/T-H PRQ[ L-N W-GZ/~> D-RXM=/(J&W-HJ !M!](>]CP<[/ L-N
+ESNJ 1:397	B-CBV/-H XWB=/-H !M!](>](J&WD<[/ L-N B-NGD=/-H GZ/-H !!PTX[ L-N >N HD> L-KWN CRJR/~> D-MN XWB=/~> L-KWN NGD[N&N
+ESNJ 1:401	>JKN(> !N!SBR[:d D->LH/~> L(>-(HW MN XWB=/~> RD(J&>[/ L-N HD> MRDW/T~> DJL-N !T=!HW(J&>[ L-KWN >JK MXZJ=/T~>
+ESNJ 1:405	D-!T!XZ(J[WN B-H= L-HJ== MRDW/T~> D-XNN=/~> W-D-VJBW/T~> L> SPQ[/JN XNN XB&JB[/JN:p D-HN> KL/-H !N!XBK[WN
+ESNJ 1:409	>JK M> D-RXM[/ >LH/~> L-BN/J >NC/~> B-XNN=/-H Z<WR/ HW XWB=/-N Y(J&>D/J-KWN MN HW= XWB=/-H D-LWT-N
+ESNJ 1:41	ML(J&>[ PWM/-H W-JHB[ WJ=/~> L-CMW</(J&W-HJ PLG[/ MWT=/~> Q(WM[ KRWZ/~> XLC/~> B-XD/> MDJN(>/T GNBR/(J~>
+ESNJ 1:413	W-KD VB/ RB/~> HJ= MRDW/T-H RB/~> HJ= MN-H= VJBW/T-H B-MRDW/T-H GJR !M!@(>T@JHB[/> MWHB(>/T~> L-BN/J >NC/~>
+ESNJ 1:417	BN/J~> KM&JR[/(J~>:p @>T@BJ>[W:d W-CL(J=[W QLJL/ DM<(>/J-KWN ZW<=/~> MN-N CL(J&>=[/ L-H W-R&WG(WZ/~> MN-N <BR[/ L-H
+ESNJ 1:421	KRK=/~> B-<GL !M!@(>T@BJ>[/:d MDJN(>/T~> B-<GL !M!@(>T@PYX=[/>:d W-XD(J&>[/ RDWJ/~> D-XZ(J&>[/ BN/J~> RD(WJ/(J~> D-HWJ[TWN
+ESNJ 1:425	HLJN W-D->JK HLJN MLL[W:d NJNWJ/(J~> L-XB&JB[/J:p-HWN KD YB(J[/JN L-!M!@(>T@BJ>[/W:d <L CJN/~> !M!@(>T@NB(J=[/JN:d HW(J[W
+ESNJ 1:429	D-HW(J[W B-<GL T(W&JB=[/(J~> @>T@NBJ=[W:d >JK CRJR/(J~> TJBW/T~> HW(J[T== D-<BD==/~> NBJW/T~> HW(J[T== D-CRR/~>
+ESNJ 1:433	KD VB/ HLJN MLL[W:d HW(J[W MN BKJ=/~> L> CL(J=[/JN HW(J[W W-KD VB/ HKN(> BJ>[W:d HW(J[W MN >BL==/~> L> !M!](>]HM(J[/JN HW(J[W
+ESNJ 1:437	QNV[/> YWM/~> !M!](>]SG(J&>[/ HW(J&>[ W-RHJBW/T~> L-YLW/T~> X(WR[W HW(J[W GJR XKJM>JT D->N ZDJQ/(J~> L> CL(J=[/JN
+ESNJ 1:441	KM> !N!@(>T@>BL=[WN XVJ=/(J~> D-QY/~> B-TR</~> Q(W&>M[/ HW(J&>[ NPQ[ MLK/~> W-XWJ[:d NPC/-H Z(W<[ KRK=/~> D-XZ(J&>[ SQ/-H
+ESNJ 1:445	MN <LJ=/~> DXL[/ HW(J&>[ D-BWY/~> B-R&WG(WZ/~> L> !N!LBC[ >P MLK/~> DM<[/ D-XZ(J&>[ D->B&JL=[/:p KRK=/~> MN SK/-H
+ESNJ 1:449	BK(J&>[/ KRK=/~> LWQBL MLK/~> D-XZ(J[W QVM/~> <L RJC/-H BK(J&>[ MLK/~> LWQBL KRK=/~> D-B-SQ/(J~> >WKM/ KL/-H
+ESNJ 1:45	TBR[ QL/-H LB/~> D-MLK/(J~> MDJN(>/T-HWN <L&J-HWN HPK[-H= HW(J&>[ B-XD/ QL/~> D-PSQ[/ SBR=/~> KS/~> D-R&WG(WZ/~> !M!](>]CQ(J&>[/ HW(J&>[
+ESNJ 1:453	KRK=/~> KL/-H BK(J&>[/ HW(J&>[ K>P/(J~> B->S(>=/(J~> !M!BK(J&>[/ HW(J&>[ MN=-(HW D-YLJ[:d HKN> MN @>T@KCP[:d HKN>
+ESNJ 1:457	MN=-(HW D-H-KN @>T@MKK[:d MN HW D-H-KN @>T@GRGX[:d MN=-(HW D-CLX[ SN(>&J/T=-H KSJ=/T=-H <M GLJ=/T=-H
+ESNJ 1:461	MN=-(HW GZR[ W-CD(J&>[ MN-H PWNQ/(J&W-HJ >JK HDM/(J&W-HJ MN=-(HW CM<[ QL/~> B-LXWD/ W-SDQ[ LB/-H B-XVH/(J&W-HJ
+ESNJ 1:465	MN=-(HW CM<[ ML(>/T PWM/~> W-HW(J&>[ GWNX/~> B-R<JN/-H MN=-(HW D-MN QL/ XLC/~> YWRN/(J~> D-MWT=/~> >XD[W-HJ
+ESNJ 1:469	MN=-(HW D-YR(J[/-H L->LH/~> QDM/ <JN/(J&W-HJ B-TJBW/T~> MN=-(HW D-XZ(J[-&JHJ L-K>N/~> KD CMV[/ SJP/-H KSJ[/~>:p
+ESNJ 1:473	MN=-(HW XZ(J&>[ KRK=/~> RB/~> KD G<(J&>[/ W-BK(J&>[/ KL/-H MN=-(HW MY(J&>[/:p HW(J&>[ D-!N!SJBR[:d QL/~> W-BKJ=/~> D-JLWD/(J~>
+ESNJ 1:477	RXM[/J XJ/(J~> NG&JR[/(J~>:p CM<[W D-@>T@KRJ[W:d XJ/J-HWN MN HW TWB D-SPQ[/ HW(J&>[ G<(>/T~> D-SB/(J~> D-!N!SJBR[:d
+ESNJ 1:481	RXM[/J QBR=/(J~> W-QBWR/(J~> !!CM<[W D-MDJN(>/T~> !M!@(>T@HPK[/> MN=-(HW MY(J&>[/:p HW(J&>[ D-!N!SJBR[:d BKJ=/~> RB/~> D-GDWD/(J~>
+ESNJ 1:485	D-X(W&JR[/JN HW(J[W L-XLWL/J-HWN @>(T&Z@(Z&DMN[W:d <L MWT=/J-HWN MN=-(HW MY(J&>[/:p HW(J&>[ D-!N!SJBR[:d QL/(J~> W-BKJ=/~> D-KLL[/T=~>
+ESNJ 1:489	D-JTB[/N HWJ[(J= B-GNWN/J-HJN L-PXT/(J~> D->R</~> @>(T&Z@(Z&DMN[:d MN=-(HW MY(J&>[/ HW(J&>[ D-L> !N!BK(J&>[ LWQBL MLK/~> D-BK(J&>[/ HW(J&>[
+ESNJ 1:49	CM<[W-HJ MLK/(J~> W-@>(T&C@(C&TPL[W:d CD(J[W TG/J-HWN W-@>T@MKK[W:d CM<[W-HJ X>R(J/(J~> W-@>T@BLHJ[W:d XLP/ NXT=/(J~> SQ/~> LBC[W HW(J[W
+ESNJ 1:493	D-XLP/ HJKL/ MLKW/T-H D-!N!(NX&WT[ L-CJWL/ @>(T&Z@(Z&DMN[:d W-D-MLK/~> HW(J&>[ BJ(N/T XJ/(J~> D-!N!HW(J&>[ <PR/~> BJ(N/T M(W&JT[/(J~>:p
+ESNJ 1:497	XLP/ MRKB(>/T~> D->JQR/~> !!CM<[ D-MDJN(>/T-H !M!@(>T@HPK[/> XLP/ PWRP</-H W-BWSM/-H !!CM<[ HW(J&>[ DMW/T~> BL<[/ L-H
+ESNJ 1:5	MDJN(>/T~> D-<M&M=/(J~> @>T@KMR[T B-JD/ KRWZ/~> <BRJ/~> >JK JM/~> @>(T&C@(C&TGC[T== HW(J[T== B-JWNN/ D-SLQ[ MN JM/~>
+ESNJ 1:501	W-XLP=[:d <RS/~> D-NJX/-H L-HWT>/ D-R&WG(WZ/~> @>(T&Z@(Z&DMN[:d L-MWT=/~> B-XJ/(J&W-HJ @>(T&Z@(Z&DMN[:d KRK=/~> W-MLK/-H MN CLJ/~>
+ESNJ 1:505	QR(J&>[ MLK/~> XJLW/T=~> W-BK(J&>[ <L&J-HWN W-BK(J&>[W-HJ TN(J&>[/:p HW(J&>[ MLK/~> QDM/J-HWN D-B-KM> QRB[/JN @>T@KLL[W:d
+ESNJ 1:509	W-!>!](>](J&WD<[ >NWN >P L-HWN D-B-KM> Q>RS/JN @>T@NYX[W:d Z<R[T== NPC/-H W->CTPL/ D-L(>-(>JT(J/ D-PRQ[/ W-!M!<DR[/:d
+ESNJ 1:513	CRJ[:d HW(J&>[ D-L-HWN !N!>MR[ L> HW(J&>[ QRB=/~> HW XB&JB[/J:p D-!N!(NP&WQ[ !N!ZK(J&>[ B-<JD/-N W-!N!@(>T@NYX[:d >JK YB(J[/J(N-(XNN
+ESNJ 1:517	D->P GNBR/(J~> !M!@(>T@RHB[/JN MN VB=/-H= RB/~> D->TWR/ >N-XNN D-ZK(J[/J(N-(XNN SGJ>/(J~> XD/ <BRJ/~> ZK(J&>[/ L-N
+ESNJ 1:521	L-MLK/(J~> QL/-N !M!RHB[/ HW(J&>[ W-QL/-H DJL-H CGC[/ L-N L-KRK=/(J~> SGJ>/(J~> SXP[/N W-B-KRK=/-N H> ZK(J&>[/ L-N
+ESNJ 1:525	NJNW>/ >M(>/> D-GNBR/(J~> MN XD/ XLC/~> DXL[T== >RJW/T~> B-MRBW<J/T-H= @>T@RHB[T==:d MN <BRJ/~>
+ESNJ 1:529	NHM[T== >TWR/ B-BRJ(>/T~> W-QL/-H D-JWNN/ NHM[/ B-H= HN> KL/-H @>(T&C@(C&TPL[:d ZR</-H D-NMRWD/ GNBR/~>
+ESNJ 1:53	CM<[W-HJ SB/(J~> JQ&JR[/(J~>:p W-B-QVM/~> XPJ[W:d RJC/-HWN CM<[W-HJ <T&JR[/(J~>:p W-PTX[W GZ/J-HWN QDM/ MSKN/(J~>
+ESNJ 1:533	JHB[ MLK/~> MLK==/~> VB/~> L-XJLW/T=-H <Z&JZ[/(J~>:p D-MLK=[/ >N> L-KWN XB&JB[/J:p D->P HC/~> L> !N!@(>T@RP(J&>[:d
+ESNJ 1:537	!N!@(>T@KTC[:d >JK GNBR/(J~> D-L> !N!>BD[ >JK XLC/(J~> >JN> GJR D-B-NSJWN/-H !M!@(>T@LBB[/:d >P !M!@(>T@GBR=[/:d
+ESNJ 1:541	>N M(W&>T[/ >JK GNBR/~> W->N XJ(J&>[/ >JK NY&JX[/~>:p MWT=/~> GJR D-CM/~> VB/~> W->N TWB XJ/(J~> D-NY&JX[/(J~>:p
+ESNJ 1:545	TR/JN= JWTRN/JN !M!@(>T@TGR=[/ NY&JX[/~>:p B-LBJBW/T-H >JKN> D-TR/JN= K>B/JN JRT[/ >JN> D-@>T@RPJ[:d
+ESNJ 1:549	D-KL/-H MWT=/-H KW>R/~> HW >P XJ/(J&W-HJ D-CM/~> BJC/~> !N!@(>(T&Z@D(W&JN[ >P !N!@(>T@LBB[:d !N!@(>T@GNBR=[ >P !N!@(>T@NYX[:d
+ESNJ 1:553	D->P-(>N MDM/ L> !N!](>]CKX[ CM/~> D-XL&JY[/(J~>:p QN(J[/JN XNN CM&J<[/:p HW(J&>[ L-N MN JWBL/~> HW QDMJ/~> D->B&H/J-N
+ESNJ 1:557	D->JT(J/ K>NW/T~> L->LH/~> W->JT(J/ HW L-H >P VJBW/T~> W-B-K>NW/T-H !M!@(>T@LXM=[/:d W-B-VJBW/T-H !M!@(>T@RXM[/:d
+ESNJ 1:561	!N!R<(J&>[ HKJL K>NW/T-H !N!SG(J&>[ !N!JQR[:d VJBW/T-H D->N @>T@R<J[T==:d K>NW/T-H B-<DR=/-N HJ= >P VJBW/T-H
+ESNJ 1:565	W->N DJN RG&JZ[/>:p HJ= K>NW/T-H L> !M!@(>T@<DL[/>:d B<W/T-N >P-(>N HJ= L> !T=!@(>T@R<(J&>[ L> !M!@(>T@RCJ[/> TKCP(>/T-N
+ESNJ 1:569	BJ(N/T K>NW/T~> L-VJBW/T~> TJBW/T~> L> !M!@(>T@VLM[/> !N!XC&WL[ L-N ZJN/~> XDT/~> L-QRB=/~> XDT/~> D-QRN/
+ESNJ 1:57	CM<[W-HJ TWB MR(>/J XWB=/~> B->CVR/(J~> !!PLX[W ZDQ=/T=~> !!CM<[W JZWP/(J~> K>N>JT D-L> !N!(>K&WM[WN <L XWB(>/T=~>
+ESNJ 1:573	Q>RS/~> HW KSJ=/~> XB&JB[/J:p ZJN/~> KSJ=/~> NSB[ L-N CM&J<[/:p HW(J&>[ L-N MN QDMJ/(J~> D-]>]KRZ[W QWCT/~> B-BRJ(>/T~>
+ESNJ 1:577	D-@>T@JBL[W:d HW(J[W QL/J-HWN >P VB/(J~> D-NYXN/J-HWN L> GL&JZ[/>:p GJR >NCW/T~> MN PWRCN/~> D-JD<(>/T~>
+ESNJ 1:581	!!HLK[W:d VB/(J~> B-BRJ(>/T~> D-K>N/(J~> D-H-KN @>T@NYX[W:d @>T@MLX==[T==:d KL/-H= BRJ(>/T~> D->JN> D-PKH[/ !N!@(>T@X(W&JB[:d
+ESNJ 1:585	CM<[N&N TWB <L <WL/(J~> D->JKN(> !!]>]MRX[W W-!!@>T@XBL[W:d W-@>T@S(W&JM[T >P MXZJ=/T~> D->JN> D-SN(J&>[/:p !N!@(>T@K>R[:d
+ESNJ 1:589	@>T@S(W&JM[ NJC/~> B-BRJ(>/T~> D-!N!DM(J[WN B-H XZJ=/(J~> VJBW/T~> TWB @>T@KRZ[T== D-!N!XWR[WN B-H= CMW</(J~>
+ESNJ 1:593	TJBW/T~> YJR/~> B->R</~> D-!N!XWR[WN B-H= XVJ=/(J~> MN=-(HW GJR D-L> ]>]RGC[ B-H B-HW= MMWL/~> <Z&JZ[/~>:p
+ESNJ 1:597	QRJB/> HJ= L-N TC<J/T-H D-VWPN/~> D-B-JWM/J NWX=/ B-CBBW/T~> D-K>NW/T~> <MR[/> KL/-H= >NCW/T~>
+ESNJ 1:601	L(>-(>JT(J/ D-GL&JZ[/:p MN PWRCN/~> W-L(>-(>JT(J/ D-GHR/ MN JD<(>/T~> BJC/(J~> ]>]RC<[W W-@>T@X(W&JB[W:d HW= DR/~> D-B-JWM/J NWX=/
+ESNJ 1:605	>P TMN ]>]KRZ[ QL/~> <L VWPN/~> D->T(J&>[/ HW(J&>[ <WL/(J~> D-CM<[W ]>]RGZ[W D-B-HW= QL/~> BZX[W:d HW(J[W
+ESNJ 1:609	QL/ <CP/~> W-QL/ MQR=/~> <L MMWL/~> !M!](>]KRZ[/ HW(J&>[ QL/ MSR/~> KD NSR=[/ <L VWPN/~> Q<(J&>[/ HW(J&>[
+ESNJ 1:61	JZWP/(J~> HW(J[W PRW</(J~> W-MR(>/-J XWB=/~> CBWQ/(J~> KL/ >NC/ GJR <L <WDRN/-H !M!@(>T@XYP[/:d HW(J&>[ K>N>JT
+ESNJ 1:613	B-QL/~> D-<CP/~> BZX[W:d HW(J[W B-QL/ MQR=/~> M(W&JQ[W:d HW(J[W KD @>T@GMR[T== KW&JL[/~>:p KN @>T@GLJ[T== K>NW/T~>
+ESNJ 1:617	W-KD @>T@GLJ[T== K>NW/T~> @>T@X(W&JB[T==:d MRXW/T~> @>T@TR<==[W MBW</(J~> W-NHM[W <L <WL/(J~> D-M(W&JQ[W:d HW(J[W
+ESNJ 1:621	Q<(J&>[ MMWL/~> MN CLJ/~> <L RCJ</(J~> D-BZX[W:d HW(J[W D-B-QL/ <CP/~> M(W&JQ[W:d HW(J[W B-QL/~> D-R<M=/(J~> @>(T&C@(C&TNQ[W:d
+ESNJ 1:625	D-B-QL/ !M!SR(J&>=[/:d GXK[W:d B-PQ<=/(J~> W-BRQ=/(J~> @>T@<WR[W CRJ[W:d HW(J[W RHV[/JN Y(J&>D/J-H= D-Q(>BW/T~> D-BZX[W:d HW(J[W B-H=
+ESNJ 1:629	>XD[T== TR</-H= B->(NP/J-HWN D-B-TWQN/-H= M(W&JQ[W:d HW(J[W L> HKJL !N!BS(J&>[ >X/J-(J B-QL/-H D-JWNN/ <BRJ/~>
+ESNJ 1:633	L(>-(HW CJ<>JT/ ZDQ=/ L-N D-NXWR/ B-H= B-KRWZW/T-H B-PWRCN/~> !N!@(>T@BQ(J&>[ B-H= W-MN KL/ GB/JN !N!](>]YD(D[ B-H=
+ESNJ 1:637	B-PWRTK/~> RB/~> NPL[T MN QL/~> D-KRWZW/T-H MRXW/T~> !M!@(>(T&S@(S&TBR[/>:d CNJW/T~> KJ= !M!@(>T@XCB[/>
+ESNJ 1:641	>N >NC/ CNJ[/>:p QR(J&>[/ L-H GZ/~> HW RB/~> D-XKM(>/T=~> B-H V<M/~> >P TR<J/T~> KD NB<[/ B-H BWJN/~>
+ESNJ 1:645	XZ(>/T-H C(W&JV[/> W-CX&JM[/~>:p ML(>/T-H RB/~> W-JQJR/~> QDM/J-KWN GJR C>L(>/T-H CW>L/(J~> D-CPR[W HW(J[W L-N
+ESNJ 1:649	D->JK B-KWR==/~> !N!@(>T@BXR[N= ML(>/(J~> D-MN-H @>T@MLL[:d L> !>!@(>(T&S@(S&TRD[ W-@>T@DXL[ L> @>T@<KR[:d W-@>T@DWD[:d
+ESNJ 1:65	L(>-(>JT(J/ HW(J&>[ TMN BR/ >NC/~> D-@>(T&Y@(Y&VN<=[ D->JKN !N!<L&WB[ B->JGWN/~> K>N/~> RM(J[/JN HW(J[W D-KL/ >NC/ NPC/-H !N!@(>T@TGR=[
+ESNJ 1:653	L> ]C]XLP=[ ML(>/T PWM/-H D->S&JR[/>:p HW(J[T== B-CRR/~> L> NPL[/ HW(J&>[ MN CRB=/-H D-RB/ HW= SGJ(>/ <WHDN/-H
+ESNJ 1:657	CGC[T==-H W-L> @>T@XTX[T== DXL(>/T-H W-L> @>(T&S@(S&TRD[ XWJ[T:d-H <WTR/~> W-GXK[(J= >P SJP/~> W-]>]SGJ[ BSR/-H
+ESNJ 1:661	HW(J&>[ L-H L-SJP/~> NWKRJ/~> W-L-QWRBN/~> JTJR/~> >JT(J/ D-B-GZ/~> !M!@(>(T&C@(C&TDL[/:d W->JT(J/ D-B-SJP/~> !M!@(>(T&S@(S&TRD[/:d
+ESNJ 1:665	D->W DXL(>/T-H MRDW/T~> >W CDL[T:d-H MWHB(>/T~> BJ(N/T CWDL/~> L-SWRD/~> SMN/J-HJ L-HN> <BRJ/~>
+ESNJ 1:669	W-@>T@PLV[:d MN TR/TJ-HJN D-B-TR/T=-&JHJN BZX[/ HW(J&>[ XWJ[T==:d-H <WTR/~> W-GXK[ W-<L SJP/~> SP(>/T-H ]>]PVR[
+ESNJ 1:673	RXM[T== KSP/~> @>(T&Z@(Z&DKJ[T==:d DXL[T== MWT=/~> @>T@BSR=[T==:d KL/ PTGM/~> D->MR[/ HW(J&>[ B-XWRP/-H K>P/~> GZR[/ HW(J&>[
+ESNJ 1:677	L> DXL[/ HW(J&>[ MN <ZJZW/T-J L> !N!(NSB[ B->(NP/J JQJRW/T-J KL/-H >JQR/-N XCB=/-H >JK ZBL/~> D-CD(J&>[/ B->R</~>
+ESNJ 1:681	D-L-<WTR/-N ]>]SGJ[ CV/-H W-L-S(W&JP==[/N:p ]>]SGJ[ BSR/-H BJ(N/T <JN/(J~> KJ= D-NXC/~> TQN[:d L-H W-!>!(>T(J&>[ L->TR/-N
+ESNJ 1:685	D->P-L> MDM/ !>!C(WP&H[ HW(J&>[ D-NSB[ B->(NP/J MLKW/T-N ML(>/T-H HW(J[T== L-N MXZJ=/T~> D-XZ(J[/J(N-(XNN B-H= KWTM(>/T=-N
+ESNJ 1:689	B-H HW XZJ[N-&JHJ L->LH/~> D-!M!@(>T@LXM=[/:d <L SN(>&J/T=-N B-H HW XZJN/-H L-K>NW/T~> D-RG&JZ[/>:p <L XWB(>/T=-N
+ESNJ 1:69	L-JWNN/ CM<[W-HJ GNB/(J~> L-MR(>/-HWN PNJ[W:d TXLWY/(J~> MR(>/J TXLWY/~> ]>]HMJ[W L-GJS/(J~> HW(J[W CBWQ/(J~>
+ESNJ 1:693	B-H HW XZJN/-H L-MDJN(>/T-N D-GZR[ DJN=/-H MVL L-H= B-H XZJN/-H L-KRWZW/T-H D-MN PWM/~> K>N/~> NPQ[T==
+ESNJ 1:697	L> HW(J&>[ GJR >WMNW/T~> HJ= >W TWQN/~> D-YN<(>/T=~> >LW CJN/~> ]>]KRZ[ L-N >JT(J/ HW(J&>[ L-!M!SBR[/:d D->WMN/~> HW
+ESNJ 1:701	D-B-VB/~> VB/~> D-]>]KRZ[ >GR/~> VB/~> !N!@(>T@TGR=[:d D->JN> D-RXM[/ JWTRN/~> >P GLJN/-H CPJR/> HW
+ESNJ 1:705	D-QYWM/~> MVL D-J<N/ >P CWWDJ/-H CWDL/~> HW KLDJ/~> MVL D-KPN=[ BJT/ JLD=/~> VB/~> QR(J&>[/
+ESNJ 1:709	D-!N!](>]SG(J&>[ !N!(NSB[ MN SKL/~> PS(>/> D-<WTR/~> QR(J&>[/ L-H L> HW(J&>[ D-!N!(NTL[ !M!@(>T@XPV[/ >P-L> GJR JHB[/ MDM/
+ESNJ 1:713	L-CBR/~> B-<WTR/~> CB(J&>[/ L-H >P HW= D->JT(J/ L-H NSB[/ L-H >SJ=/~> D-KL/-H CRJR/~> HW CRR/~> HW >MR[/ L-KR&JH[/(J~>:p
+ESNJ 1:717	GZR=/~> <&>L(L[/ !M!](>]KRZ[/ L-H B-GW/ BJT/-H L->JN> D-KR&JH[/:p KWJ/(J~> D-NWR/~> MR&JR[/(J~>:p B-GW/ QJVWN/-H Q<(J&>[/ L-H
+ESNJ 1:721	L> DXL[/ MN MN= D-NSJS/ D-<QR[ <RC/~> !N!](>]KRZ[ L-H L> DXL[/ >P MN MLK/~> D-HLJN B-K>B/-H !N!>MR[ L-H
+ESNJ 1:725	L> DXL[/ MN BR/ MLK/~> D-SM(J&>[/ !N!](>]CQJ[-&WHJ <Z&JZ[/~>:p L> DXL[/ MN RB/ XJL/~> KD PKR[/ >P GZR[/ L-H
+ESNJ 1:729	L> Z(W&><[/ MN GNBR/~> D-<WCN/-H !M!CPL[/:d B-KWJ/(J~> MN=-(HW !N!QRJ[-&WHJ DGL=/~> L-NBJ/~> D-]>]KRZ[ R&WG(WZ/~>
+ESNJ 1:73	KL/ >NC/ NPC/-H D(W&>N[/ HW(J&>[ W-L-BR/ ZWG/-H X(J(J&>[/N HW(J&>[ L(>-(>JT(J/ D-L-XBR/-H D->N HW(J&>[ D-KL/ >NC/ NPC/-H D(W&>N[/ HW(J&>[
+ESNJ 1:733	>LW GJR >JK KDB=/~> HW >P HW QL/-H CG&JC[/~>:p HW W->N-HW D-QL/-H <Z&JZ[/~>:p HW >P R<JN/-H CRJR/~> HW
+ESNJ 1:737	KD VB/ >SJ=/~> L> DXL[/ MVL >GR/~> !M!@(>(T&C@](C&T]<BD[/ HN> <BRJ/~> RB/ HW MN DRG/~> D->S(>&W=/T=~>
+ESNJ 1:741	D->P-L> HW LXM/~> C(W&JV[/>:p YB(J&>[/ D-!N!>K&WL[ MN KRK[N MN JWM/~> D->T(J&>[/ Y&>D(D[/JN B-YWM/~> HW RB/~> W-B-XC/~>
+ESNJ 1:745	MN >LY[-H D-D-L> JWTRN/ R&WG(WZ/~> RB/~> !N!](>]KRZ[ L-N >JKN(> KJ= L> DXL[/ HW(J&>[ D-B-KRK=/-N HD> !N!KRZ[
+ESNJ 1:749	CM&J<[/:p HW(J&>[ L-N MN <BRJ/(J~> <L MWC>/ W-<L >LJ>/ D-Y(WM=[W MN LXM/~> JWM/T=~> >RB</JN >RB</JN MNJN/~>
+ESNJ 1:753	DLM> KJ= HKN(> Y(W&>M=[/ HN> NBJ/~> <BRJ/~> W->N-HW Y(W&>M=[/ KD ZDJQ/ !!(>T(J[W !N=!YWM=[ <L D-XV(J[/J(N-(XNN
+ESNJ 1:757	W->N KD K>N/~> HW !M!@(>T@KCP[/:d SQ/~> W-QVM/~> !N!M&WK(K[ L-N KBR YWM/-H W-YLW/T=-H D-L> !N!@(>T@DGL[:d BJN/T=-N
+ESNJ 1:761	MDJN(>/T~> D-!N!HP&WK[ !M!@(>T@KTC[/:d D-KRWZW/T-H !T=!@(>T@HJMN[:d D-B-YWM/~> !M!QRB[/:d <M-N B-YWM/~> <M=/-H !N!@(>T@KTC[:d
+ESNJ 1:765	L(>-(HW DJN <M=/-H D-NBJ/~> !N!@(>T@KTC[:d B-TJBW/T~> L> HW(J&>[ GJR HW ]>]SKL=[ B-N D-XVH/JN HW ]>]SKL=[W B-N
+ESNJ 1:769	L(>-(HW <BRJ/~> HPK[/ L-H L-KRK=/~> D-<WL=/-H HPK[/ L-H B<LDR/~> >XR(JN/~> KSJ=/~> >JT(J/ L-KWN >W XB&JB[/J:p
+ESNJ 1:77	KL/ >NC/ NPC/-H !M!](>]KS(S[/ HW(J&>[ D-R&WG(WZ/~> L-KL/-HWN !M!](>]KS(S[/ HW(J&>[ CM<[W-HJ QVWL/(J~> W-]>](J&WDJ[W D-CV(J[W-H= L-DXL(>/T DJN=/(J~>
+ESNJ 1:773	D-LQWBL-H HW ZDQ=/ L-N D-!N=!@(>T@KTC[:d GNBR>JT/ BJN/T=-N HJ= TC<J/T-H D->JWB/ K>N/~> QDMJ/~>
+ESNJ 1:777	D->P XJW(>/T=~> XRC=/T=~> CM<[ KBR <L NYXN/(J&W-HJ NSJWN/-H >JK CJPWR/~> ]>]KRZ[ B->R</~> ZKW/T-H
+ESNJ 1:781	SVN/~> HW >KL[ QRY/(J&W-HJ >JK TC<J/T~> D->B&H/J-N >N-HW D-BJC/> >KL[/ HW(J&>[ QRY/~> D-K>N/(J~> QDMJ/(J~>
+ESNJ 1:785	KM> HKJL PTX[/ PWM/-H D-!N!QVRG[:d L-D-XVJ[/JN PR&JC[/~>:p W-CWJ[/> BJCW/T-H Y(W&JD[/:p ZDJQ/(J~> W-XVJ=/(J~>
+ESNJ 1:789	L-ZDJQ/~> GJR RDP[ L-H D-]>]KBR=[ !N!HW(J&>[ XVJ=/~> W-L-XVJ=/~> QVL[/ L-H D-DLM> !N!HW(J&>[ TJB/~>
+ESNJ 1:793	HW-(H&JW D-NPQ[/ HPK[-H HW(J&>[ L-HW= BJT/~> D-BN/(J&W-HJ D->JWB/ XLV=/ DM/-HWN <M XMRN/(J~> W-KS/J-HWN <M PGR/J-HWN
+ESNJ 1:797	HW-(H&JW HPK[-H L-SMK=/~> W-L-BJT/~> <L <MWR/(J&W-HJ >KBR/ HW-(H&JW !M!@(>(T&C@(C&TDR[/:d D-!N!HP&WK[ KRK[N W-MDJN(>/T-N
+ESNJ 1:801	B-QRB=/(J~> L-MLK/(J~> ZKJ[TWN:d L-SVN/~> !!ZK(J[W B-YLW/T~> !N!(NPQ[WN MKJL SDR/J-KWN L-!M!<BD[/ <M=/-H TKTWC/~>
+ESNJ 1:805	!!CLX[W W-!!CD(J[W TNWR/J-KWN B-SQ/(J~> LQWBL-H @>(T&Z@(Z&DJN=[W:d !!TBR[W:d W-!!CD(J[W QCT=/T~> W-@>T@GWS=[W:d B-YLW/T=~>
+ESNJ 1:809	!!]>]SL(J[W SJP/~> XLC/~> W-!!GB(J[W YWM/~> NY&JX[/~>:p D-XWRP/-H D-YWM/~> PSQ[/ L-H L-<WL=/~> KSJ=/~> D-B-KRK=/-N
+ESNJ 1:81	!!CM<[W >P DJN=/(J~> W-]>]HMJ[W DJN=/(J~> B-R&WG(WZ/~> @>(T&C@(C&TTQ[W:d L> YBW/ L-!M!D(WN[/ K>N>JT D-L> !N!@(>T@](>&T]D(W&JN[WN K>N>JT
+ESNJ 1:813	L(>-(HW MDM/ HJ= ZKW/T~> HJ== D-CQL[TWN B-QRB=/~> HRK> DJN >N-HW D-!N!ZK(J&>[ RB/> HJ= MN KL/ ZKW/T=-N
+ESNJ 1:817	W-D->N> LWQDM <&>L(L[/ HWJ[T L-QRB=/(J~> W-L-NXCJR/(J~> >N> TWB !>!HW(J&>[ QDM/~> B-HN> QRB=/~> XS&JN=[/~>:p
+ESNJ 1:821	>KWT-J HKJL @>(T&Z@(Z&DJN=[W:d >W XJLW/T=-J XB&JB[/(J~>:p Q(WM[ MLK/~> W-CLX[ NXT=/(J&W-HJ W-CLX[W:d KL/-HWN NXT=/J-HWN
+ESNJ 1:825	RHV[/ MLK/~> W-LBC[ SQ/~> W-]>](J&WKM[W SDR/(J&W-HJ >KWT-H >TWRJ/(J~> D-G>(J[/JN HW(J[W HNDWJ/(J~> HW(J[W MN CLJ/~>
+ESNJ 1:829	S<R=/(J~> HW(J[W D-B-SQ/J-HWN >RZ=/-H D-J<QWB/ @>T@<VP[W:d D-L-JWNN/ NKL=[W W-GNB=[W ZKW/T~> B-TJBW/T~>
+ESNJ 1:833	X(WB[/ SVN/~> >JK <SW/ HW= RB/~> >JK TLMJD/-H W-ZKW/ HLJN >JK J<QWB/ >JK RB/~> >P TLMJD/(J&W-HJ
+ESNJ 1:837	QR(J&>[ MLK/~> RB/J XJL/(J&W-HJ W-NPQ[ W-S<R[ MCRJ/T-H KRWZ/(J~> B-XJL/~> HLK[W:d D-KL/-(>NC/ !N!HW(J&>[ T(W&JB=[/>
+ESNJ 1:841	VM>/~> !N!CL&WX[ VM>W/T-H DLM> !T=!ZKJ[-&WHJ B-QRB=/~> J<N/~> !N!CD(J&>[ J<NW/T-H D-L> !N!@(>T@DWD[:d TKTWC/~>
+ESNJ 1:845	RG&JZ[/>:p L-XBR/-H !N!@(>T@R<(J&>[:d D-K>N/~> D-RG&JZ[/:p !N!@(>T@R<(J&>[:d >K/T~> B-LB/~> L> !T=!HW(J&>[ D-L> !N!@(>T@<KR[:d PWRQN/~>
+ESNJ 1:849	L> !N!LWV[ PWM/~> W-!N!YX(J&>[:d D-KRK=/~> B-RXM=/(J~> !N!@(>T@BRK[:d L> >NC/ !N!<C&WQ[ >W !N!VL&WM[ >P L> !N!(J&>M(J&>[ W-!N!KDB[:d
+ESNJ 1:85	KL/ >NC/ RXM=/(J~> ZR</ HW(J&>[ D-!N!XY&WD[ MN-HWN PWRQN/~> L-JWNN/ CM<[W-HJ XVJ=/(J~> W-!>!](>](J&WDJ[ KL/-(>NC/ B-XVH/(J&W-HJ
+ESNJ 1:853	D-L> !N!@(>(T&C@(C&TRR=[:d K>N>JT GZR[/ DJN=/~> D-NPQ[/ <L&J-N NCR/~> QVR=/(J~> D-B-LBN/ D-L> !T!@(>T@<KR[:d B<W/T-N
+ESNJ 1:857	L> >NC/ !N!TB<[ SKLW/T~> D-!N!](>]SG(J&>[ B->TR/-N CWBQN/~> HLJN W-D->JK HLJN ]>]KRZ[W KRWZ/(J~> B-KRK==/~> RB/~>
+ESNJ 1:861	MLK/~> B-XC/~> Q(W&>M[/ HW(J&>[ W-SDR/(J~> S<R[/ ZHJ>JT GZR[/ HW(J&>[ YWM/~> L-MCRJ/T-H CRJN/~> D-CWBX/~> JHB[ L-H=
+ESNJ 1:865	!!QR(J[-H= W-QRB[:d-H= L-YLW/T~> SKR/~> D-KL/-H= PWRQN/~> HJ= !!]>]KRZ[ L-H= MKJKW/T~> QC(T/T~> D-G>R/J-H= NY&JX[/JN:p
+ESNJ 1:869	YJD/ XWB=/~> XJ=/~> NGD=/-H= SJP/~> !M!XD(J&>[/:d L->(WX&WD(>/(J&W-HJ MN BTR D-S<R[/ MLK/~> W-Z(W&JN[:d SDR/(J&W-HJ ZHJ>JT
+ESNJ 1:873	PN(J&>[ L-H D-!N!](>]Z(W&JN[ KRK=/~> >P GBR/(J~> W-NC/(J~> ]>]KXD[ D-KL/-H <M=/~> MN SK/-H <L PWRQN/~> !N!@(>T@KTC[:d
+ESNJ 1:877	B-SQ/-H JHB[/ HW(J&>[ TXWJ/T~> MDJN(>/T~> B-SQ/(J~> !M!ZJN=[/:dp HW(J&>[ BR/-H HW(J&>[ D-NMRWD/ GNBR/~> NXCJRTN/~> W-XLJY/~>
+ESNJ 1:881	CBQ[/ HW(J&>[ D-!N!QV&WL[ XJW(>/T=~> W-RG&JG[/T=~>:p QVL[/ HW(J&>[ XLP/ XJW(>/T CN/~> D-QVL[ SNJ[/T=~>:p D-B-H QVL[/ HW(J&>[
+ESNJ 1:885	XLP/ NXCJR/(J~> D-B-DBR=/~> L-KRK=/~> DKJ[:d MN XWB=/(J~> ]>]RPJ[ XJW(>/T=~> D-L-BR=/ W-<WL=/~> D-L-GW/ QVL[/ HW(J&>[
+ESNJ 1:889	CV(J[-H= L-MR(>/T TNJN/~> B-YWM/~> XLJ=/ MXCB(>/T-H XLP/ MRKB(>/T~> D->JQR/-H B-RGL/(J&W-HJ KRK=/~> S<R[/ HW(J&>[
+ESNJ 1:89	CM<[-H HW(J&>[ KRK=/~> SN(>&J=/~> W-CLX[ B-<GL SN(>&J/T=-H CM<[W-HJ TWB >P MR(>/J~> QR(J[W X>RW/T~> L-KB&JC[/(J~>:p
+ESNJ 1:893	L-<M=/~> KL/-H S<R[/ HW(J&>[ D-!N!](>]<(W&JR[&J-&WHJ L-TJBW/T~> MLK/~> B-CWQ/(J~> PH(J&>[/ HW(J&>[ D-!N!](>]C(W&JG[ MN-HWN VM>W/T~>
+ESNJ 1:897	HLK[:d HW(J&>[ MKJK>JT W-]>]TQN[ KRK=/~> D-!>!@(>(T&Z@(Z&D<Z<[:d B-D&WR(WK(>/T-H MK&JK[/T=~>:p ZR<=[/ CJN/~> BJN/T= CWQ/(J~>
+ESNJ 1:9	<VR[W HW(J[W B-H >P MXCWL/(J~> >JK GLL==/(J~> D-B-GW/ JM/~> NXT[ JWNN/ L-JM/~> CGC[-H W-SLQ[ HW(J&>[ L-JBC=/~> W-DLX[:d-H
+ESNJ 1:901	XZ(J&>[ JWNN/ W->XD[-H THR/~> B-BN/J <M-H BHT[/ HW(J&>[ B-NJNWJ/(J~> XZ(J&>[ NYXN/~> W-<L ZR</-H BK(J&>[/:p D->BRHM/
+ESNJ 1:905	XZ(J&>[ D-TQN[ ZR</-H D-KN<N/ W-ZR</-H D-J<QWB/ @>(T&C@(C&TVJ[:d XZ(J&>[ L-<&WR(WL/(J~> D-GZR[W LB/~> W-L-GZ&JR[/(J~>:p D-LB/~> QCJ[W:d
+ESNJ 1:909	XZ(J&>[/ CB(>/(J~> D-L> !M!@(>T@NVR[/N D-PWQDN/(J~> !M!@(>T@NVR[/JN HW(J[W D-L> CB(>/T~> HW(J&>[ PWRQN/~> W-D-L> GZWR(>/T~> NYXN/~>
+ESNJ 1:913	BSR=[ JWNN/ L-BN/J <M=/-H D-B-CB(>/(J~> @>(T&C@](C&T]BHR[W HW(J[W BSR/ >NWN TWB D-GZWR(>/T~> BJ(N/T MWT=/~> L-XJ/(J~> S(WM[W-H=
+ESNJ 1:917	MLK/~> D-NJNW>/ JD<[/ HW(J&>[ D-<L(L[T== R&WG(WZ/~> SKLW/T~> HJ= PSQ[-H= L-<L(L[T== BJC/T=~> W-PSQ[W B-<GL MXCWL/(J~>
+ESNJ 1:921	>SJ=/~> HW D-S<R[/ L-MDJN(>/T-H W-JD<[/ SM/~> D-NPL[/ L-H= B-YWM/~> SM/~> NY&JX[/~>:p KWRHN/~> D-KRK=/~> >SJ[:d
+ESNJ 1:925	W-B-SQ/~> W-QVM/~> RDP[-H= L-XVJ=/T~> MN GW/ KRK=/~> D-CBQ[W HNWN XWB(>/T=~> ]>]SGJ[ VB/~> CWBQN/-H
+ESNJ 1:929	B-QRN/~> W-RBJ==/T~> D-CBQ[W MDJN(>/T~> W-KRK=/~> @>T@PYJ[W:d JWNN/ XWB=/(J~> TB<[/ HW(J&>[ YWM/~> XVH/(J~> CBQ[/ HW(J&>[
+ESNJ 1:93	CM<[W-HJ <BD=/(J~> K>N>JT W-]>]SGJ[W W-JQR[W MR(>/J-HWN B-QL/-H D-JWNN/ X>R(J/T=~> RMW/T~> B-SQ/(J~> MKK[:d
+ESNJ 1:933	!!@>T@KNC[W:d W-CQL[W MLK==/~> NJNWJ/(J~> D->JKN !N!X(J(J[WN S(WM[W TNWJ/ KL/-H <M=/~> D-!N!R<(J[WN B-H= L->LH/~>
+ESNJ 1:937	L-NJNWJ/(J~> MN=-(HW BDQ[/ >RZ/(J~> KSJ=/(J~> D->LH/~> D-MY(J&>[/ YWM/~> CR(J&>[/ L-H L-GZRDJN/-H D->LH/~>
+ESNJ 1:941	HD> JWNN/ L> BDQ[/ D-QNV[/ HW(J&>[ MN CWBQN/~> L-NJNWJ/(J~> JWNN/ ]>]KRZ[ D-GZRDJN/-H CRJR/~> HW
+ESNJ 1:945	KD QL/-H D-JWNN/ HJMN[W:d GZRDJN/-H D-JWNN/ BVL[W:d D->JK PRWC/(J~> @>(T&C@](C&T](J&WD<[W L->LH/~> W-L-BR/ >NC/~>
+ESNJ 1:949	D-BR/-(>NC/~> >JK BR/-(>NC/~> HW W->LH/~> >JK XNN=/~> HW XZ(J[W D-NBJ/~> <Z&JZ[/~>:p HW= PRC[W D->LH/~> BS&JM=[/~>:p HW=
+ESNJ 1:953	L> DRC[W LWQBL <Z&JZ[/~>:p D-L-XNN=/~> !M!](>]R<(J[/JN HW(J[W L-NBJ/~> JHB[W K>NW/T~> W-L->LH/~> VJBW/T~>
+ESNJ 1:957	KD JWNN/ PSQ[/ SBR=/~> B-YWM/~> SBR=/~> SG(J&>[/ HW(J&>[ KD JWNN/ TBR[/ LB/~> YLW/T~> LB/~> SMK[T HW(J[T==
+ESNJ 1:961	KD R&WG(WZ/~> !M!@(>T@<ZZ[/:d HW(J&>[ <WZ/-H B-SQ/(J~> @>(T&C@(C&THJ[:d <NN/(J~> QRM[ >WKM/T=~> B-GWN/~> D-SQ/(J~> @>T@BVL[
+ESNJ 1:965	KM&JR[/>:p HW(J[T== >>R/ TMN W-@>T@PYX=[T==:d B-TJBW/T~> <MWD/J-H= D->R</~> D-R<L=[W SMK[T== >NWN NKPW/T~>
+ESNJ 1:969	M(WV[ KRK=/~> >JK D-L-!M!(NPL[/ W-]>]SGJ[ SMK[:d-&JHJ ZDQ(>/T=~> MMWN/~> D-!M!](>]SG(J&>[/ XWB=/(J~> B-H @>T@XSJ[:d XWB(>/T=~>
+ESNJ 1:97	TJBW/T~> HW(J[T== B-CRR/~> D-G>J=/T=~> LBC[/ MWKK/~> B-<JN/J HJ== TJBW/T~> HD> DJL-N >JK XLM=/~> HJ=
+ESNJ 1:973	<WL/(J~> B-KNP/(J~> @>T@NVR[W D-JLP[W YWM/~> W-YLW/T~> G<(J[W SB/(J~> <L SQ/J-HWN W-@>T@](>&T](J&WSP[W <L XJ/J-HWN
+ESNJ 1:977	D-B-XC/~> !!BK(J[W GDWD/~> NVR[ >NWN L-KLJL/J-HWN W-D-LBC[ XC/~> KL(>&L/T=~> @>T@PNJ[ L-GNWN/J-HJN
+ESNJ 1:981	G<(J[/JN HWJ[(J= RMK/JN RMK/JN XJW(>/T=~> D-Y(WM=[ MN M(J/J~> G<(>/T~> HW(J[T== D-KL/ QL/JN D-NPC/T=~> W-D-XJW(>/T=~>
+ESNJ 1:985	G<(>/T-HWN CM<[T= K>NW/T~> MDJN(>/T-HWN PRQ[T== VJBW/T~> MN JWM/~> D-GZR[/ JWNN/ QNV=/~> !M!](>]SG(J&>[/ SG(J&>[/ HW(J&>[
+ESNJ 1:989	>MJN=/> HW(J[T== VB/ B<W/T~> D-YWM/~> L-YWM/~> TKB[/ HW(J&>[ SQ/~> L-SQ/~> !M!T>M=[/ HW(J&>[ W-QVM/~> <L&J-HWN SG(J&>[/ HW(J&>[
+ESNJ 1:993	L> !N!GBT[ <JN/~> TMN MN BKJ=/~> D-TJBW/T~> L> CTQ[ TMN LCN/~> KD G<(J&>[/ W-B<(J&>[/ RXM=/(J~>
+ESNJ 1:997	L> CM<[T >DN/~> TMN QL/~> >XR(JN/~> D-<L MDM/ D-QL/~> D->LJ>/ W-D-BKJ[/> >T(J&>[/ HW(J&>[ MN KL/ GB/JN
