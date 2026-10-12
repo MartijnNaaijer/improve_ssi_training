@@ -15,10 +15,15 @@ from ssi.corpus import REPO_ROOT, load_corpus
 from ssi.lookup import LookupBaseline
 from ssi.metrics import CATEGORIES, evaluate
 from ssi.predictions import read_predictions
+from ssi.rerank import GeneratorSystem
 from ssi.splits import SPLITS_DIR, Split
 
 RESULTS_DIR = REPO_ROOT / 'results'
-SYSTEMS = {'lookup': LookupBaseline}
+SYSTEMS = {
+    'lookup': LookupBaseline,
+    'generator': GeneratorSystem,
+    'generator-plain': lambda: GeneratorSystem(rerank=False),
+}
 
 
 def run(system_name: str, split: Split, part: str, from_predictions: bool = False) -> dict:

@@ -17,6 +17,10 @@ Approach: **hybrid generate → filter → rank**:
 - `Syriac_paradigm.pdf`: Sikkel (2023), *The ETCBC Paradigm for the Encoding of Syriac*. The authoritative spec for the encoding, paradigms, and special cases. Red text in it marks unresolved questions; don't treat that text as settled policy. **Local only: it is git-ignored and must never be committed or pushed** (it was removed from the history on 2026-10-09).
 - `data/raw/`: corpus files copied from ssi_morphology (provenance in `data/README.md`). `data/splits/`: verse-id lists per split (committed).
 - `src/ssi/`: `corpus.py` (loading), `encoding.py` (parse, realise, segmentation), `splits.py`, `metrics.py`, `lookup.py` (baseline).
+- Candidate generation (Phase 1):
+  - `templates.py`: splits an analysis into proclitics + frame (affixes around a lexeme pattern) + enclitics + lexeme, and inverts lexeme patterns.
+  - `generator.py`: `CandidateGenerator`. `featurise(surface)` returns every analysis that realises the word, with features; `candidates(surface)` ranks them with `weights`. It also holds the PDF rules: geminates via the `(%` pattern token (§2.3) and T-stem metathesis (§2.6).
+  - `rerank.py`: learns the feature weights on pseudo-unseen words from cross-fitted folds of train. `GeneratorSystem` (systems `generator` and `generator-plain`) uses lookup for words seen in training and the generator for all others.
 - `scripts/make_splits.py`, `scripts/evaluate.py --system <name>`: results go to `results/<split>/<system>.json`; `results/summary.md` is regenerated, never hand-edited.
 - New systems: implement `fit(train) -> self` and `predict(verses) -> {vid: [analysis, ...]}`, then register them in `SYSTEMS` in `scripts/evaluate.py`.
 - Tests: `python -m pytest`. Scripts need `PYTHONPATH=src` or `pip install -e .`.
