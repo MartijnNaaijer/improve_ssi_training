@@ -29,6 +29,17 @@ Approach: **hybrid generate → filter → rank**:
     2. `.venv/Scripts/python.exe scripts/run_ranker.py --split <name>` (GPU, about 1 h).
     3. `scripts/evaluate.py --system ranker --from-predictions --splits <name>`, adding `--part dev` for the dev predictions.
   - `scripts/queue_ranker.sh` chains these steps for the held-out splits. It checks run_ranker's exit code, which can be non-zero even after a successful run, so check `results/` and score by hand if needed.
+- Hebrew parallel text (Phase 3):
+  - `hebrew.py`: for the 15 biblical books (`BOOKS` maps Syriac to BHSA book codes), the Syriac verse and the BHSA verse with the same reference are parallel. The Hebrew Dan holds only its Hebrew verses. In total, 12,106 of the 18,146 Syriac verses have a parallel.
+    - BHSA `t-out` uses `+` before pronominal suffixes and `_` in compound names; `hebrew_lexemes` normalises both.
+    - `IBM1` fits t(Syriac lexeme | Hebrew lexeme) on gold training verses. `HebrewEvidence` aligns each candidate's core lexeme to one Hebrew word, maximising translation or cognate score (`cognate`: weighted edit distance with regular consonant correspondences) times a position prior.
+    - Each candidate gets the `HEB_FEATURES` columns and the aligned Hebrew analysis as a string. Verses without a parallel get `HEB_MISSING`.
+  - `ranker.py`: if examples carry `heb`, a char BiGRU encodes the aligned Hebrew analysis and feeds it to the scorer. In training, each verse's Hebrew is hidden with probability `heb_dropout` (0.3), so the model still works on non-biblical books.
+  - `run_ranker.py --split <name> --hebrew --name ranker-heb`. The translation tables are cross-fitted per candidate fold, like the candidates. Building the evidence for training takes about 6 min on the CPU, and training takes about 1.5 h.
+  - `scripts/compare_hebrew.py --split <name> --part dev --systems ranker ranker-heb`: accuracy on verses with and without Hebrew, by category and error type.
+  - Random test results: 93.4% → 94.8% word accuracy, CER 2.35% → 1.86%. Verses with a parallel go from 94.1% to 96.0% (unseen +5.6, ambiguous +3.6); verses without one stay the same. Vowel pattern marks don't improve.
+  - Held-out Ezekiel test (a biblical book unseen in training): 91.8% → 94.0%, CER 2.91% → 2.12%, unseen words 75.9% → 82.0%.
+  - Not yet checked: whether `--hebrew` costs anything on the non-biblical held-out books (Sir, ESNJ).
 - Error analysis and triage (Phase 4):
   - `errors.py`: `error_type(gold, pred)` classifies how two analyses differ (segmentation, homograph index, vowel pattern mark, endings, lexeme, stem formation). `scripts/error_analysis.py` uses it to break down a system's errors and writes `results/<split>/<system>-<part>.errors.tsv`.
   - `confidence.py`: calibrators (temperature scaling, logistic) and metrics (ECE, Brier, AUROC, triage curve).
