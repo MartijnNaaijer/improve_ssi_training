@@ -19,3 +19,8 @@ Syriac_paradigm.pdf
 
 # Upstream code (cloned by scripts, pinned in third_party/README)
 third_party/*/
+
+# Per-word confidence tables (regenerate with scripts/triage.py and scripts/collect_cv.py)
+results/*/triage/ranker-dev.tsv
+results/*/triage/ranker-test.tsv
+results/cv5/words.tsv

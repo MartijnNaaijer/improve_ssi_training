@@ -29,6 +29,16 @@ Approach: **hybrid generate → filter → rank**:
     2. `.venv/Scripts/python.exe scripts/run_ranker.py --split <name>` (GPU, about 1 h).
     3. `scripts/evaluate.py --system ranker --from-predictions --splits <name>`, adding `--part dev` for the dev predictions.
   - `scripts/queue_ranker.sh` chains these steps for the held-out splits. It checks run_ranker's exit code, which can be non-zero even after a successful run, so check `results/` and score by hand if needed.
+- Error analysis and triage (Phase 4):
+  - `errors.py`: `error_type(gold, pred)` classifies how two analyses differ (segmentation, homograph index, vowel pattern mark, endings, lexeme, stem formation). `scripts/error_analysis.py` uses it to break down a system's errors and writes `results/<split>/<system>-<part>.errors.tsv`.
+  - `confidence.py`: calibrators (temperature scaling, logistic) and metrics (ECE, Brier, AUROC, triage curve).
+  - `scripts/triage.py --split <name>` writes to `results/<split>/triage/` (subfolder so `summary.md` ignores it):
+    - the calibration metrics;
+    - a per-word confidence and alternatives table;
+    - `ranker-suspects.tsv`: confident predictions that disagree with the gold.
+  - Temperature scaling fitted on dev wins. New books stay overconfident (ESNJ test ECE 4%); refitting on the first 5% of the book's verses halves that.
+  - `scripts/find_inconsistencies.py --window 2`: identical surface contexts with different gold analyses across the whole corpus (`results/consistency/`).
+  - `ContextRanker.save` / `.load`. `.pt` files written before save() existed hold only a state dict; `load` rebuilds them from the training examples.
 - `scripts/make_splits.py`, `scripts/evaluate.py --system <name>`: results go to `results/<split>/<system>.json`; `results/summary.md` is regenerated, never hand-edited.
 - New systems: implement `fit(train) -> self` and `predict(verses) -> {vid: [analysis, ...]}`, then register them in `SYSTEMS` in `scripts/evaluate.py`.
 - Tests: `python -m pytest`. Scripts need `PYTHONPATH=src` or `pip install -e .`.

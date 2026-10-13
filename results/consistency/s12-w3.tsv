@@ -1,0 +1,38 @@
+n	surface	context	majority	majority_n	minority	minority_n	type	minority_where
+20	MLL	<s> <s> <s> [MLL] <M BN"J >JSRJL	!!MLL[:d	19	MLL[:d	1	segm: same boundaries, other markers	Nm 17:17#1
+6	W>MR	<s> <s> <s> [W>MR] LH HKN> >MR	W->MR[	5	W-!!>MR[	1	segm: same boundaries, other markers	Sa 6:12#1
+5	W>MR	<s> <s> <s> [W>MR] LHWN HKN> >MR	W-!!>MR[	4	W->MR[	1	segm: same boundaries, other markers	Jr 42:9#1
+4	JQDT>	BGW >TWN> DNWR> [JQDT>] </s> </s> </s>	JQD(>/T~>	3	JQD[/T~>	1	segm: same boundaries, other markers	Dn 3:6#11
+4	WTRB>	<s> WTR"TJN KW"LJN [WTRB>] D<LJHJN D<L SVR>	W-TRB/>	2	W-TRB/~>	2	segm: same boundaries, other markers	Lv 3:15#3 Lv 4:9#3
+3	MR>	WND<WN D>N> >N> [MR>] MR"WT> </s> </s>	MR>/	2	MR(>/~>	1	segm: boundary position	Ez 29:21#14
+3	WPQD	<s> <s> <s> [WPQD] >NWN W>MR LHWN	W-PQD[:d	2	W-!!PQD[	1	segm: same boundaries, other markers	Jos 4:3#1
+2	<BD	D>R<> WBR"Q> LMVR> [<BD] MPQ R"WX> MN	!!<BD[	1	<BD[	1	segm: same boundaries, other markers	Jr 10:13#13
+2	<MH^	W>WBDJH^ MN GW [<MH^] </s> </s> </s>	<M=/-H	1	<M=/-H=	1	lexeme: homograph index	Lv 20:6#15
+2	>MR	<s> <s> <s> [>MR] LH MWC> L>	>MR[	1	>MR[/	1	segm: same boundaries, other markers	Nm 10:31#1
+2	BHTW	<s> <s> <s> [BHTW] MVL DVNPWT> <BDW	!!BHT[W	1	BHT[W	1	segm: same boundaries, other markers	Jr 6:15#1
+2	BQNJ>	TLT> >S"QPJN QBJ<JN [BQNJ>] XD WXZWR"> WC"WCN>	B-QN(J=/J~>	1	B-QNJ=/~>	1	segm: boundary position	Ex 25:33#4
+2	BQRJT>	BJRX> <CN KPN> [BQRJT>] WLJT HW> LXM>	B-QRJ(>/T~>	1	B-QRJ=/T~>	1	lexeme: other lexeme	2Rg 25:3#12
+2	BR>	NYV^B< W<M XJWT [BR>] M<MRH B<SB> D>R<>	BR=/~>	1	BR>=/	1	segm: boundary position	Dn 4:20#30
+2	BWKRH	D>R<> DMYRJN MN [BWKRH] DPR<WN DJT^B <L	B&WK(WR/-H	1	BWKR/-H	1	lexeme: other lexeme	Ex 11:5#7
+2	CN>	<JN> XLP <JN> [CN>] XLP CN> >JD>	CN(>/>	1	CN/~>	1	segm: same boundaries, other markers	Ex 21:24#4
+2	CN>	<JN> CN> XLP [CN>] >JD> XLP >JD>	CN(>/>	1	CN/~>	1	segm: same boundaries, other markers	Ex 21:24#6
+2	D<LT	<s> <s> WM> [D<LT] L>R<> DJ^HB LK	D-<L(L[/T=	1	D-<L(L[T=	1	segm: same boundaries, other markers	Dt 26:1#2
+2	DMDJ	NHR GWZN QWR"J> [DMDJ] </s> </s> </s>	D-MDJ/	1	D-MDJ=/	1	lexeme: homograph index	2Rg 18:11#13
+2	DTDRWK	<s> KL >TR> [DTDRWK] BH PST> DRGLKWN	D-!T!DR&WK[	1	D-!T=!DR&WK[	1	stem formation	Jos 1:3#3
+2	HJ	BH BJRX> HJ [HJ] CNT TC<SR> LNBWKDNYR	HJ	1	HJ=	1	lexeme: homograph index	2Rg 25:8#7
+2	MBRK	<s> <s> <s> [MBRK] >NT MRJ> >LH>	!M!BRK[/:d	1	!M!BRK[/:dp	1	vowel pattern mark	Dn 3:52#1
+2	MC"LJN	WM> DQJ"MN H"WJ [MC"LJN] H"WJ GPJ"HJN </s>	!M!CLJ=[/N:d	1	!M!CLJ=[/N:dp	1	vowel pattern mark	Ez 1:24#22
+2	NCTLVWN	S"GJ>> WBK L> [NCTLVWN] </s> </s> </s>	!N!@(>(T&C@(C&TLV[WN	1	!N!@(>(T&C@(C&TLV[WN:d	1	vowel pattern mark	Dt 28:12#26
+2	NRWX	<s> <s> WKD [NRWX] MRJ> >LHK TXWMK	!N!RWX=[	1	!N!RWX=[:d	1	vowel pattern mark	Dt 12:20#2
+2	Q"NJN	WXZWR> TXJT TR"JN [Q"NJN] DMNH^ WXZWR> TXJT	QN(J=/JN	1	QNJN/	1	segm: boundary position	Ex 37:21#9
+2	QRJT>	<s> <s> W>TTR<T [QRJT>] WKLHWN GBR"> QR"BTN>	QRJ(>/T~>	1	QRJ=/T~>	1	lexeme: other lexeme	2Rg 25:4#2
+2	QRJT>	<RQW WNPQW MN [QRJT>] BLLJ> B>WRX> DTR<>	QRJ(>/T~>	1	QRJ=/T~>	1	lexeme: other lexeme	2Rg 25:4#9
+2	QRJT>	<s> <s> WMN [QRJT>] DBR MHJMN> XD	QRJ(>/T~>	1	QRJ=/T~>	1	lexeme: other lexeme	2Rg 25:19#2
+2	RX^M	<s> <s> <s> [RX^M] <LJ MRJ># MVL	!!RXM[	1	!!RXM[:d	1	vowel pattern mark	PsH 6:3#1
+2	TBCL	DMRJ> >LHK L> [TBCL] GDJ> BXLB> D>MH	!T!BCL[	1	!T!BCL[:d	1	vowel pattern mark	Ex 34:26#9
+2	TGZJN	W<MKJ TWB L> [TGZJN] >M^R MR> MR"WT>	!T!GZ(J[JN	1	!T!GZ(J[JN:d	1	vowel pattern mark	Ez 36:14#8
+2	TTBR	>MR MRJ> WL> [TTBR] >JSRJL DH> PRQ	!T!@(>T@(TBR[	1	!T!TBR[	1	segm: boundary position	Jr 46:27#9
+2	VM>>	MN QRJT> B>TR> [VM>>] </s> </s> </s>	VM>/>	1	VM>/~>	1	segm: same boundaries, other markers	Lv 14:40#16
+2	WNKSJWHJ	<L RCH DXVH> [WNKSJWHJ] LXVH> BDWKT> DNKS	W-!N!(NKS=[&J-&WHJ	1	W-NKS=[&J-&WHJ	1	segm: boundary position	Lv 4:33#6
+2	WNSB	<s> <s> <s> [WNSB] LYPR> H^J XJT>	W-!N!(NSB[	1	W-NSB[	1	segm: boundary position	Lv 14:51#1
+2	WNV>B	WPLWXW LMLK> DBBL [WNV>B] LKWN </s> </s>	W-!N!V>B[	1	W-!N!](>]V>B[	1	segm: same boundaries, other markers	Jr 40:9#20

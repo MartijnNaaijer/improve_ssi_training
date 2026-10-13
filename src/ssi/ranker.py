@@ -159,17 +159,53 @@ class ContextRanker:
         return (word_ids, word_lens, verse_lens, cand_ids, cand_lens, cand_index.to(dev), feats.to(dev),
                 cand_mask.to(dev)), gold.to(dev)
 
-    # -- training -----------------------------------------------------------
-    def fit(self, train: list[VerseExample], dev: list[VerseExample] | None = None) -> 'ContextRanker':
-        random.seed(self.seed)
-        torch.manual_seed(self.seed)
+    # -- set-up, saving and loading --------------------------------------------
+    def _setup(self, train: list[VerseExample]):
+        """Vocabularies, feature scaling and a fresh model, all from the training examples."""
         self.in_vocab = Vocab(w for ex in train for w in ex.words)
         self.out_vocab = Vocab(a for ex in train for cs in ex.cands for a in cs)
         all_f = np.concatenate([f for ex in train for f in ex.feats if len(f)])
         self.n_features = all_f.shape[1]
         self.mu, self.sd = all_f.mean(0), all_f.std(0) + 1e-6
+        self._new_model()
+
+    def _new_model(self):
         self.model = RankerModel(len(self.in_vocab), len(self.out_vocab), self.n_features, d=self.d,
                                  dropout=self.dropout).to(self.device)
+
+    def save(self, path):
+        torch.save({'state': self.model.state_dict(), 'in_vocab': self.in_vocab.index,
+                    'out_vocab': self.out_vocab.index, 'mu': self.mu, 'sd': self.sd,
+                    'config': {'d': self.d, 'dropout': self.dropout}}, path)
+
+    @classmethod
+    def load(cls, path, train: list[VerseExample] | None = None, device: str | None = None,
+             **config) -> 'ContextRanker':
+        """Load a saved ranker. Files that hold only a state dict (written before
+        save() existed) also need the training examples to rebuild vocabularies
+        and feature scaling, and `config` (d, dropout) if not the defaults."""
+        data = torch.load(path, map_location='cpu', weights_only=False)
+        if 'state' not in data:
+            if train is None:
+                raise ValueError(f'{path} holds only a state dict; pass the training examples')
+            ranker = cls(device=device, **config)
+            ranker._setup(train)
+            ranker.model.load_state_dict(data)
+            return ranker
+        ranker = cls(device=device, **data['config'])
+        ranker.in_vocab, ranker.out_vocab = Vocab(()), Vocab(())
+        ranker.in_vocab.index, ranker.out_vocab.index = data['in_vocab'], data['out_vocab']
+        ranker.mu, ranker.sd = data['mu'], data['sd']
+        ranker.n_features = len(ranker.mu)
+        ranker._new_model()
+        ranker.model.load_state_dict(data['state'])
+        return ranker
+
+    # -- training -----------------------------------------------------------
+    def fit(self, train: list[VerseExample], dev: list[VerseExample] | None = None) -> 'ContextRanker':
+        random.seed(self.seed)
+        torch.manual_seed(self.seed)
+        self._setup(train)
         opt = torch.optim.AdamW(self.model.parameters(), lr=self.lr, weight_decay=0.01)
         steps = self.epochs * math.ceil(len(train) / self.batch_size)
         sched = torch.optim.lr_scheduler.OneCycleLR(opt, max_lr=self.lr, total_steps=steps, pct_start=0.1)
@@ -211,16 +247,20 @@ class ContextRanker:
 
     # -- prediction ---------------------------------------------------------
     @torch.no_grad()
-    def choices(self, examples: list[VerseExample]) -> list[list[int]]:
+    def probabilities(self, examples: list[VerseExample]) -> list[list[np.ndarray]]:
+        """Per verse, per word: the softmax over that word's candidates (empty if it has none)."""
         self.model.eval()
         out = []
         for i in range(0, len(examples), 64):
             batch = examples[i:i + 64]
             inputs, _ = self._batch(batch)
-            best = self.model(*inputs).argmax(-1).cpu()
+            probs = torch.softmax(self.model(*inputs).float(), -1).cpu().numpy()
             for j, ex in enumerate(batch):
-                out.append([int(best[j, m]) if ex.cands[m] else -1 for m in range(len(ex.words))])
+                out.append([probs[j, m, :len(cs)] for m, cs in enumerate(ex.cands)])
         return out
+
+    def choices(self, examples: list[VerseExample]) -> list[list[int]]:
+        return [[int(p.argmax()) if len(p) else -1 for p in verse] for verse in self.probabilities(examples)]
 
     def accuracy(self, examples: list[VerseExample]) -> float:
         hit = n = 0

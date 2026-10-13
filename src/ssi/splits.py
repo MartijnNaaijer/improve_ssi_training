@@ -70,3 +70,22 @@ def heldout_book_split(verses: list[Verse], book: str, version: str,
     n_dev = round(dev_frac * len(rest))
     return Split(f'heldout-{book}', version, seed, sorted(rest[n_dev:]),
                  sorted(rest[:n_dev]), sorted(test))
+
+
+def cross_validation_splits(verses: list[Verse], version: str, folds: int = 5, seed: int = DEFAULT_SEED,
+                            dev_frac: float = 0.05) -> list[Split]:
+    """Splits cv<folds>-0 .. cv<folds>-<folds-1>: every verse is in exactly one
+    test fold, so the folds' test predictions together cover the corpus (used
+    to look for gold errors). Each split's dev part (`dev_frac` of all verses)
+    comes from the other folds, for checkpoint selection and calibration."""
+    ids = [v.vid for v in verses]
+    random.Random(seed).shuffle(ids)
+    n_dev = round(dev_frac * len(ids))
+    out = []
+    for k in range(folds):
+        test = ids[k::folds]
+        rest = [i for j, i in enumerate(ids) if j % folds != k]
+        random.Random(seed + k).shuffle(rest)
+        out.append(Split(f'cv{folds}-{k}', version, seed, sorted(rest[n_dev:]), sorted(rest[:n_dev]),
+                         sorted(test)))
+    return out

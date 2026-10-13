@@ -10,8 +10,6 @@ import argparse
 import pickle
 import time
 
-import torch
-
 from ssi.corpus import REPO_ROOT, load_corpus
 from ssi.predictions import write_predictions
 from ssi.ranker import ContextRanker, make_examples
@@ -47,7 +45,7 @@ def main():
                            dropout=args.dropout, seed=args.seed,
                            log=lambda m: print(m, flush=True)).fit(train_ex, dev_ex)
     print(f'trained in {time.time() - t:.0f}s', flush=True)
-    torch.save(ranker.model.state_dict(), model_dir / f'{args.name}.pt')
+    ranker.save(model_dir / f'{args.name}.pt')
 
     meta = {'system': args.name, 'split': split.name, 'version': split.version} | vars(args)
     for suffix, examples in (('-dev', dev_ex), ('', test_ex)):

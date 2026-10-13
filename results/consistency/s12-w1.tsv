@@ -1,0 +1,332 @@
+n	surface	context	majority	majority_n	minority	minority_n	type	minority_where
+176	>MR	HKN> [>MR] MRJ>	>MR[/	174	>MR[	2	segm: same boundaries, other markers	Jd 2:1#11 Sa 11:4#2
+61	W>MR	<s> [W>MR] MRJ>	W->MR[	60	W-!!>MR[	1	segm: same boundaries, other markers	Jr 51:62#1
+56	W>MR	<s> [W>MR] LH	W->MR[	54	W-!!>MR[	2	segm: same boundaries, other markers	Ez 35:3#1 Sa 6:12#1
+50	W>MR	<s> [W>MR] LHWN	W->MR[	37	W-!!>MR[	13	segm: same boundaries, other markers	Nm 18:30#1 Nm 28:3#1 Jr 13:12#1 Jr 14:17#1 Jr 17:20#1 Jr 19:11#1 Jr 25:27#1 Jr 26:4#1 Jr 43:10#1 Ez 9:7#1 Ez 12:11#1 Ez 20:5#1 Ez 37:21#1
+34	W>MR	>JSRJL [W>MR] LHWN	W-!!>MR[	23	W->MR[	11	segm: same boundaries, other markers	Ex 12:21#7 Lv 1:2#5 Lv 4:2#5 Lv 23:2#5 Nm 30:2#8 Nm 33:51#5 Nm 34:2#4 Nm 34:13#5 Dt 5:1#5 Dt 29:1#5 Jd 6:8#8
+32	WRMRMWHJ	CBXWHJ [WRMRMWHJ] L<LM	W-!!RMRM[W:d-HJ	31	W-RMRM[W:d-HJ	1	segm: same boundaries, other markers	Dn 3:66#6
+30	MLL	<s> [MLL] <M	!!MLL[:d	29	MLL[:d	1	segm: same boundaries, other markers	Nm 17:17#1
+25	>M^R	<s> [>M^R] LH	>MR[/	21	>MR[	4	segm: same boundaries, other markers	Gn 25:31#1 Gn 25:33#1 Gn 30:31#1 Ex 10:29#1
+23	>MR	<s> [>MR] LH	>MR[/	19	>MR[	4	segm: same boundaries, other markers	Nm 11:29#1 Jd 4:8#1 1Rg 11:22#1 1Rg 21:6#1
+23	>MR	<s> [>MR] LHWN	!!>MR[	11	>MR[/	8	segm: same boundaries, other markers	Jd 8:2#1 Jd 9:9#1 Jd 14:14#1 Jd 18:4#1 Jd 18:6#1 Jd 18:24#1 2Rg 1:7#1 Jon 1:12#1
+23	>MR	<s> [>MR] LHWN	!!>MR[	11	>MR[	4	segm: same boundaries, other markers	Gn 43:23#1 Dt 32:46#1 Jd 8:23#1 Jon 1:9#1
+18	>M^R	<s> [>M^R] LHWN	>MR[/	17	>MR[	1	segm: same boundaries, other markers	Gn 24:56#1
+13	XDR	KD [XDR] </s>	XDR=[/	10	XDR/	3	segm: same boundaries, other markers	1Rg 6:5#17 1Rg 7:23#22 Ez 41:19#11
+11	DMRDJ>	>R<> [DMRDJ>] XLB>	D-!M!](>]RDJ[/>	9	D-!M!](>]RDJ[/~>	2	segm: same boundaries, other markers	Dt 6:3#18 Dt 26:9#10
+11	QRJT>	<L [QRJT>] HD>	QRJ(>/T~>	9	QRJ=/T~>	2	lexeme: other lexeme	2Rg 19:34#3 2Rg 20:6#15
+10	>MR	H^W [>MR] MRJ>	>MR[/	9	>MR[	1	segm: same boundaries, other markers	Jos 5:2#4
+10	WPQD	<s> [WPQD] MLK>	W-PQD[	9	W-PQD[:d	1	vowel pattern mark	2Rg 16:15#1
+9	CT>	<s> [CT>] JWM"JN	CT/>	8	CT/~>	1	segm: same boundaries, other markers	Dt 16:8#1
+9	HW>	L> [HW>] GJR	HW(J&>[	8	HW(J&>[/	1	segm: same boundaries, other markers	ESNJ 1:765#8
+9	LH	W>MR [LH] >LJC<	L-H	8	L-H=	1	lexeme: homograph index	2Rg 4:2#2
+9	XDR>	KD [XDR>] </s>	XDR=[/>	6	XDR/~>	3	segm: same boundaries, other markers	1Rg 3:1#22 1Rg 7:36#11 2Rg 25:1#22
+8	W>M#R	W<N#> [W>M#R] LJ	W->MR[	7	W-!>!(>MR[	1	segm: boundary position	4Esr 4:52#2
+8	W>MRW	<s> [W>MRW] BN"J	W->MR[W	7	W-!!>MR[W	1	segm: same boundaries, other markers	2Rg 6:1#1
+7	DMTPNJN	WL>JLJN [DMTPNJN] LWTJ	D-!M!@(>T@PN(J[/JN	6	D-!M!@(>T@PNJ[/N	1	segm: boundary position	Lv 19:10#13
+7	W>CLM	<s> [W>CLM] >NWN	W-]>]CLM[	4	W-!>!](>]CLM[	3	segm: same boundaries, other markers	Jr 34:20#1 Jr 46:26#1 Jr 51:40#1
+7	W>M#RT	<s> [W>M#RT] LH	W->MR[T==	6	W->MR[T=	1	endings (vbe/nme/emf)	4Esr 3:24#1
+7	WCDR	<s> [WCDR] >NWN	W-CDR[:d	6	W-!!CDR[:d	1	segm: same boundaries, other markers	Jr 27:3#1
+6	DX"LWHJ	<s> [DX"LWHJ] DMRJ>	DXL[/(J&W-HJ	5	DXL=/(J&W-HJ	1	segm: same boundaries, other markers	Ps 22:24#1
+6	JQDT>	DNWR> [JQDT>] </s>	JQD(>/T~>	4	JQD[/T~>	2	segm: same boundaries, other markers	Dn 3:6#11 Dn 7:9#22
+6	LH	>MR [LH] MLK>	L-H	4	L-H=	2	lexeme: homograph index	1Rg 1:16#6 2Rg 6:28#2
+6	MBRK	<s> [MBRK] >NT	!M!BRK[/:dp	5	!M!BRK[/:d	1	vowel pattern mark	Dn 3:26#1
+6	Q"NJN	TR"JN [Q"NJN] DMNH^	QN(J=/JN	5	QNJN/	1	segm: boundary position	Ex 37:21#9
+6	W>MR	<s> [W>MR] HKN>	W-!!>MR[	5	W->MR[	1	segm: same boundaries, other markers	2Rg 6:31#1
+5	>"JDJ	MN [>"JDJ] </s>	&>JD/J-(J	4	&>JD/J	1	segm: clitics	Dt 32:39#24
+5	>W	<s> [>W] H^W	>W	4	>W=	1	lexeme: homograph index	ApBar 21:4#1
+5	DQWDC>	BMTQL> [DQWDC>] </s>	D-QWDC/~>	3	D-Q&WD(WC/~>	2	lexeme: other lexeme	Nm 3:50#13 Nm 7:85#18
+5	KW"LJN	WTR"TJN [KW"LJN] WTRB>	KWLJ(>/N	4	K&WL/JN	1	segm: boundary position	Ex 29:22#12
+5	MR>	>N> [MR>] MR"WT>	MR>/	4	MR(>/~>	1	segm: boundary position	Ez 29:21#14
+5	NMWT	WL> [NMWT] </s>	!N!MWT[	4	!N=!MWT[	1	stem formation	Gn 42:2#14
+5	PQD	<s> [PQD] LBN"J	!!PQD[:d	4	!!PQD[	1	vowel pattern mark	Lv 24:2#1
+5	T>KWL	L> [T>KWL] </s>	!T!>K&WL[	3	!T=!>K&WL[	2	stem formation	Lv 22:12#13 Sir 19:8#15
+5	W>MRT	<s> [W>MRT] LHWN	W->MR[T==	3	W->MR[T	2	endings (vbe/nme/emf)	Sa 11:12#1 3Esr 8:44#1
+5	W>QJM	<s> [W>QJM] LHWN	W-!>!](>]Q(W&JM[	4	W-]>]Q(W&JM[	1	segm: same boundaries, other markers	Dn 1:5#1
+5	WPQD	<s> [WPQD] >NWN	W-PQD[:d	3	W-!!PQD[	1	segm: same boundaries, other markers	Jos 4:3#1
+5	WPQD	<s> [WPQD] >NWN	W-PQD[:d	3	W-!!PQD[:d	1	segm: same boundaries, other markers	Jr 27:4#1
+5	WTRB>	KW"LJN [WTRB>] D<LJHJN	W-TRB/~>	3	W-TRB/>	2	segm: same boundaries, other markers	Lv 3:4#3 Lv 3:10#3
+5	WX"WJ>	WPR"ZJ> [WX"WJ>] WJB"WSJ>	W-XWJ==/(J~>	4	W-XWJ=/(J~>	1	lexeme: homograph index	Ex 34:11#16
+4	<MH^	GW [<MH^] </s>	<M=/-H=	3	<M=/-H	1	lexeme: homograph index	Lv 17:10#21
+4	>CQ>JNJ	LH^ [>CQ>JNJ] QLJL	!!]>]CQ(J&>[&J-NJ	3	!!]>]CQ(J&>[J-NJ	1	endings (vbe/nme/emf)	Jd 4:19#3
+4	>MR	<s> [>MR] MRJ>	>MR[/	3	>MR[	1	segm: same boundaries, other markers	Nm 26:1#1
+4	BCB<>	XD [BCB<>] </s>	B-CB</>	3	B-CB</~>	1	segm: same boundaries, other markers	Ps 12:7#12
+4	BQNJ>	QBJ<JN [BQNJ>] XD	B-QN(J=/J~>	2	B-QNJ=/~>	2	segm: boundary position	Ex 25:33#4 Ex 25:33#11
+4	DVM>JN	MVL [DVM>JN] >NWN	D-VM>/JN	3	D-VM>=[/JN	1	segm: same boundaries, other markers	Dt 23:19#13
+4	HJ	HD> [HJ] >R<>	HJ=	3	HJ==	1	lexeme: homograph index	ESNJ 1:1809#10
+4	HJ	HJ [HJ] CNT	HJ	2	HJ=	2	lexeme: homograph index	2Rg 18:10#12 2Rg 25:8#7
+4	L<MJ#	CDR [L<MJ#] W^NPLX#NJ	L-<M=/-J	3	L-<M=/J	1	segm: clitics	Ex 10:3#21
+4	LH	>M^R [LH] LBN	L-H	3	L-H=	1	lexeme: homograph index	Gn 30:31#2
+4	N<BD	HKN> [N<BD] </s>	!N=!<BD[	3	!N!<BD[	1	stem formation	Nm 15:14#19
+4	PDN	MN [PDN] D>RM	PDN/	3	PDN=/	1	lexeme: homograph index	Gn 25:20#13
+4	W<BD	<s> [W<BD] LH	W-<BD[	3	W-!!<BD[	1	segm: same boundaries, other markers	1Rg 2:6#1
+4	W>MR	<s> [W>MR] MN>	W->MR[	3	W-!!>MR[	1	segm: same boundaries, other markers	Ez 19:2#1
+4	W>MRT	<s> [W>MRT] LH	W->MR[T==	3	W->MR[T	1	endings (vbe/nme/emf)	Sa 2:6#1
+4	WMCX	<s> [WMCX] LRWX>	W-MCX==[	3	W-MCX=[:d	1	lexeme: homograph index	Ez 42:18#1
+4	XVHH	NQBL [XVHH] </s>	XVH/-H	3	XVH/-H=	1	lexeme: homograph index	Nm 30:16#9
+3	<BDW	HKN> [<BDW] LHWN	<BD[W	2	!!<BD[W	1	segm: same boundaries, other markers	Dt 7:5#3
+3	<LWHJ	HW> [<LWHJ] MLK>	<L&W-HJ	2	<L&W-HJ=	1	lexeme: homograph index	ApDn 2:9#7
+3	<MH	W>TKTC [<MH] </s>	<M-H=	2	<M-H	1	lexeme: homograph index	Jd 9:38#21
+3	>MR	WHKN> [>MR] LH	!!>MR[	2	>MR[	1	segm: same boundaries, other markers	1Rg 13:21#8
+3	>MR	<s> [>MR] GJR	>MR[	2	>MR[/	1	segm: same boundaries, other markers	Eprx 20:12#1
+3	>WRJ	BR [>WRJ] BR	>WRJ/	2	>WRJ=/	1	lexeme: homograph index	Ex 38:22#3
+3	>ZDHR	<s> [>ZDHR] DLM>	!!@>(T&Z@(Z&DHR[:d	2	!!@>(T&Z@(Z&DHR[	1	vowel pattern mark	Sir 28:26#1
+3	B<JR">	W<L [B<JR">] W<L	B<JR/~>	2	B<JR/(J~>	1	endings (vbe/nme/emf)	PsM 11:3#29
+3	BJTH	<L [BJTH] W<L	BJT/-H=	2	BJT/-H	1	lexeme: homograph index	Gn 39:5#6
+3	BWKR">	KLHWN [BWKR">] D>R<>	B&WK(WR/(J~>	2	BWKR/(J~>	1	lexeme: other lexeme	Ex 11:5#3
+3	CLJ>	MN [CLJ>] </s>	CLJ/~>	2	CLJ=[/~>:p	1	segm: same boundaries, other markers	ESNJ 1:825#14
+3	CLJV	L> [CLJV] LH	CLJV/	2	CL&JV[/:p	1	segm: same boundaries, other markers	Ex 21:8#12
+3	CM<	<s> [CM<] MRJ>	!!CM<[	2	CM<[	1	segm: same boundaries, other markers	Ps 6:10#1
+3	CN>	<JN> [CN>] XLP	CN/~>	2	CN(>/>	1	segm: same boundaries, other markers	Dt 19:21#11
+3	D>"NC>	B"NJ> [D>"NC>] </s>	D->NC/(J~>	2	D->NC/~>	1	endings (vbe/nme/emf)	PsH 30:20#17
+3	D>MR	>JK [D>MR] BRDJYN	D->MR[	2	D->MR[/	1	segm: same boundaries, other markers	Eprx 14:7#2
+3	D>M^R	>N> [D>M^R] LK	D-!>!(>MR[	2	D->MR[/	1	segm: boundary position	4Esr 4:52#11
+3	D>QJMT	DDHB> [D>QJMT] L>	D-]>]Q(W&JM[T=	2	D-]>]Q(W&JM[T	1	endings (vbe/nme/emf)	Dn 3:14#16
+3	DMH	MN [DMH] <L	DM/-H	2	DM/-H=	1	lexeme: homograph index	2Rg 9:33#6
+3	DNPQ	MDM [DNPQ] MN	D-NPQ[/	2	D-NPQ[	1	segm: same boundaries, other markers	Jd 11:36#13
+3	DPQDH	MDM [DPQDH] MRJ>	D-PQD[:d-H	2	D-PQD[-H	1	vowel pattern mark	1Rg 11:10#13
+3	DPQDK	>JK [DPQDK] MRJ>	D-PQD[-K	2	D-PQD[:d-K	1	vowel pattern mark	Dt 20:17#12
+3	DPQDNJ	>JK [DPQDNJ] MRJ>	D-PQD[:d-NJ	2	D-PQD[-NJ	1	vowel pattern mark	Dt 10:5#14
+3	DQWDC>	MVL [DQWDC>] >NWN	D-QWDC/~>	2	D-Q&WD(WC/~>	1	lexeme: other lexeme	Nm 18:17#12
+3	DXWR>	BHQJT> [DXWR>] >W	D-XWR=/~>	2	D-XWR=/>	1	segm: same boundaries, other markers	Lv 13:39#8
+3	HJ	DJHWD> [HJ] HJ	HJ	2	HJ=	1	lexeme: homograph index	2Rg 18:10#11
+3	HW	WSM>LWS [HW] SPR>	HW	2	HW=	1	lexeme: homograph index	3Esr 2:25#11
+3	HW	ZWRBBJL [HW] DCL>TJL	HW=	2	HW	1	lexeme: homograph index	3Esr 4:13#12
+3	HW>	L> [HW>] MDM	HW(J&>[	2	HW(J&>[/	1	segm: same boundaries, other markers	Sir 12:1#6
+3	HWJT	WL> [HWJT] >LH>	HWJ[T=	2	HWJ[T	1	endings (vbe/nme/emf)	Jr 23:23#8
+3	JD<T	DL> [JD<T] >NT	JD<[T=	2	JD<[T	1	endings (vbe/nme/emf)	Dt 13:7#26
+3	LH	W>MR [LH] H>	L-H	2	L-H=	1	lexeme: homograph index	2Rg 4:13#2
+3	LH	W>MR [LH] MLK>	L-H	2	L-H=	1	lexeme: homograph index	1Rg 2:20#12
+3	M>KWLT>	C"LDJHWN [M>KWLT>] LPRXT>	M>K&WL(>/T~>	2	M>K&WL/T~>	1	lexeme: other lexeme	Jr 19:7#18
+3	MN	LHWN [MN] >LH>	MN	2	MN=	1	lexeme: homograph index	ESNJ 1:1893#6
+3	MWC"XT>	HLJN [MWC"XT>] </s>	MWCX(>/T=~>	2	MWCX(>/T~>	1	endings (vbe/nme/emf)	Ez 40:24#12
+3	MZJNJN	KD [MZJNJN] >NTWN	!M!Z(W&JN[/JN:dp	2	!M!ZJN=[/JN:d	1	lexeme: other lexeme	Dt 3:18#15
+3	NMWT	DL> [NMWT] </s>	!N!MWT[	2	!N=!MWT[	1	stem formation	Ex 20:19#12
+3	NPQ	<M> [NPQ] MN	NPQ[	2	NPQ[/	1	segm: same boundaries, other markers	Jd 9:43#12
+3	QRJT>	MN [QRJT>] </s>	QRJ(>/T~>	2	QRJ=/T~>	1	lexeme: other lexeme	Jd 20:38#13
+3	QRJT>	MN [QRJT>] BLLJ>	QRJ(>/T~>	2	QRJ=/T~>	1	lexeme: other lexeme	2Rg 25:4#9
+3	QWDC>	WLBWC"J [QWDC>] L>HRWN	QWDC/~>	2	Q&WD(WC/~>	1	lexeme: other lexeme	Ex 31:10#4
+3	R"GLWHJ	TXJT [R"GLWHJ] </s>	RGL/(J&W-HJ	2	RGL/(J-&WHJ	1	segm: boundary position	ApDn 28:5#13
+3	R"WXJ	L>RB< [R"WXJ] CMJ>	RWX/J	2	RWX/J-(J	1	segm: clitics	Dn 8:8#16
+3	RXC>	WKLH [RXC>] DRXC	RXC=/~>	2	RXC[/~>	1	segm: same boundaries, other markers	Gn 8:17#10
+3	RX^M	<s> [RX^M] <LJ	!!RXM[	2	!!RXM[:d	1	vowel pattern mark	PsH 6:3#1
+3	SLQT	WL> [SLQT] <L	SLQ[T==	2	SLQ[T	1	endings (vbe/nme/emf)	Jr 32:35#14
+3	TBCL	L> [TBCL] GDJ>	!T!BCL[:d	2	!T!BCL[	1	vowel pattern mark	Ex 23:19#9
+3	THW>	<s> [THW>] DJN	!T=!HW(J&>[	2	!T!HW(J&>[	1	stem formation	Dn 3:18#1
+3	TQJPT>	B>JD> [TQJPT>] WBDR<>	TQ&JP[/T~>:p	2	TQJP/T~>	1	segm: same boundaries, other markers	Ex 6:6#23
+3	TSTN>	DL> [TSTN>] </s>	!T!@(>(T&S@(S&TN(J&>[	2	!T=!@(>(T&S@(S&TN(J&>[	1	stem formation	Sir 42:9#15
+3	TXJT	MN [TXJT] CLJ>	TX&JT	2	TXJT	1	lexeme: other lexeme	ApDn 15:4#3
+3	W>MR	<MHWN [W>MR] LHWN	W-!!>MR[	2	W->MR[	1	segm: same boundaries, other markers	Gn 23:8#3
+3	W>MR	<s> [W>MR] LBN"J	W->MR[	2	W-!!>MR[	1	segm: same boundaries, other markers	Ez 25:3#1
+3	W>MR	>NWN [W>MR] LHWN	W->MR[	2	W-!!>MR[	1	segm: same boundaries, other markers	Jos 4:3#3
+3	W>MR	LH [W>MR] LH	W->MR[	2	W->MR[/	1	segm: same boundaries, other markers	2Rg 1:13#19
+3	W>MR	L>WR<H [W>MR] LH	W->MR[	2	W-!!>MR[	1	segm: same boundaries, other markers	2Rg 4:26#4
+3	W>MRW	>JSRJL [W>MRW] LHWN	W->MR[W	2	W-!!>MR[W	1	segm: same boundaries, other markers	Lv 11:2#5
+3	W>QJM	<s> [W>QJM] QJMJ	W-]>]Q(W&JM[	2	W-!>!](>]Q(W&JM[	1	segm: same boundaries, other markers	Gn 17:7#1
+3	WLCPL	NTLJH^ [WLCPL] >N"CJN	W-L-CPL===/	2	W-L-CPL[	1	segm: same boundaries, other markers	Dn 4:29#33
+3	WMKKW	LKWN [WMKKW] NPC"TKWN	W-MKK[W:d	2	W-!!MKK[W:d	1	segm: same boundaries, other markers	Lv 16:31#4
+3	WRB>	<s> [WRB>] VLJ>	W-RB(J&>[	2	W-RB(J&>[:d	1	vowel pattern mark	Ex 2:10#1
+3	XD>	<L [XD>] MN	XD/~>	2	XD/>	1	segm: same boundaries, other markers	Lv 5:22#9
+3	XDR>	KD [XDR>] <QRW	XDR=[/>	2	XDR/~>	1	segm: same boundaries, other markers	2Rg 25:10#4
+2	<B#DK	LWT [<B#DK] >BWN	<BD=/-K	1	<BD[-K	1	segm: same boundaries, other markers	Gn 44:24#4
+2	<BD	LMVR> [<BD] MPQ	!!<BD[	1	<BD[	1	segm: same boundaries, other markers	Jr 10:13#13
+2	<BDW	HKN> [<BDW] </s>	!!<BD[W	1	<BD[W	1	segm: same boundaries, other markers	Nm 1:54#9
+2	<LT>	BTRH^ [<LT>] BM"L>	<L(>/T~>	1	<L(>=/T~>	1	lexeme: homograph index	Dt 22:17#4
+2	<N>	WMN [<N>] WMN	<N(J&>[	1	<N/~>	1	segm: boundary position	Nm 31:30#16
+2	<WL>	T<BDWN [<WL>] BDJN>	<WL/~>	1	<WL=/~>	1	lexeme: homograph index	Lv 19:15#3
+2	<WL>	D<^BD [<WL>] </s>	<WL/~>	1	<WL=/~>	1	lexeme: homograph index	Dt 25:16#14
+2	>"PJ	>HPK [>"PJ] MNHWN	>(NP/J	1	>(NP/J-(J	1	segm: clitics	Ez 39:29#3
+2	><JPT>	DBXQL> [><JPT>] DQDM	><&JP/T=~>	1	><&JP/T~>	1	endings (vbe/nme/emf)	Gn 23:19#9
+2	>CKXT	L> [>CKXT] </s>	]>]CKX[T	1	]>]CKX[T==	1	endings (vbe/nme/emf)	Jr 49:23#15
+2	>JKN>	JRTWTHWN [>JKN>] D>MR	>JK&N&>	1	>JK-(HN>	1	segm: clitics	Jos 13:14#15
+2	>JKN>	DJLJ [>JKN>] GJR	>JK-(HN>	1	>JKN>	1	segm: clitics	Eprx 4:9#7
+2	>JT>	WXRB> [>JT>] <LJKWN	!>!](>](>&JT(J&>[	1	>JT(J/~>	1	segm: boundary position	Ez 5:17#12
+2	>MR	HKN> [>MR] LHWN	!!>MR[	1	>MR[/	1	segm: same boundaries, other markers	Jd 15:11#23
+2	>MR	HN> [>MR] HKN>	!!>MR[	1	>MR[/	1	segm: same boundaries, other markers	1Rg 22:20#11
+2	>NC>	BJD [>NC>] >JLJN	>NC/(J~>	1	>NC/~>	1	endings (vbe/nme/emf)	Jr 22:25#3
+2	>SQTN	LMN> [>SQTN] MN	]>]S(LQ[T-N	1	]>]S(LQ[T=-N	1	endings (vbe/nme/emf)	Nm 21:5#9
+2	>T>	<M> [>T>] MN	>T(J&>[	1	>T(J&>[/	1	segm: same boundaries, other markers	Jr 6:22#6
+2	>TJTBT	DL> [>TJTBT] </s>	@>T@JTB[T==	1	@>T@JTB[T==:d	1	vowel pattern mark	Jr 17:6#16
+2	>WBD	DL> [>WBD] >NWN	!>!](>](>&WBD[	1	]>](>&WBD[	1	segm: same boundaries, other markers	Jd 1:32#9
+2	B<RBWT	LMWC> [B<RBWT] MW>B	B-<RB(>&W&T/	1	B-<RBWT/	1	lexeme: other lexeme	Nm 33:50#4
+2	BH	HWW [BH] </s>	B-H	1	B-H=	1	lexeme: homograph index	3Esr 4:54#10
+2	BHTW	<s> [BHTW] MVL	!!BHT[W	1	BHT[W	1	segm: same boundaries, other markers	Jr 6:15#1
+2	BJN"J	MRJ> [BJN"J] WLK	BJN/J	1	BJN/J-(J	1	segm: clitics	Gn 31:49#5
+2	BQRJT>	KPN> [BQRJT>] WLJT	B-QRJ(>/T~>	1	B-QRJ=/T~>	1	lexeme: other lexeme	2Rg 25:3#12
+2	BR>	XJWT [BR>] </s>	BR/~>	1	BR=/~>	1	lexeme: homograph index	Ex 23:29#15
+2	BR>	WTRNGWL [BR>] WVWS>	BR/~>	1	BR=/~>	1	lexeme: homograph index	Lv 11:19#5
+2	BR>	XJWT [BR>] M<MRH	BR=/~>	1	BR>=/	1	segm: boundary position	Dn 4:20#30
+2	BWKR">	WKLHWN [BWKR">] DB<JR>	B&WK(WR/(J~>	1	BWKR/(J~>	1	lexeme: other lexeme	Ex 11:5#19
+2	BWKRH	MN [BWKRH] DPR<WN	B&WK(WR/-H	1	BWKR/-H	1	lexeme: other lexeme	Ex 11:5#7
+2	BYRTJHJ	<s> [BYRTJHJ] QLJL	BYR[T=-&JHJ	1	BYR[T=:d-&JHJ	1	vowel pattern mark	Ps 8:6#1
+2	CM<W	HN> [CM<W] PTGMH	!!CM<[W	1	CM<[W	1	segm: same boundaries, other markers	Ez 36:4#3
+2	CN>	XLP [CN>] >JD>	CN(>/>	1	CN/~>	1	segm: same boundaries, other markers	Ex 21:24#6
+2	D<LT	WM> [D<LT] L>R<>	D-<L(L[/T=	1	D-<L(L[T=	1	segm: same boundaries, other markers	Dt 26:1#2
+2	D<MK	S"GJ>> [D<MK] </s>	D-<M-K	1	D-<M=/-K	1	segm: same boundaries, other markers	Ez 38:6#12
+2	D>CLM	<DM> [D>CLM] >NWN	D-!>!](>]CLM[	1	D-]>]CLM[	1	segm: same boundaries, other markers	1Rg 5:17#18
+2	D>MR	>JK [D>MR] LJ	D->MR[	1	D->MR[/	1	segm: same boundaries, other markers	Nm 22:8#10
+2	D>MR	MDM [D>MR] LK	D->MR[	1	D->MR[/	1	segm: same boundaries, other markers	Jr 39:12#13
+2	D>MR	MDM [D>MR] LJ	D->MR[	1	D->MR[/	1	segm: same boundaries, other markers	1Rg 22:14#8
+2	D>N	HNWN [D>N] N<BRWN	D(W&>N[/	1	D->N	1	segm: clitics	3Esr 8:24#3
+2	D>TR<J	DMRJ> [D>TR<J] <L	D-@>T@R<J[	1	D-@>T@R<J[:d	1	vowel pattern mark	Jr 50:45#6
+2	D>XJDJN	HLJN [D>XJDJN] HWW	D->X&JD[/JN	1	D->XJD/JN	1	segm: same boundaries, other markers	PsM 6:2#8
+2	DBDRT	>R"<T> [DBDRT] >NWN	D-BDR[T:d	1	D-BDR[T=:d	1	endings (vbe/nme/emf)	Dn 9:7#19
+2	DCLMW	<DM> [DCLMW] </s>	D-CLM[W	1	D-CLM[W:d	1	vowel pattern mark	Dt 31:30#11
+2	DJHBT	L>R<> [DJHBT] L>"BHJHWN	D-JHB[T	1	D-JHB[T=	1	endings (vbe/nme/emf)	1Rg 8:34#13
+2	DJHBT	>R<> [DJHBT] L>"BHJHWN	D-JHB[T	1	D-JHB[T=	1	endings (vbe/nme/emf)	1Rg 8:40#11
+2	DJN>	XJLTN> [DJN>] DQWCT>	DJN=/~>	1	DJN==/~>	1	lexeme: homograph index	Jr 11:20#3
+2	DMDBRNH	RB> [DMDBRNH] KD	D-MDBRN/-H	1	D-MDBRN/-H=	1	lexeme: homograph index	EpBarA 83:7#8
+2	DMDJ	QWR"J> [DMDJ] </s>	D-MDJ/	1	D-MDJ=/	1	lexeme: homograph index	2Rg 18:11#13
+2	DMHJMN	MVL [DMHJMN] HW>	D-!M!HJMN[/:d	1	D-!M!HJMN[/:dp	1	vowel pattern mark	Dn 6:5#21
+2	DMKSJ>	<NN> [DMKSJ>] L>R<>	D-!M!KSJ[/>:d	1	D-!M!KSJ[/>:dp	1	vowel pattern mark	Ez 38:16#7
+2	DMPQD	PWQDN> [DMPQD] >N>	D-!M!PQD[/	1	D-!M!PQD[/:d	1	vowel pattern mark	Dt 15:5#11
+2	DMPQD	>LHKWN [DMPQD] >N>	D-!M!PQD[/	1	D-!M!PQD[/:d	1	vowel pattern mark	Dt 11:27#7
+2	DMRDJ>	L>R<> [DMRDJ>] XLB>	D-!M!RDJ[/>:d	1	D-!M!](>]RDJ[/>	1	segm: same boundaries, other markers	Ex 33:3#2
+2	DMTPQDJN	WBZBN> [DMTPQDJN] NSTXPWN	D-!M!@(>T@PQD[/JN	1	D-!M!@(>T@PQD[/JN:d	1	vowel pattern mark	Jr 8:12#17
+2	DN<B^D	M^N [DN<B^D] BH^	D-!N!<BD[	1	D-!N!<BD[:d	1	vowel pattern mark	Ex 35:2#14
+2	DNV>B	LK [DNV>B] LK	D-!N!V>B[	1	D-!N!](>]V>B[	1	segm: same boundaries, other markers	Jr 38:20#13
+2	DP">	W<B^D [DP">] LMCKN>	DP/(J~>	1	DP/~>	1	endings (vbe/nme/emf)	Ex 26:18#2
+2	DPQDK	WNM"WSWHJ [DPQDK] </s>	D-PQD[-K	1	D-PQD[:d-K	1	vowel pattern mark	Dt 28:45#20
+2	DPQDKWN	>WRX> [DPQDKWN] MRJ>	D-PQD[-KWN	1	D-PQD[:d-KWN	1	vowel pattern mark	Dt 9:16#13
+2	DPQDNJ	>JK [DPQDNJ] </s>	D-PQD[-NJ	1	D-PQD[:d-NJ	1	vowel pattern mark	ApBar 21:1#28
+2	DQJMTK	MVL [DQJMTK] HJ	D-QJM(>/T-K	1	D-QJM(>=/T-K	1	lexeme: homograph index	Lv 10:14#13
+2	DQRJB	MVL [DQRJB] HW	D-QR&JB[/:p	1	D-QRJB/	1	segm: same boundaries, other markers	Dt 32:35#10
+2	DQWDCJ	CM> [DQWDCJ] </s>	D-Q&WD(WC/-J	1	D-QWDC/-J	1	lexeme: other lexeme	Lv 20:3#19
+2	DRWGZK	DRWX> [DRWGZK] </s>	D-R&WG(WZ/-K	1	D-RWGZ/-K	1	lexeme: other lexeme	PsH 17:16#14
+2	DSGJ>>	MVL [DSGJ>>] HJ	D-SGJ>/>	1	D-SGJ>/~>	1	segm: same boundaries, other markers	1Rg 19:7#13
+2	DT>QD	<DM> [DT>QD] BH	D-!T!(J&>QD[	1	D-!T=!(J&>QD[	1	stem formation	Sir 23:16#15
+2	DTDRWK	>TR> [DTDRWK] BH	D-!T!DR&WK[	1	D-!T=!DR&WK[	1	stem formation	Jos 1:3#3
+2	DXZ>	MVL [DXZ>] HW>	D-XZ(J&>[	1	D-XZ(J&>[/	1	segm: same boundaries, other markers	ApDn 10:4#2
+2	DYR"JN	>JLJN [DYR"JN] PR"STHWN	D-YR(J[/JN	1	D-YRJ[/N:p	1	segm: boundary position	Lv 11:4#9
+2	DYRJ>	WXZJR> [DYRJ>] PRSTH	D-YRJ[/>:p	1	D-YRJ[/~>	1	segm: same boundaries, other markers	Dt 14:8#2
+2	DYRJ>	B<JR"> [DYRJ>] PRSTH^	D-YRJ[/>:p	1	D-YRJ[/~>	1	segm: same boundaries, other markers	Dt 14:6#3
+2	DZDQ	>JK [DZDQ] HW>	D-ZDQ=/	1	D-ZDQ[/	1	segm: same boundaries, other markers	3Esr 1:11#5
+2	GDJL>	<B^D> [GDJL>] DDHB>	GD&JL[/~>:p	1	GDJL(>/~>	1	segm: same boundaries, other markers	Ex 39:15#7
+2	GRB>	<s> [GRB>] HW	GRB/~>	1	GRB=/~>	1	lexeme: homograph index	Lv 13:44#1
+2	HJ	CRJR> [HJ] MLT>	HJ=	1	HJ==	1	lexeme: homograph index	Dn 2:5#6
+2	HJ	<s> [HJ] DJN	HJ=	1	HJ==	1	lexeme: homograph index	Ps 2:5#1
+2	HJ	HJ [HJ] CNT>	HJ	1	HJ=	1	lexeme: homograph index	2Rg 18:9#6
+2	HJ	BJRX> [HJ] HJ	HJ	1	HJ=	1	lexeme: homograph index	2Rg 25:8#6
+2	HLKT	WL> [HLKT] MXWT>	HLK[T==	1	HLK[T==:d	1	vowel pattern mark	Lv 13:5#10
+2	HMJN>	MN [HMJN>] DPDT>	HMJN/~>	1	HMJN=/~>	1	lexeme: homograph index	Ex 39:20#21
+2	HMJN>	<L [HMJN>] DPDT>	HMJN/~>	1	HMJN=/~>	1	lexeme: homograph index	Ex 39:21#11
+2	HNWN	D>JSRJL [HNWN] DMN	HNWN	1	HNWN=	1	lexeme: homograph index	3Esr 7:13#4
+2	HW	MRJ> [HW] >MR	HW	1	HW=	1	lexeme: homograph index	1Rg 22:14#11
+2	HW	PWQDN> [HW] D>TKTB	HW	1	HW=	1	lexeme: homograph index	3Esr 8:8#4
+2	HW	<s> [HW] GJR	HW	1	HW=	1	lexeme: homograph index	3Esr 8:7#1
+2	HW	BH [HW] XZJNH	HW	1	HW=	1	lexeme: homograph index	ESNJ 1:689#9
+2	HW	CRJR> [HW] </s>	HW	1	HW=	1	lexeme: homograph index	ESNJ 1:733#18
+2	HW>	LJT [HW>] TMN	HW(J&>[	1	HW(J&>[/	1	segm: same boundaries, other markers	ESNJ 1:65#2
+2	HWJT	D<BD> [HWJT] BMYRJN	HWJ[T	1	HWJ[T=	1	endings (vbe/nme/emf)	Dt 5:15#3
+2	JHB	<s> [JHB] QL>	JHB[	1	JHB[/	1	segm: same boundaries, other markers	Jr 51:16#1
+2	JQR	<s> [JQR] L>BWK	!!JQR[	1	!!JQR[:d	1	vowel pattern mark	Ex 20:12#1
+2	L>JT	DL> [L>JT] BH	L->JT(J/	1	L>J[T=	1	segm: clitics	Jon 4:10#10
+2	L>JXJDK	LBRK [L>JXJDK] MNJ	L-&>JXJD(J/-K	1	L-&>JXJD/-K	1	lexeme: other lexeme	Gn 22:16#13
+2	LBJT	RQM [LBJT] GDR	L-BJ(N/T	1	L-BJT/	1	segm: boundary position	Gn 20:1#10
+2	LDJN#>	DVM>W [LDJN#>] XTHWN	L-DJN=/~>	1	L-DJN>/	1	segm: boundary position	Gn 34:27#10
+2	LH	W>MR [LH] MLT>	L-H	1	L-H=	1	lexeme: homograph index	1Rg 2:14#2
+2	LH	W>RMJW [LH] <L	L-H	1	L-H=	1	lexeme: homograph index	2Rg 4:24#2
+2	LH	>MR [LH] <L	L-H	1	L-H=	1	lexeme: homograph index	1Rg 21:6#2
+2	LH	W>MR [LH] CLM	L-H	1	L-H=	1	lexeme: homograph index	2Rg 4:26#5
+2	LMNW	<s> [LMNW] GJR	L-MN(>-(HW	1	L-MN=-(HW	1	lexeme: other lexeme	PsS 9:11#1
+2	M<KT	BR [M<KT] HNWN	M<KT/	1	M<KT=/	1	lexeme: homograph index	2Rg 25:23#27
+2	M<VPJN	KD [M<VPJN] B>S"VL>	!M!](>]<VP[/JN	1	!M!](>]<VP[/JN:p	1	vowel pattern mark	3Esr 5:57#4
+2	MC"LJN	H"WJ [MC"LJN] H"WJ	!M!CLJ=[/N:d	1	!M!CLJ=[/N:dp	1	vowel pattern mark	Ez 1:24#22
+2	MCKX	>NC [MCKX] LM<BRH^	!M!CKX[/	1	!M!](>]CKX[/	1	segm: same boundaries, other markers	Ez 47:5#16
+2	MHJM#N	<s> [MHJM#N] MRJ>	!M!HJMN[/:d	1	!M!HJMN[/:dp	1	vowel pattern mark	PsS 17:12#1
+2	MHJMN>	DBR [MHJMN>] XD	!M!HJMN[/~>:d	1	!M!HJMN[/~>:dp	1	vowel pattern mark	Jr 52:25#4
+2	MQDCJ	WMN [MQDCJ] DXLW	MQDC/-J	1	MQDC/J-(J	1	segm: same boundaries, other markers	Lv 26:2#4
+2	MTV<J>	DL> [MTV<J>] </s>	!M!@(>T@V<J[/>	1	!M!@(>T@V<J[/>:p	1	vowel pattern mark	Jr 23:40#8
+2	M^X>	H> [M^X>] >N>	!M!X(J(J&>[/	1	MX(J&>[/	1	segm: boundary position	Ex 7:17#10
+2	N<BD	MN> [N<BD] LH	!N!<BD[	1	!N=!<BD[	1	stem formation	Jd 13:8#16
+2	NCT>	WL> [NCT>] MN	!N!CT(J&>[	1	!N=!CT(J&>[	1	stem formation	Nm 21:22#8
+2	NCTLVWN	L> [NCTLVWN] </s>	!N!@(>(T&C@(C&TLV[WN	1	!N!@(>(T&C@(C&TLV[WN:d	1	vowel pattern mark	Dt 28:12#26
+2	NHW>	WL> [NHW>] >JK	!N!HW(J&>[	1	!N=!HW(J&>[	1	stem formation	Nm 12:12#2
+2	NNHRWN	L> [NNHRWN] </s>	!N!NHR=[WN	1	!N!](>]NHR=[WN	1	segm: same boundaries, other markers	ApDn 15:10#16
+2	NRWX	WKD [NRWX] MRJ>	!N!RWX=[	1	!N!RWX=[:d	1	vowel pattern mark	Dt 12:20#2
+2	NSB	WKD [NSB] GBR>	!N!(NSB[	1	NSB[	1	segm: boundary position	Dt 22:13#2
+2	NSG>	L> [NSG>] LH	!N!SG(J&>[	1	!N!](>]SG(J&>[	1	segm: same boundaries, other markers	Dt 17:17#11
+2	NTJHB	DXJWT> [NTJHB] LH	!N!@(>T@JHB[	1	!N=!@(>T@JHB[	1	stem formation	Dn 4:20#40
+2	NTTZJ#<	L> [NTTZJ#<] L<^LM	!N!@(>T@](>&T]Z(W&J<[	1	!N=!@(>T@](>&T]Z(W&J<[	1	stem formation	PsS 8:39#11
+2	NXZ>	L> [NXZ>] </s>	!N!XZ(J&>[	1	!N=!XZ(J&>[	1	stem formation	Jr 5:12#14
+2	NYVR>	DL> [NYVR>] </s>	!N!@(>(T&Y@(Y&VR(J&>[	1	!N!@(>(T&Y@(Y&VR(J&>[:d	1	vowel pattern mark	Ex 28:32#18
+2	QCJ>	PWLXN> [QCJ>] </s>	QCJ[/~>	1	QCJ[/~>:p	1	vowel pattern mark	Lv 25:46#18
+2	QDJC	MRJBT [QDJC] JWRTNH	QDJC/	1	QDJC=/	1	lexeme: homograph index	Ez 47:19#8
+2	QDM"J>	DR"> [QDM"J>] </s>	QDMJ/(J~>	1	QDMJ/~>	1	endings (vbe/nme/emf)	PsM 11:5#48
+2	QRJ>	QDMJ> [QRJ>] WQDJC>	QR(J[/J~>:p	1	QRJ===/~>	1	segm: boundary position	Nm 28:18#3
+2	QRJT>	MN [QRJT>] MN	QRJ(>/T~>	1	QRJ=/T~>	1	lexeme: other lexeme	Jd 17:8#4
+2	QRJT>	MCTLM> [QRJT>] HD>	QRJ(>/T~>	1	QRJ=/T~>	1	lexeme: other lexeme	2Rg 18:30#13
+2	QRJT>	W>TTR<T [QRJT>] WKLHWN	QRJ(>/T~>	1	QRJ=/T~>	1	lexeme: other lexeme	2Rg 25:4#2
+2	QRJT>	WMN [QRJT>] DBR	QRJ(>/T~>	1	QRJ=/T~>	1	lexeme: other lexeme	2Rg 25:19#2
+2	QWR"J>	KLHJN [QWR"J>] DJHWD>	QWR(J(>/J~>	1	QWRJ(>/>	1	segm: boundary position	2Rg 18:13#11
+2	RB>	<s> [RB>] HJ	RB/>	1	RB/~>	1	segm: same boundaries, other markers	PsH 20:6#1
+2	RWMH	>"MJN [RWMH] </s>	RWM=/-H	1	RWM=/-H=	1	lexeme: homograph index	1Rg 7:27#15
+2	S"K>	WKLHJN [S"K>] DMCKN>	SK(>/(J~>	1	SK/(J~>	1	lexeme: other lexeme	Ex 38:20#2
+2	SPR>	JWNTN [SPR>] DL>	SPR/~>	1	SPR=/~>	1	lexeme: homograph index	Jr 38:26#11
+2	TGMRWN	L> [TGMRWN] SPR">	!T!GMR[WN	1	!T!GMR[WN:d	1	vowel pattern mark	Lv 23:22#7
+2	TGZJN	L> [TGZJN] >M^R	!T!GZ(J[JN	1	!T!GZ(J[JN:d	1	vowel pattern mark	Ez 36:14#8
+2	THW>	L> [THW>] LK	!T!HW(J&>[	1	!T=!HW(J&>[	1	stem formation	Nm 18:20#9
+2	THW>	L> [THW>] LHWN	!T!HW(J&>[	1	!T=!HW(J&>[	1	stem formation	Jr 11:23#3
+2	TJMN	RB> [TJMN] RB>	TJMN/	1	TJMN=/	1	lexeme: homograph index	Gn 36:15#10
+2	TRXQ	L> [TRXQ] MNJ	!T!RXQ[	1	!T!](>]RXQ[	1	segm: same boundaries, other markers	Ps 22:20#4
+2	TTB	L> [TTB] </s>	!T!(JTB[	1	!T=!(JTB[	1	stem formation	Sa 9:5#17
+2	TTBR	WL> [TTBR] >JSRJL	!T!@(>T@(TBR[	1	!T!TBR[	1	segm: boundary position	Jr 46:27#9
+2	TTBRWN	DL> [TTBRWN] QDM	!T!@(>T@(TBR[WN	1	!T!TBR[WN	1	segm: boundary position	Dt 1:42#15
+2	TTDKR	L> [TTDKR] LH	!T!@(>T@DKR[	1	!T=!@(>T@DKR[	1	stem formation	Ez 33:13#16
+2	TTKRK	WL> [TTKRK] JRTWT>	!T!@(>T@KRK[	1	!T=!@(>T@KRK[	1	stem formation	Nm 36:7#2
+2	TTL	W>R<> [TTL] <"LLTH^	!T!(NTL[	1	!T=!(NTL[	1	stem formation	Ez 34:27#6
+2	TTL	L> [TTL] <"LLTH^	!T!(NTL[	1	!T=!(NTL[	1	stem formation	Lv 26:20#6
+2	TXJT	W<R"PL> [TXJT] R"GLWHJ	TX&JT	1	TXJT	1	lexeme: other lexeme	ApDn 28:5#12
+2	VM>>	B>TR> [VM>>] </s>	VM>/>	1	VM>/~>	1	segm: same boundaries, other markers	Lv 14:40#16
+2	W<M	JCW< [W<M] >JSRJL	W-<M	1	W-<M=/	1	segm: same boundaries, other markers	Jos 9:2#7
+2	W><L	<s> [W><L] Q"WP>	W-!!]>]<L(L[	1	W-]>]<L(L[	1	segm: same boundaries, other markers	Ex 37:5#1
+2	W>CDJKWN	<s> [W>CDJKWN] MN	W-!>!CDJ[-KWN	1	W-!>!](>]CDJ[-KWN	1	segm: same boundaries, other markers	Jr 16:13#1
+2	W>KRZ	RBT> [W>KRZ] <LJH^	W-!!]>]KRZ[	1	W-]>]KRZ[	1	segm: same boundaries, other markers	Jon 1:2#6
+2	W>LBC	NX"TWHJ [W>LBC] >NWN	W-!!]>]LBC[	1	W-]>]LBC[	1	segm: same boundaries, other markers	Nm 20:28#5
+2	W>M#R	LPR<WN [W>M#R] LH	W-!>!(>MR[	1	W->MR[	1	segm: boundary position	Gn 47:1#5
+2	W>MR	<s> [W>MR] QDM	W-!!>MR[	1	W->MR[	1	segm: same boundaries, other markers	Ex 11:2#1
+2	W>MR	DMYRJN [W>MR] LH	W-!!>MR[	1	W->MR[	1	segm: same boundaries, other markers	Nm 1:1#20
+2	W>MR	KNWCT> [W>MR] LHWN	W-!!>MR[	1	W->MR[	1	segm: same boundaries, other markers	Nm 16:26#5
+2	W>MR	DMRJ> [W>MR] LHWN	W-!!>MR[	1	W->MR[	1	segm: same boundaries, other markers	Dt 31:25#8
+2	W>MR	<s> [W>MR] L<M>	W-!!>MR[	1	W->MR[	1	segm: same boundaries, other markers	Jos 6:7#1
+2	W>MR	BRJCH [W>MR] LH	W-!!>MR[	1	W->MR[	1	segm: same boundaries, other markers	2Rg 9:6#7
+2	W>MRW	L<M> [W>MRW] LHWN	W-!!>MR[W	1	W->MR[W	1	segm: same boundaries, other markers	Jos 3:3#3
+2	W>NHR	MNRT> [W>NHR] CR"GJH^	W-!!]>]NHR=[	1	W-]>]NHR=[	1	segm: same boundaries, other markers	Nm 8:3#9
+2	W>PQKWN	<s> [W>PQKWN] MN	W-!>!(NPQ[-KWN	1	W-!>!](>](NPQ[-KWN	1	segm: same boundaries, other markers	Ez 20:34#1
+2	W>STMK	<LJHWN [W>STMK] <LJHWN	W-!>!@(>(T&S@(S&TMK[	1	W-@>(T&S@(S&TMK[	1	segm: boundary position	Jd 16:29#9
+2	W>WTBW	<WL> [W>WTBW] LQWBLH	W-!!]>](J&WTB[W	1	W-]>](J&WTB[W	1	segm: same boundaries, other markers	1Rg 21:13#6
+2	WB<JR>	>JSRJL [WB<JR>] DLWJ">	W-B<JR/(J~>	1	W-B<JR/~>	1	endings (vbe/nme/emf)	Nm 3:41#13
+2	WBJT	WLKWN [WBJT] KL	W-BJ(N/T	1	W-BJT/	1	segm: boundary position	Gn 9:15#5
+2	WGWH	D>RNWN [WGWH] DNXL>	W-GW(J/-H	1	W-GW/-H	1	lexeme: other lexeme	Jos 12:2#15
+2	WHW>	>N> [WHW>] >N>	W-HW(J&>[	1	W-HW(J&>[/	1	segm: same boundaries, other markers	Jd 16:7#13
+2	WLPRXT>	DDBR> [WLPRXT>] DCMJ>	W-L-PRX(>/T=~>	1	W-L-PRX(>/T~>	1	endings (vbe/nme/emf)	Ez 29:5#17
+2	WMCR"N	MWXDN [WMCR"N] BDHB>	W-!M!](>]CR(R=[/N	1	W-!M!](>]CR(R=[/N:p	1	vowel pattern mark	Ex 28:20#7
+2	WN<WL	>TKNCW [WN<WL] LQWR"J>	W-!N!<&WL(L[	1	W-!N=!<&WL(L[	1	stem formation	Jr 8:14#7
+2	WN>LWN	<s> [WN>LWN] <LJKJ	W-!N!>L(J[WN	1	W-!N!]>](JL(L[WN	1	segm: boundary position	Ez 27:32#1
+2	WNKSJWHJ	DXVH> [WNKSJWHJ] LXVH>	W-!N!(NKS=[&J-&WHJ	1	W-NKS=[&J-&WHJ	1	segm: boundary position	Lv 4:33#6
+2	WNKSJWHJ	<s> [WNKSJWHJ] L>MR>	W-!N!(NKS=[&J-&WHJ	1	W-NKS=[&J-&WHJ	1	segm: boundary position	Lv 14:13#1
+2	WNSB	<s> [WNSB] LYPR>	W-!N!(NSB[	1	W-NSB[	1	segm: boundary position	Lv 14:51#1
+2	WNSB	<s> [WNSB] MN	W-!N!(NSB[	1	W-NSB[	1	segm: boundary position	Ez 17:5#1
+2	WNSB	<s> [WNSB] >LJ<ZR	W-!N!(NSB[	1	W-NSB[	1	segm: boundary position	Nm 17:4#1
+2	WNTLJWHJ	<LWHJ [WNTLJWHJ] LKHN>	W-!N!(NTL[&J-&WHJ	1	W-!N=!(NTL[&J-&WHJ	1	stem formation	Lv 5:16#8
+2	WNV>B	DBBL [WNV>B] LKWN	W-!N!V>B[	1	W-!N!](>]V>B[	1	segm: same boundaries, other markers	Jr 40:9#20
+2	WPLGH	CB"VJN [WPLGH] HLJN	W-PLG=/-H	1	W-PLG=/-H=	1	lexeme: homograph index	EpBarA 78:1#9
+2	WPLJG>	PRSTH^ [WPLJG>] LTR"JN	W-PL&JG[/>:p	1	W-PL&JG[/~>:p	1	segm: same boundaries, other markers	Dt 14:6#5
+2	WPQD	<s> [WPQD] LJCW<	W-!!PQD[	1	W-PQD[:d	1	segm: same boundaries, other markers	Dt 31:23#1
+2	WQ"NJH^	WXZWR"JH^ [WQ"NJH^] MNH^	W-QN(J=/J-H=	1	W-QNJ=/-H=	1	segm: boundary position	Ex 37:22#2
+2	WQRB	<s> [WQRB] QWRBN>	W-QRB[	1	W-QRB[:d	1	vowel pattern mark	Lv 9:15#1
+2	WQRB	<s> [WQRB] LLW"J>	W-!!QRB[:d	1	W-QRB[:d	1	segm: same boundaries, other markers	Nm 8:9#1
+2	WQRB	<s> [WQRB] >NWN	W-!!QRB[	1	W-!!QRB[:d	1	vowel pattern mark	Ez 37:17#1
+2	WQRWMJHJ	<s> [WQRWMJHJ] DHB>	W-!!QR&WM[&J-HJ	1	W-!!QR&WM[J-HJ	1	endings (vbe/nme/emf)	Ex 30:3#1
+2	X"J>	DM"J> [X"J>] </s>	XJ/(J~>	1	XJ=/(J~>	1	lexeme: homograph index	Jr 17:13#16
+2	XDR>	KD [XDR>] W<L	XDR/~>	1	XDR=[/>	1	segm: same boundaries, other markers	Jr 1:15#24
+2	XDT>	MN [XDT>] LMRJ>	XD(T/T~>	1	XDT/~>	1	segm: boundary position	Nm 28:26#8
+2	XJ"LTNJN	L> [XJ"LTNJN] NC">	XJLTN/&JN	1	XJLTN/JN	1	endings (vbe/nme/emf)	3Esr 4:32#5
+2	XJ"LWT>	LKL [XJ"LWT>] DCMJ>	XJL/&WT=~>	1	XJLW/T=~>	1	segm: boundary position	Jr 19:13#18
+2	XZJN	GNBR"> [XZJN] TMN	XZ(J[/JN	1	XZJ[N	1	segm: boundary position	Nm 13:28#14
+2	YJR"TH	LTR"TJN [YJR"TH] </s>	YJR(>/T=-H	1	YJR/T=-H	1	lexeme: other lexeme	Ex 26:19#21
+2	YLJ	>LH> [YLJ] >DNK	!!YLJ[	1	!!YLJ[(J	1	endings (vbe/nme/emf)	Ps 17:6#6
+2	YPR>	>JK [YPR>] </s>	YPR/~>	1	YPR==/~>	1	lexeme: homograph index	Ps 11:1#12
+2	YRJ>	L> [YRJ>] VM>	YRJ[/>:p	1	YRJ[/~>	1	segm: same boundaries, other markers	Lv 11:5#5
+2	ZMRW	<s> [ZMRW] LMRJ>	!!ZMR[W	1	ZMR[W	1	segm: same boundaries, other markers	Ps 30:5#1
+2	ZM^RW	<s> [ZM^RW] LMRJ>	!!ZMR[W:d	1	ZMR[W:d	1	segm: same boundaries, other markers	PsH 29:5#1
+2	ZWJ"TH	>R"B< [ZWJ"TH] MNH	ZWJ/T=-H	1	ZWJ/T=-H=	1	lexeme: homograph index	Ex 38:2#5

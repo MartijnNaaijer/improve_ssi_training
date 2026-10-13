@@ -1,3 +1,4 @@
+import numpy as np
 import pytest
 
 from ssi.candidates import FEATURES, CandidateBuilder
@@ -34,3 +35,19 @@ def test_ranker_trains_and_predicts():
     preds = ranker.predict(ex)
     assert set(preds) == {'1', '2'}
     assert all(len(preds[v.vid]) == len(v.surface) for v in TRAIN)
+
+
+def test_ranker_save_and_load(tmp_path):
+    builder = CandidateBuilder({'generative': 1.0}).fit(TRAIN)
+    table = {s: builder.build(s) for v in TRAIN for s in v.surface}
+    ex = make_examples(TRAIN, lambda v: table, len(FEATURES))
+    ranker = ContextRanker(d=16, epochs=1, batch_size=2, device='cpu', log=lambda m: None).fit(ex)
+    ranker.save(tmp_path / 'r.pt')
+    loaded = ContextRanker.load(tmp_path / 'r.pt', device='cpu')
+    for a, b in zip(ranker.probabilities(ex), loaded.probabilities(ex)):
+        for x, y in zip(a, b):
+            assert np.allclose(x, y, atol=1e-6)
+    # Old format: a bare state dict, rebuilt from the training examples.
+    torch.save(ranker.model.state_dict(), tmp_path / 'old.pt')
+    old = ContextRanker.load(tmp_path / 'old.pt', train=ex, device='cpu', d=16)
+    assert old.choices(ex) == ranker.choices(ex)
