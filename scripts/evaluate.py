@@ -46,6 +46,8 @@ def write_summary():
     for path in sorted(RESULTS_DIR.glob('*/*.json')):
         with open(path, encoding='utf8') as f:
             r = json.load(f)
+        if 'metrics' not in r:  # other outputs, e.g. results/cv5/summary.json
+            continue
         m = r['metrics']
         rows.append((r['split'], r['system'], r['part'], m))
     lines = [

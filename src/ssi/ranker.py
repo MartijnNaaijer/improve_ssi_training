@@ -36,6 +36,7 @@ class VerseExample:
     cands: list[list[str]]
     feats: list[np.ndarray]  # per word: [n candidates, n features]
     gold: list[int]          # index of the gold candidate, -1 if absent or unknown
+    heb: list[list[str]] | None = None  # per word, per candidate: aligned Hebrew analysis ('' if none)
 
 
 def make_examples(verses: list[Verse], table_of, n_features: int, with_gold: bool = True) -> list[VerseExample]:
@@ -89,8 +90,13 @@ class CharEncoder(nn.Module):
 
 class RankerModel(nn.Module):
     def __init__(self, n_in_chars: int, n_out_chars: int, n_features: int, d: int = 256,
-                 char_dim: int = 64, char_hidden: int = 128, ctx_layers: int = 2, dropout: float = 0.2):
+                 char_dim: int = 64, char_hidden: int = 128, ctx_layers: int = 2, dropout: float = 0.2,
+                 n_heb_chars: int = 0):
         super().__init__()
+        self.use_heb = n_heb_chars > 0
+        if self.use_heb:
+            self.heb_enc = CharEncoder(n_heb_chars, char_dim, char_hidden)
+            self.heb_proj = nn.Linear(2 * char_hidden, d)
         self.word_enc = CharEncoder(n_in_chars, char_dim, char_hidden)
         self.ctx = nn.LSTM(2 * char_hidden, d // 2, num_layers=ctx_layers, batch_first=True,
                            bidirectional=True, dropout=dropout if ctx_layers > 1 else 0.0)
@@ -99,9 +105,11 @@ class RankerModel(nn.Module):
         self.word_proj = nn.Linear(2 * char_hidden, d)
         self.feat = nn.Sequential(nn.Linear(n_features, d), nn.ReLU())
         self.drop = nn.Dropout(dropout)
-        self.scorer = nn.Sequential(nn.Linear(5 * d, d), nn.ReLU(), nn.Dropout(dropout), nn.Linear(d, 1))
+        self.scorer = nn.Sequential(nn.Linear((7 if self.use_heb else 5) * d, d), nn.ReLU(), nn.Dropout(dropout),
+                                    nn.Linear(d, 1))
 
-    def forward(self, word_ids, word_lens, verse_lens, cand_ids, cand_lens, cand_index, feats, cand_mask):
+    def forward(self, word_ids, word_lens, verse_lens, cand_ids, cand_lens, cand_index, feats, cand_mask,
+                heb_ids=None, heb_lens=None, heb_index=None):
         b, w = cand_index.shape[:2]
         words = self.word_enc(word_ids, word_lens)                       # [B*W, 2h]
         words = words.view(b, w, -1)
@@ -114,20 +122,30 @@ class RankerModel(nn.Module):
         k = c.shape[2]
         h = ctx.unsqueeze(2).expand(-1, -1, k, -1)
         d = c.shape[-1]
-        x = torch.cat([h, c, h[..., :d] * c, self.feat(feats)], dim=-1)
+        parts = [h, c, h[..., :d] * c, self.feat(feats)]
+        if self.use_heb:
+            hb = self.heb_proj(self.heb_enc(heb_ids, heb_lens))[heb_index]  # [B, W, K, d]
+            parts += [hb, hb * c]
+        x = torch.cat(parts, dim=-1)
         scores = self.scorer(self.drop(x)).squeeze(-1)
         return scores.masked_fill(~cand_mask, -1e4)
 
 
 class ContextRanker:
     def __init__(self, d: int = 256, epochs: int = 12, batch_size: int = 32, lr: float = 1e-3,
-                 dropout: float = 0.2, seed: int = 42, device: str | None = None, log=print):
+                 dropout: float = 0.2, seed: int = 42, device: str | None = None, log=print,
+                 heb_dropout: float = 0.3, heb_missing: tuple | None = None):
+        """With Hebrew examples (ex.heb set), the last len(heb_missing) feature
+        columns are the Hebrew ones; in training, a verse's Hebrew is hidden
+        with probability heb_dropout, so the ranker also works without it."""
         self.d, self.epochs, self.batch_size, self.lr, self.dropout = d, epochs, batch_size, lr, dropout
+        self.heb_dropout, self.heb_missing = heb_dropout, heb_missing
+        self.heb_vocab = None
         self.seed, self.log = seed, log
         self.device = torch.device(device or ('cuda' if torch.cuda.is_available() else 'cpu'))
 
     # -- batching -----------------------------------------------------------
-    def _batch(self, examples: list[VerseExample]):
+    def _batch(self, examples: list[VerseExample], train: bool = False):
         words = [w for ex in examples for w in ex.words]
         b, w = len(examples), max(len(ex.words) for ex in examples)
         k = max([len(c) for ex in examples for c in ex.cands] + [1])
@@ -156,8 +174,28 @@ class ContextRanker:
                 gold[i, j] = g
         cand_ids, cand_lens = _encode_strings(uniq, self.out_vocab, self.device)
         dev = self.device
+        extra = ()
+        if self.heb_vocab is not None:
+            n_h = len(self.heb_missing)
+            missing = torch.from_numpy(np.clip((np.array(self.heb_missing, dtype=np.float32) - self.mu[-n_h:])
+                                               / self.sd[-n_h:], -5, 5)).float()
+            h_uniq, h_pos = ['_'], {'_': 0}
+            heb_index = torch.zeros(b, w, k, dtype=torch.long)
+            for i, ex in enumerate(examples):
+                if train and random.random() < self.heb_dropout:
+                    feats[i, :, :, -n_h:] = missing
+                    continue
+                for j, hs in enumerate(ex.heb):
+                    for m, x in enumerate(hs):
+                        if x:
+                            if x not in h_pos:
+                                h_pos[x] = len(h_uniq)
+                                h_uniq.append(x)
+                            heb_index[i, j, m] = h_pos[x]
+            heb_ids, heb_lens = _encode_strings(h_uniq, self.heb_vocab, dev)
+            extra = (heb_ids, heb_lens, heb_index.to(dev))
         return (word_ids, word_lens, verse_lens, cand_ids, cand_lens, cand_index.to(dev), feats.to(dev),
-                cand_mask.to(dev)), gold.to(dev)
+                cand_mask.to(dev)) + extra, gold.to(dev)
 
     # -- set-up, saving and loading --------------------------------------------
     def _setup(self, train: list[VerseExample]):
@@ -167,16 +205,20 @@ class ContextRanker:
         all_f = np.concatenate([f for ex in train for f in ex.feats if len(f)])
         self.n_features = all_f.shape[1]
         self.mu, self.sd = all_f.mean(0), all_f.std(0) + 1e-6
+        if train[0].heb is not None:
+            self.heb_vocab = Vocab(x for ex in train for hs in ex.heb for x in hs if x)
         self._new_model()
 
     def _new_model(self):
         self.model = RankerModel(len(self.in_vocab), len(self.out_vocab), self.n_features, d=self.d,
-                                 dropout=self.dropout).to(self.device)
+                                 dropout=self.dropout,
+                                 n_heb_chars=len(self.heb_vocab) if self.heb_vocab else 0).to(self.device)
 
     def save(self, path):
         torch.save({'state': self.model.state_dict(), 'in_vocab': self.in_vocab.index,
                     'out_vocab': self.out_vocab.index, 'mu': self.mu, 'sd': self.sd,
-                    'config': {'d': self.d, 'dropout': self.dropout}}, path)
+                    'heb_vocab': self.heb_vocab.index if self.heb_vocab else None,
+                    'config': {'d': self.d, 'dropout': self.dropout, 'heb_missing': self.heb_missing}}, path)
 
     @classmethod
     def load(cls, path, train: list[VerseExample] | None = None, device: str | None = None,
@@ -197,6 +239,9 @@ class ContextRanker:
         ranker.in_vocab.index, ranker.out_vocab.index = data['in_vocab'], data['out_vocab']
         ranker.mu, ranker.sd = data['mu'], data['sd']
         ranker.n_features = len(ranker.mu)
+        if data.get('heb_vocab'):
+            ranker.heb_vocab = Vocab(())
+            ranker.heb_vocab.index = data['heb_vocab']
         ranker._new_model()
         ranker.model.load_state_dict(data['state'])
         return ranker
@@ -220,7 +265,7 @@ class ContextRanker:
             random.shuffle(order)
             t, total, n = time.time(), 0.0, 0
             for i in range(0, len(order), self.batch_size):
-                inputs, gold = self._batch([train[j] for j in order[i:i + self.batch_size]])
+                inputs, gold = self._batch([train[j] for j in order[i:i + self.batch_size]], train=True)
                 scores = self.model(*inputs)
                 loss = loss_fn(scores.flatten(0, 1), gold.flatten())
                 if not torch.isfinite(loss):
